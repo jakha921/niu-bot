@@ -1,0 +1,72 @@
+available_langs: ["en", "ru"]
+
+languages: &languages
+  en:
+    text: "English 🇺🇸"
+  ru:
+    text: "Русский 🇷🇺"
+
+en:
+  service:
+    test: "Test message."
+    antiflood: "You are sending messages too fast. Wait a bit."
+  admin:
+    hi: "Hello, admin!"
+    total_users: "Total users in bot: {count}"
+    broadcast_started: "Wow! Broadcasting started."
+    broadcast_ended: "Cool! Broadcasting ended."
+    no_broadcast_text: "Please, send command like: <code>/broadcast hello my users!</code>"
+    broadcast_error: "❗️ Error while broadcasting: {err}"
+  user:
+    hi: "Hello, {mention}!"
+    me: "<b>Your data in DB:</b>\n\
+      Telegram ID: <code>{telegram_id}</code>\n\
+      First name: <code>{firstname}</code>\n\
+      Last name: <code>{lastname}</code>\n\
+      Username: <code>{username}</code>\n\
+      Phone: <code>{phone}</code>\n\
+      Language code: <code>{lang_code}</code>"
+    lang: "Choose your language:"
+    lang_choosen: "Language choosen: {lang}"
+    phone: "Send your phone number by button below. 👇"
+    phone_saved: "Your phone number is saved. 👌"
+    close_reply_keyboard: "Keyboard closed."
+    kb:
+      inline:
+        languages: *languages
+
+      reply:
+        close: "Close ❌"
+        phone: "Send my phone number 📲"
+
+ru:
+  service:
+    test: "Тестовое соощение."
+    antiflood: "Вы слишком быстро отправляете сообщения. Подождите немного."
+  admin:
+    hi: "Привет, админ!"
+    total_users: "Всего пользователей в боте: {count}"
+    broadcast_success: "Ура! Рассылка началась."
+    no_broadcast_text: "Пожалуйста, отправьте команду как: <code>/broadcast привет мои юзеры!</code>"
+    broadcast_error: "❗️ Ошибка при рассылке: {err}"
+  user:
+    hi: "Привет, {mention}!"
+    me: "<b>Ваши данные в БД:</b>\n\
+      Telegram ID: <code>{telegram_id}</code>\n\
+      Имя: <code>{firstname}</code>\n\
+      Фамилия: <code>{lastname}</code>\n\
+      Имя пользователя: <code>{username}</code>\n\
+      Телефонный номер: <code>{phone}</code>\n\
+      Код языка: <code>{lang_code}</code>"
+    lang: "Выберите ваш язык:"
+    lang_choosen: "Язык выбран: {lang}"
+    phone: "Отправьте свой номер телефона по кнопке ниже. 👇"
+    phone_saved: "Ваш телефонный номер сохранен. 👌"
+    close_reply_keyboard: "Клавиатура закрыта."
+    kb:
+      inline:
+        languages: *languages
+
+      reply:
+        close: "Закрыть ❌"
+        phone: "Отправить мой телефонный номер 📲"
