@@ -1,13 +1,17 @@
+import re
+
 from aiogram import Dispatcher
+from aiogram.dispatcher import FSMContext
 from aiogram.types import Message, CallbackQuery
 from aiogram.types.reply_keyboard import ReplyKeyboardRemove
 from aiogram.dispatcher.handler import ctx_data
 
 from loguru import logger
 
-from tgbot.keyboards.inline import choose_language, cd_choose_lang
+from tgbot.keyboards.inline import choose_language, cd_choose_lang, menu_keyboard_inline
 from tgbot.keyboards.reply import phone_number
 from tgbot.middlewares.translate import TranslationMiddleware
+from tgbot.misc.states import StudentPassport
 from tgbot.models.models import TGUser, get_student_hemis_id
 from tgbot.misc.utils import Map, find_button_text
 from tgbot.services.database import AsyncSession
@@ -16,29 +20,59 @@ from tgbot.services.database import AsyncSession
 async def user_start(m: Message, texts: Map):
     """User start command handler"""
     logger.info(f'User {m.from_user.id} started the bot')
-    text = f"Assalomu alaykum, {m.from_user.full_name}!\n\n"
-    text += "Botga xush kelibsiz!\n\n" \
-            "Bu bot orqalt siz o'zingizni Hemis dagi ID raqamingizni olishingiz mumkin.\n" \
-            "Buning uchun siz o'zingizni passportingizni seriyasini va raqamini yuboring.\n\n" \
-            "Masalan:\n" \
-            "<b>AA1234567</b>\n\n"
+    text = f"🚀 Assalomu Aleykum , {m.from_user.full_name}!\n\n"
 
-    await m.reply(text)
+    text += "Botning Asosiy xususiyati:\n\n" \
+            "📝 Talaba pasport ma'lumotlarini bazaga saqlaydi\n\n" \
+            "va sizga quyidagi imkoniyatlarni beradi:\n\n" \
+            "<b>🆔 Talaba ID</b> - Talabani <b>Hemis</b> tizimiga kirish uchun kerak bo'ladigan <b>ID</b> raqami ni beradi\n\n" \
+            "<b>📄 Shartnoma</b> - Kontrakt shartnomangizni olishingiz mumkin\n\n" \
+            "<b>📝 Pasport ma'lumotlari uzgartirish</b> - Agar pasportingizda o'zgarish bo'lsa uni yangilash uchun kerak bo'ladigan bo'lim\n\n" \
+            "<b>📚 Kutubxona</b> - NIU kutubxonasidagi bor kitoblarni izlash uchun kerak bo'ladigan bo'lim\n\n" \
+            "<b>📞 Aloqa ma'lumotlari</b> - Biz bilan bog'lanish va kontakt ma'lumotlari olish mumkin\n\n" \
+            "<b>❓ FAQ</b> - Tez-tez so'raladigan savollar va ularning javoblari\n\n"
 
+    await m.answer(text)
 
-async def get_user_hemis_id(msg: Message):
-    """User start command handler"""
-    logger.info(f'User send {msg.text} passport')
-    wait = await msg.reply("Sizning passportingiz qabul qilindi. Iltimos kuting!")
-    hemis_id = await get_student_hemis_id(msg.bot['db'], msg.text)
-    print('hemis_id', hemis_id)
-    if hemis_id:
-        # delete previous message
-        await wait.delete()
-        await msg.reply(f"Sizning Hemis ID raqamingiz: <code>{hemis_id}</code>")
+    # Check if user already exists passport in DB
+    print('user id', m.from_user.id)
+    user = await TGUser.get_user(m.bot['db'], m.from_user.id)
+    print('user', user.passport)
+    if user.passport is None:
+        text = f"Uzingizni pasportingizni yuboring " \
+               f"masalan: <b><i>(AA1234567)</i></b> va bot sizga hismat ko'rsatadi!"
+        await m.answer(text)
+        await StudentPassport.passport.set()
     else:
-        await wait.delete()
-        await msg.reply("Sizning passportingiz bazada topilmadi. Iltimos tekshirib qaytadan yuboring!")
+        await m.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+        return
+
+
+async def get_passport_from_user(msg: Message, state: FSMContext):
+    """Bot help handler"""
+    logger.info(f'User {msg.from_user.id} send {msg.text} passport data')
+
+    # Check to cancel
+    if msg.text == '⬅️Ortga':
+        # delete previous message
+        await msg.delete()
+        await msg.answer("Passport kiritish bekor qilindi!", reply_markup=ReplyKeyboardRemove())
+        await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+        await state.finish()
+        return
+
+    # Check passport
+    if not re.match(r'[A-Z]{2}\d{7}', msg.text):
+        await msg.answer("Passport malumotlari noto'g'ri kiritildi. Iltimos tekshirib qaytadan yuboring!")
+        return
+
+    # Update user passport in DB
+    await TGUser.update_user(msg.bot['db'], msg.from_user.id, {'passport': msg.text})
+
+    # Finish conversation
+    await state.finish()
+    await msg.answer("Passport muvaffaqiyatli saqlandi!")
+    await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
 
 
 async def user_me(m: Message, db_user: TGUser, texts: Map):
@@ -110,12 +144,6 @@ def register_user(dp: Dispatcher):
         state="*"
     )
     dp.register_message_handler(
-        get_user_hemis_id,
-        regexp=r"^[A-Z]{2}\d{7}$",
-        content_types=["text"],
-        state="*"
-    )
-    dp.register_message_handler(
         user_me,
         commands=["me"],
         state="*"
@@ -144,4 +172,8 @@ def register_user(dp: Dispatcher):
         user_lang_choosen,
         cd_choose_lang.filter(),
         state="*",
+    )
+    dp.register_message_handler(
+        get_passport_from_user,
+        state=StudentPassport.passport,
     )

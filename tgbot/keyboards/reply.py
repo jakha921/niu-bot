@@ -14,3 +14,51 @@ async def phone_number(texts: Map):
         resize_keyboard=True,
     )
     return keyboard
+
+
+async def menu_keyboard():
+    """
+    User menu keyboards
+
+    Talaba ID,
+    Talaba shartnomasi,
+    Aloqa ma'lumotlari,
+    Tilni o'zgartirish,
+    Pasport ma'lumotlari uzgartirish,
+    Kutubxona,
+    FAQ
+    """
+    keyboard = ReplyKeyboardMarkup(
+        keyboard=[
+            [
+                KeyboardButton(text="🆔Talaba ID"),
+                KeyboardButton(text="📄Shartnoma")
+            ],
+            [
+                KeyboardButton(text="📝Pasport ma'lumotlari uzgartirish")
+            ],
+            [
+                # KeyboardButton(text="🌐Tilni o'zgartirish"),
+                KeyboardButton(text="📚Kutubxona")
+            ],
+            [
+                KeyboardButton(text="📞Aloqa ma'lumotlari"),
+                KeyboardButton(text="❓FAQ")
+            ],
+
+        ],
+        resize_keyboard=True,
+    )
+    return keyboard
+
+
+# back keyboard
+async def back_keyboard():
+    """Back keyboard"""
+    keyboard = ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="⬅️Ortga")],
+        ],
+        resize_keyboard=True,
+    )
+    return keyboard

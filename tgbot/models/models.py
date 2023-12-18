@@ -19,6 +19,7 @@ class TGUser(Base):
     username = Column(String(length=100), nullable=True)
     phone = Column(String(length=15), nullable=True)
     lang_code = Column(String(length=10), default='en')
+    passport = Column(String(length=10), nullable=True)
 
     @classmethod
     async def get_user(cls, db_session: sessionmaker, telegram_id: int) -> 'TGUser':
@@ -94,7 +95,7 @@ class TGUser(Base):
         return users
 
     def __repr__(self):
-        return f'User (ID: {self.telegram_id} - {self.firstname} {self.lastname})'
+        return f'User (ID: {self.telegram_id} - {self.passport}'
 
 
 async def get_student_hemis_id(db_session: sessionmaker, passport_data: str):
@@ -104,7 +105,20 @@ async def get_student_hemis_id(db_session: sessionmaker, passport_data: str):
     """
     async with db_session() as session:
         # Using SQL expression directly with table name 'students' and column 'passport' to get hemis_id
-        sql = text(f"SELECT hemis_id FROM students WHERE passport = '{passport_data}'")
+        sql = text(f"SELECT hemis_id FROM app_student WHERE passport = '{passport_data}'")
         request = await session.execute(sql)
         hemis_id = request.scalar()
     return hemis_id
+
+
+async def get_list_of_books(db_session: sessionmaker):
+    """
+    Get list of books from DB
+    from books table
+    """
+    async with db_session() as session:
+        # Using SQL expression directly with table name 'books' and column 'name' to get list of books
+        sql = text(f"SELECT *  FROM app_book")
+        request = await session.execute(sql)
+        books = request.fetchall()
+    return books

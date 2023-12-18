@@ -17,3 +17,40 @@ async def choose_language(texts: Map):
     return InlineKeyboardMarkup(
         inline_keyboard=[keyboard], row_width=len(langs.items())
     )
+
+
+# convert menu_keyboard to inline_keyboard
+async def menu_keyboard_inline():
+    """
+    User menu keyboards
+
+    Talaba ID,
+    Talaba shartnomasi,
+    Aloqa ma'lumotlari,
+    Tilni o'zgartirish,
+    Pasport ma'lumotlari uzgartirish,
+    Kutubxona,
+    FAQ
+    """
+    keyboard = InlineKeyboardMarkup(
+        inline_keyboard=[
+            [
+                InlineKeyboardButton(text="🆔Talaba ID", callback_data="student_id"),
+                InlineKeyboardButton(text="📄Shartnoma", callback_data="contract")
+            ],
+            [
+                InlineKeyboardButton(text="📝Pasport ma'lumotlari uzgartirish", callback_data="passport")
+            ],
+            [
+                # KeyboardButton(text="🌐Tilni o'zgartirish"),
+                InlineKeyboardButton(text="📚Kutubxona", switch_inline_query_current_chat="")
+            ],
+            [
+                InlineKeyboardButton(text="📞Aloqa ma'lumotlari", callback_data="contact"),
+                InlineKeyboardButton(text="❓FAQ", callback_data="faq")
+            ],
+
+        ],
+        # row_width=2,
+    )
+    return keyboard

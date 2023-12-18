@@ -11,6 +11,7 @@ from aiogram.types.bot_command_scope import BotCommandScopeDefault
 
 from tgbot.config import load_config
 from tgbot.filters import role, reply_kb
+from tgbot.handlers.student_menu import register_student
 from tgbot.middlewares.throtling import ThrottlingMiddleware
 from tgbot.middlewares.db import DbMiddleware
 from tgbot.middlewares.translate import TranslationMiddleware
@@ -64,14 +65,15 @@ def register_all_handlers(dp: Dispatcher):
     """Register all handlers"""
     register_admin(dp)
     register_user(dp)
+    register_student(dp)
 
 
 async def set_bot_commands(bot: Bot):
     """Initialize bot commands for bot to preview them when typing slash \"/\""""
     commands = [
-        BotCommand(command="start", description="Start the bot"),
-        BotCommand(command="me", description="Your info in DB"),
-        BotCommand(command="phone", description="Add / Update phone number"),
+        BotCommand(command="start", description="Botni qayta ishga tushirish"),
+        # BotCommand(command="me", description="Your info in DB"),
+        # BotCommand(command="phone", description="Add / Update phone number"),
         # BotCommand(command="lang", description="Choose language"),
     ]
     await bot.set_my_commands(commands, scope=BotCommandScopeDefault())
