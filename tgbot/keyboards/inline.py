@@ -54,7 +54,15 @@ async def menu_keyboard_inline(user_id: int = 256841597):
         # row_width=2,
     )
 
-    if user_id in [179709417, 256841597]:
+    # 256841597 - Jakhongir
+    # 179709417 - Guzal
+    # 983432313 - Elbek
+    # 1124567881 - Robiya
+    # 1104388973 - Zilola
+    # 6376261985 - Marjona
+    # 989391636 - Shoxsanam
+
+    if user_id in [179709417, 256841597, 983432313, 1124567881, 1104388973, 6376261985, 989391636]:
         keyboard.add(InlineKeyboardButton(text="💰Kontrakt to'lovilari", callback_data="contract_payment"))
 
     return keyboard
