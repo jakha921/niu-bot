@@ -32,19 +32,18 @@ async def user_start(m: Message, texts: Map):
             "<b>📞 Aloqa ma'lumotlari</b> - Biz bilan bog'lanish va kontakt ma'lumotlari olish mumkin\n\n" \
             "<b>❓ FAQ</b> - Tez-tez so'raladigan savollar va ularning javoblari\n\n"
 
-    await m.answer(text)
-
     # Check if user already exists passport in DB
     print('user id', m.from_user.id)
     user = await TGUser.get_user(m.bot['db'], m.from_user.id)
     print('user', user.passport)
     if user.passport is None:
+        await m.answer(text)
         text = f"Uzingizni pasportingizni yuboring " \
                f"masalan: <b><i>(AA1234567)</i></b> va bot sizga hismat ko'rsatadi!"
         await m.answer(text)
         await StudentPassport.passport.set()
     else:
-        await m.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+        await m.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(m.from_user.id))
         return
 
 

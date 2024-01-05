@@ -8,7 +8,7 @@ from loguru import logger
 from tgbot.keyboards.inline import choose_language, cd_choose_lang, menu_keyboard_inline
 from tgbot.keyboards.reply import phone_number, menu_keyboard, back_keyboard
 from tgbot.middlewares.translate import TranslationMiddleware
-from tgbot.misc.contract_api import get_contract_link
+from tgbot.misc.contract_api import get_contract_link, get_contract_payment_data
 from tgbot.misc.states import StudentPassport
 from tgbot.models.models import TGUser, get_student_hemis_id, get_list_of_books
 from tgbot.misc.utils import Map, find_button_text
@@ -93,11 +93,12 @@ async def contact_us(call: CallbackQuery):
     # delete previous message
     await call.message.delete()
 
-    text = f"<b>Telefon raqam:</b> +998 55 500-00-43\n" \
+    text = f"<b>Telefon raqam:</b> <code>+998 55 500 00 43</code>\n" \
+           f"<b>Sayt:</b> <a href='https://niuedu.uz'>niuedu.uz</a>\n" \
            f"<b>E-mail:</b> info@niuedu.uz\n" \
            f"<b>Manzil:</b> Navoiy viloyati Karmana tumani Toshkent ko'chasi 39-uy\n" \
-           f"<b>Telegram:</b> @niueduuz\n" \
-           f"<b>Instagram:</b> @niu_uz\n" \
+           f"<b>Telegram:</b> @niuedu_uz\n" \
+           f"<b>Instagram:</b> <a href='https://instagram.com/niuedu.uz'>niuedu.uz</a>\n" \
         # send location
     await call.message.answer_location(40.14868330039444, 65.35709196263187)
     await call.message.answer(text, parse_mode='html')
@@ -112,7 +113,7 @@ async def get_faq(call: CallbackQuery):
 
     # https://telegra.ph/Tez-Tez-Soraluvchi-Savollar-11-13 - FAQ send as article
     await call.message.answer(
-        "<a href='https://telegra.ph/Tez-Tez-Soraluvchi-Savollar-11-13'>Tez-Tez Soraluvchi Savollar</a>",
+        "<a href='https://telegra.ph/Tez-Tez-Soraluvchi-Savollar-12-18'>Tez-Tez Soraluvchi Savollar</a>",
         parse_mode='html')
     await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
 
@@ -158,24 +159,28 @@ async def inline_query_handler(query: InlineQuery):
     await query.answer(results, cache_time=1)
 
 
-# async def inline_handler(query: InlineQuery, msg: Message):
-#     results = []
-#     list_of_books = await get_list_of_books(msg.bot['db'])
-#     if not list_of_books:
-#         await query.answer("Kutubxona bo'sh")
-#         return
-#
-#     for book in list_of_books:
-#         if query.query.lower() in book[1].lower() or query.query.lower() in book[2].lower():
-#             results.append(InlineQueryResultArticle(
-#                 id=str(book[0]),
-#                 title=f"{book[1]}: {book[2]}",
-#                 input_message_content=InputTextMessageContent(
-#                     message_text=f"{book[1]} - {book[2]}\nСсылка: {book[9]}"
-#                 ),
-#                 url=book[9]
-#             ))
-#     await query.answer(results)
+async def get_contract_payment(call: CallbackQuery):
+    """User start command handler"""
+    logger.info(f'User send {call.data}')
+    # delete inline keyboard
+    await call.message.delete()
+
+    wait = await call.message.answer("Iltimos kuting...")
+    user = await TGUser.get_user(call.bot['db'], call.from_user.id)
+
+    contract_payment = get_contract_payment_data(user.passport)
+
+    if contract_payment:
+        # delete previous message
+        await wait.delete()
+        await call.message.answer(contract_payment, parse_mode='html')
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+
+    else:
+        await wait.delete()
+        await call.message.answer(
+            f"Sizning {user.passport} passportingiz buyicha shartnoma topilmadi. Iltimos tekshirib qaytadan yuboring!")
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
 
 
 def register_student(dp: Dispatcher):
@@ -207,6 +212,11 @@ def register_student(dp: Dispatcher):
     dp.register_callback_query_handler(
         get_faq,
         text="faq",
+        state="*"
+    )
+    dp.register_callback_query_handler(
+        get_contract_payment,
+        text="contract_payment",
         state="*"
     )
     dp.register_inline_handler(inline_query_handler)

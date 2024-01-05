@@ -20,7 +20,7 @@ async def choose_language(texts: Map):
 
 
 # convert menu_keyboard to inline_keyboard
-async def menu_keyboard_inline():
+async def menu_keyboard_inline(user_id: int = 256841597):
     """
     User menu keyboards
 
@@ -53,4 +53,8 @@ async def menu_keyboard_inline():
         ],
         # row_width=2,
     )
+
+    if user_id in [179709417, 256841597]:
+        keyboard.add(InlineKeyboardButton(text="💰Kontrakt to'lovilari", callback_data="contract_payment"))
+
     return keyboard
