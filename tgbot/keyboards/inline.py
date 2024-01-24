@@ -20,7 +20,7 @@ async def choose_language(texts: Map):
 
 
 # convert menu_keyboard to inline_keyboard
-async def menu_keyboard_inline(user_id: int = 256841597):
+async def menu_keyboard_inline(user_id: int):
     """
     User menu keyboards
 
@@ -39,11 +39,14 @@ async def menu_keyboard_inline(user_id: int = 256841597):
                 InlineKeyboardButton(text="📄Shartnoma", callback_data="contract")
             ],
             [
-                InlineKeyboardButton(text="📝Pasport ma'lumotlari uzgartirish", callback_data="passport")
+                InlineKeyboardButton(text="📚Kutubxona", switch_inline_query_current_chat="")
             ],
             [
-                # KeyboardButton(text="🌐Tilni o'zgartirish"),
-                InlineKeyboardButton(text="📚Kutubxona", switch_inline_query_current_chat="")
+                InlineKeyboardButton(text="💰Kontrakt to'lovilari", callback_data="contract_payment")
+            ],
+            [
+                InlineKeyboardButton(text="🆔Telegram ID", callback_data="telegram_id"),
+                # InlineKeyboardButton(text="🌐Tilni o'zgartirish", callback_data="change_language")
             ],
             [
                 InlineKeyboardButton(text="📞Aloqa ma'lumotlari", callback_data="contact"),
@@ -62,7 +65,13 @@ async def menu_keyboard_inline(user_id: int = 256841597):
     # 6376261985 - Marjona
     # 989391636 - Shoxsanam
 
-    if user_id in [179709417, 256841597, 983432313, 1124567881, 1104388973, 6376261985, 989391636]:
-        keyboard.add(InlineKeyboardButton(text="💰Kontrakt to'lovilari", callback_data="contract_payment"))
+    print('user_id', user_id)
+    if user_id in [179709417, 256841597,
+                   # 983432313,
+                   1124567881, 1104388973, 6376261985, 989391636]:
+        print('admin')
+        keyboard.add(InlineKeyboardButton(text="📝Pasport ma'lumotlari uzgartirish", callback_data="passport"))
+        keyboard.add(InlineKeyboardButton(text="🪪Foydalanuvchi pasport ma'lumotlarini o'zgartirish",
+                                          callback_data="user_passport"))
 
     return keyboard

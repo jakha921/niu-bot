@@ -152,7 +152,7 @@ def get_contract_payment_data(passport_data: str):
                 text += '- ' * 20 + '\n'
                 text += f'Summasi: <b>{payment["amount"]}</b>\n' \
                         f'Sanasi: <b>{payment["payment_date"]}</b>\n' \
-                        f'Bazaga qo\'yilgan sanasi: <b>{payment["created_at"]}</b>\n'
+                        # f'Bazaga qo\'yilgan sanasi: <b>{payment["created_at"]}</b>\n'
         return text
 
     return None

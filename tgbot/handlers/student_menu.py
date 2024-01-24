@@ -1,18 +1,16 @@
+import re
+
 from aiogram import Dispatcher
+from aiogram.dispatcher import FSMContext
 from aiogram.types import Message, InlineQuery, InlineQueryResultArticle, InputTextMessageContent, CallbackQuery
 from aiogram.types.reply_keyboard import ReplyKeyboardRemove
-from aiogram.dispatcher.handler import ctx_data
-
 from loguru import logger
 
-from tgbot.keyboards.inline import choose_language, cd_choose_lang, menu_keyboard_inline
-from tgbot.keyboards.reply import phone_number, menu_keyboard, back_keyboard
-from tgbot.middlewares.translate import TranslationMiddleware
+from tgbot.keyboards.inline import menu_keyboard_inline
+from tgbot.keyboards.reply import back_keyboard
 from tgbot.misc.contract_api import get_contract_link, get_contract_payment_data
-from tgbot.misc.states import StudentPassport
+from tgbot.misc.states import StudentPassport, StudentPassportChange
 from tgbot.models.models import TGUser, get_student_hemis_id, get_list_of_books
-from tgbot.misc.utils import Map, find_button_text
-from tgbot.services.database import AsyncSession
 
 
 async def get_user_hemis_id(call: CallbackQuery):
@@ -31,11 +29,11 @@ async def get_user_hemis_id(call: CallbackQuery):
         await call.message.answer(f"Sizning <b>Hemis ID</b> raqamingiz: <code>{hemis_id}</code>\n\n"
                                   f"<a href='https://student.niiedu.uz/'>Hemis</a> tizimiga kirish",
                                   parse_mode='html')
-        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
     else:
         await wait.delete()
         await call.message.answer("Sizning passportingiz bazada topilmadi. Iltimos tekshirib qaytadan yuboring!")
-        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
 
 
 async def get_user_contract(call: CallbackQuery):
@@ -57,13 +55,13 @@ async def get_user_contract(call: CallbackQuery):
                                   f"<a href='{contract_links[2]}'>2-tomonli shartnoma</a> - talaba va universitet o'rtasidagi shartnoma\n\n"
                                   f"<a href='{contract_links[3]}'>3-tomonli shartnoma</a> - talaba, universitet va yuridik shaxs(bank) o'rtasidagi shartnoma\n\n",
                                   parse_mode='html')
-        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
 
     else:
         await wait.delete()
         await call.message.answer(
             f"Sizning {user.passport} passportingiz buyicha shartnoma topilmadi. Iltimos tekshirib qaytadan yuboring!")
-        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
 
 
 async def back_to_menu(msg: Message):
@@ -72,7 +70,7 @@ async def back_to_menu(msg: Message):
 
     # remove reply keyboard
     await msg.answer("Bekor qilindi", reply_markup=ReplyKeyboardRemove())
-    await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+    await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
 
 
 async def user_change_passport(call: CallbackQuery):
@@ -102,7 +100,7 @@ async def contact_us(call: CallbackQuery):
         # send location
     await call.message.answer_location(40.14868330039444, 65.35709196263187)
     await call.message.answer(text, parse_mode='html')
-    await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+    await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
 
 
 async def get_faq(call: CallbackQuery):
@@ -115,7 +113,7 @@ async def get_faq(call: CallbackQuery):
     await call.message.answer(
         "<a href='https://telegra.ph/Tez-Tez-Soraluvchi-Savollar-12-18'>Tez-Tez Soraluvchi Savollar</a>",
         parse_mode='html')
-    await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+    await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
 
 
 async def inline_query_handler(query: InlineQuery):
@@ -174,13 +172,93 @@ async def get_contract_payment(call: CallbackQuery):
         # delete previous message
         await wait.delete()
         await call.message.answer(contract_payment, parse_mode='html')
-        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
 
     else:
         await wait.delete()
         await call.message.answer(
             f"Sizning {user.passport} passportingiz buyicha shartnoma topilmadi. Iltimos tekshirib qaytadan yuboring!")
-        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+
+
+async def get_telegram_id(call: CallbackQuery):
+    """User start command handler"""
+    logger.info(f'User send {call.data}')
+    # delete inline keyboard
+    await call.message.delete()
+
+    await call.message.answer(f"<b>Sizning Telegram ID:</b> <code>{call.from_user.id}</code>", parse_mode='html')
+    await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+
+
+async def set_user_passport(call: CallbackQuery):
+    """User start command handler"""
+    logger.info(f'User send {call.data}')
+    # delete inline keyboard
+    await call.message.delete()
+
+    await StudentPassportChange.telegram_id.set()
+    await call.message.answer("Foydalanuvchi telegram ID raqamini yuboring", reply_markup=await back_keyboard())
+
+
+async def set_telegram_id(msg: Message, state: FSMContext):
+    """Bot help handler"""
+    logger.info(f'User {msg.from_user.id} send {msg.text} telegram id')
+
+    # Check to cancel
+    if msg.text == '⬅️Ortga':
+        # delete previous message
+        await msg.delete()
+        await msg.answer("Bekor qilindi", reply_markup=ReplyKeyboardRemove())
+        await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
+        await state.finish()
+        return
+
+    # Check telegram id
+    if not msg.text.isdigit():
+        await msg.answer("Telegram ID raqamini noto'g'ri kiritildi. Iltimos tekshirib qaytadan yuboring!")
+        return
+
+    if not await TGUser.get_user(msg.bot['db'], msg.from_user.id):
+        await msg.answer("Foydalanuvchi bazada topilmadi!")
+        return
+
+    # Save telegram id
+    await state.update_data(telegram_id=msg.text)
+
+    await StudentPassportChange.passport.set()
+    await msg.answer("Pasport ma'lumotlarini yuboring")
+
+
+async def set_passport(msg: Message, state: FSMContext):
+    """Bot help handler"""
+    logger.info(f'User {msg.from_user.id} send {msg.text} passport data')
+
+    # Check to cancel
+    if msg.text == '⬅️Ortga':
+        # delete previous message
+        await msg.delete()
+        await msg.answer("Bekor qilindi", reply_markup=ReplyKeyboardRemove())
+        await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
+        await state.finish()
+        return
+
+    # Check passport
+    if not re.match(r'[A-Z]{2}\d{7}', msg.text):
+        await msg.answer("Passport malumotlari noto'g'ri kiritildi. Iltimos tekshirib qaytadan yuboring!")
+        return
+
+    # Update user passport in DB
+    get_data = await state.get_data()
+    telegram_id = get_data.get('telegram_id')
+
+    # Update user passport in DB
+    await TGUser.update_user(msg.bot['db'], int(telegram_id), {'passport': msg.text})
+
+    # Finish conversation
+    await state.finish()
+    await msg.answer("Foydalanuvchi passport ma'lumotlari muvaffaqiyatli saqlandi!")
+    await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
 
 
 def register_student(dp: Dispatcher):
@@ -218,5 +296,23 @@ def register_student(dp: Dispatcher):
         get_contract_payment,
         text="contract_payment",
         state="*"
+    )
+    dp.register_callback_query_handler(
+        get_telegram_id,
+        text="telegram_id",
+        state="*"
+    )
+    dp.register_callback_query_handler(
+        set_user_passport,
+        text="user_passport",
+        state="*"
+    )
+    dp.register_message_handler(
+        set_telegram_id,
+        state=StudentPassportChange.telegram_id
+    )
+    dp.register_message_handler(
+        set_passport,
+        state=StudentPassportChange.passport
     )
     dp.register_inline_handler(inline_query_handler)

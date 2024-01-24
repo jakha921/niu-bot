@@ -2,18 +2,17 @@ import re
 
 from aiogram import Dispatcher
 from aiogram.dispatcher import FSMContext
+from aiogram.dispatcher.handler import ctx_data
 from aiogram.types import Message, CallbackQuery
 from aiogram.types.reply_keyboard import ReplyKeyboardRemove
-from aiogram.dispatcher.handler import ctx_data
-
 from loguru import logger
 
 from tgbot.keyboards.inline import choose_language, cd_choose_lang, menu_keyboard_inline
 from tgbot.keyboards.reply import phone_number
 from tgbot.middlewares.translate import TranslationMiddleware
 from tgbot.misc.states import StudentPassport
-from tgbot.models.models import TGUser, get_student_hemis_id
 from tgbot.misc.utils import Map, find_button_text
+from tgbot.models.models import TGUser
 from tgbot.services.database import AsyncSession
 
 
@@ -27,10 +26,13 @@ async def user_start(m: Message, texts: Map):
             "va sizga quyidagi imkoniyatlarni beradi:\n\n" \
             "<b>🆔 Talaba ID</b> - Talabani <b>Hemis</b> tizimiga kirish uchun kerak bo'ladigan <b>ID</b> raqami ni beradi\n\n" \
             "<b>📄 Shartnoma</b> - Kontrakt shartnomangizni olishingiz mumkin\n\n" \
-            "<b>📝 Pasport ma'lumotlari uzgartirish</b> - Agar pasportingizda o'zgarish bo'lsa uni yangilash uchun kerak bo'ladigan bo'lim\n\n" \
             "<b>📚 Kutubxona</b> - NIU kutubxonasidagi bor kitoblarni izlash uchun kerak bo'ladigan bo'lim\n\n" \
             "<b>📞 Aloqa ma'lumotlari</b> - Biz bilan bog'lanish va kontakt ma'lumotlari olish mumkin\n\n" \
-            "<b>❓ FAQ</b> - Tez-tez so'raladigan savollar va ularning javoblari\n\n"
+            "<b>❓ FAQ</b> - Tez-tez so'raladigan savollar va ularning javoblari\n\n" \
+            "<b>💰Kontrakt to'lovilari</b> - Kontrakt to'lovlarini tekshirish uchun kerak bo'ladigan bo'lim\n\n" \
+            "<b>🆔 Telegram ID</b> - Sizning telegram ID raqamingizni ko'rsatadi\n\n" \
+
+        # "<b>📝 Pasport ma'lumotlari uzgartirish</b> - Agar pasportingizda o'zgarish bo'lsa uni yangilash uchun kerak bo'ladigan bo'lim\n\n" \
 
     # Check if user already exists passport in DB
     print('user id', m.from_user.id)
@@ -56,7 +58,7 @@ async def get_passport_from_user(msg: Message, state: FSMContext):
         # delete previous message
         await msg.delete()
         await msg.answer("Passport kiritish bekor qilindi!", reply_markup=ReplyKeyboardRemove())
-        await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+        await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
         await state.finish()
         return
 
@@ -71,7 +73,7 @@ async def get_passport_from_user(msg: Message, state: FSMContext):
     # Finish conversation
     await state.finish()
     await msg.answer("Passport muvaffaqiyatli saqlandi!")
-    await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline())
+    await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
 
 
 async def user_me(m: Message, db_user: TGUser, texts: Map):
@@ -134,6 +136,36 @@ async def user_lang_choosen(cb: CallbackQuery, callback_data: dict,
     texts = await TranslationMiddleware().reload_translations(cb, ctx_data.get(), code)
     btn_text = await find_button_text(cb.message.reply_markup.inline_keyboard, cb.data)
     await cb.message.edit_text(texts.user.lang_choosen.format(lang=btn_text), reply_markup='')
+
+
+async def set_passport(msg: Message, state: FSMContext):
+    """Bot help handler"""
+    logger.info(f'User {msg.from_user.id} send {msg.text} passport data')
+
+    # Check to cancel
+    if msg.text == '⬅️Ortga':
+        # delete previous message
+        await msg.delete()
+        await msg.answer("Talaba telegram ID raqamini yuboring!")
+        await msg.answer("Telegram ID raqamini olish uchun quyidagi tugmani bosing",
+                         reply_markup=await menu_keyboard_inline(msg.from_user.id))
+        await msg.answer("Passport kiritish bekor qilindi!", reply_markup=ReplyKeyboardRemove())
+        await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
+        await state.finish()
+        return
+
+    # Check passport
+    if not re.match(r'[A-Z]{2}\d{7}', msg.text):
+        await msg.answer("Passport malumotlari noto'g'ri kiritildi. Iltimos tekshirib qaytadan yuboring!")
+        return
+
+    # Update user passport in DB
+    await TGUser.update_user(msg.bot['db'], msg.from_user.id, {'passport': msg.text})
+
+    # Finish conversation
+    await state.finish()
+    await msg.answer("Passport muvaffaqiyatli saqlandi!")
+    await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
 
 
 def register_user(dp: Dispatcher):
