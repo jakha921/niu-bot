@@ -32,7 +32,7 @@ async def get_user_hemis_id(call: CallbackQuery):
         await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
     else:
         await wait.delete()
-        await call.message.answer("Sizning passportingiz bazada topilmadi. Iltimos tekshirib qaytadan yuboring!")
+        await call.message.answer("Sizning pasportingiz bazada topilmadi. Iltimos tekshirib qaytadan yuboring!")
         await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
 
 
@@ -60,7 +60,7 @@ async def get_user_contract(call: CallbackQuery):
     else:
         await wait.delete()
         await call.message.answer(
-            f"Sizning {user.passport} passportingiz buyicha shartnoma topilmadi. Iltimos tekshirib qaytadan yuboring!")
+            f"Sizning {user.passport} pasportingiz buyicha shartnoma topilmadi. Iltimos tekshirib qaytadan yuboring!")
         await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
 
 
@@ -177,7 +177,7 @@ async def get_contract_payment(call: CallbackQuery):
     else:
         await wait.delete()
         await call.message.answer(
-            f"Sizning {user.passport} passportingiz buyicha shartnoma topilmadi. Iltimos tekshirib qaytadan yuboring!")
+            f"Sizning {user.passport} pasportingiz buyicha shartnoma topilmadi. Iltimos tekshirib qaytadan yuboring!")
         await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
 
 
@@ -245,7 +245,7 @@ async def set_passport(msg: Message, state: FSMContext):
 
     # Check passport
     if not re.match(r'[A-Z]{2}\d{7}', msg.text):
-        await msg.answer("Passport malumotlari noto'g'ri kiritildi. Iltimos tekshirib qaytadan yuboring!")
+        await msg.answer("Pasport malumotlari noto'g'ri kiritildi. Iltimos tekshirib qaytadan yuboring!")
         return
 
     # Update user passport in DB
@@ -257,7 +257,7 @@ async def set_passport(msg: Message, state: FSMContext):
 
     # Finish conversation
     await state.finish()
-    await msg.answer("Foydalanuvchi passport ma'lumotlari muvaffaqiyatli saqlandi!")
+    await msg.answer("Foydalanuvchi pasport ma'lumotlari muvaffaqiyatli saqlandi!")
     await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
 
 

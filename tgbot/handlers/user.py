@@ -57,14 +57,14 @@ async def get_passport_from_user(msg: Message, state: FSMContext):
     if msg.text == '⬅️Ortga':
         # delete previous message
         await msg.delete()
-        await msg.answer("Passport kiritish bekor qilindi!", reply_markup=ReplyKeyboardRemove())
+        await msg.answer("Pasport kiritish bekor qilindi!", reply_markup=ReplyKeyboardRemove())
         await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
         await state.finish()
         return
 
     # Check passport
     if not re.match(r'[A-Z]{2}\d{7}', msg.text):
-        await msg.answer("Passport malumotlari noto'g'ri kiritildi. Iltimos tekshirib qaytadan yuboring!")
+        await msg.answer("Pasport malumotlari noto'g'ri kiritildi. Iltimos tekshirib qaytadan yuboring!")
         return
 
     # Update user passport in DB
@@ -72,7 +72,7 @@ async def get_passport_from_user(msg: Message, state: FSMContext):
 
     # Finish conversation
     await state.finish()
-    await msg.answer("Passport muvaffaqiyatli saqlandi!")
+    await msg.answer("Pasport muvaffaqiyatli saqlandi!")
     await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
 
 
@@ -149,14 +149,14 @@ async def set_passport(msg: Message, state: FSMContext):
         await msg.answer("Talaba telegram ID raqamini yuboring!")
         await msg.answer("Telegram ID raqamini olish uchun quyidagi tugmani bosing",
                          reply_markup=await menu_keyboard_inline(msg.from_user.id))
-        await msg.answer("Passport kiritish bekor qilindi!", reply_markup=ReplyKeyboardRemove())
+        await msg.answer("Pasport kiritish bekor qilindi!", reply_markup=ReplyKeyboardRemove())
         await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
         await state.finish()
         return
 
     # Check passport
     if not re.match(r'[A-Z]{2}\d{7}', msg.text):
-        await msg.answer("Passport malumotlari noto'g'ri kiritildi. Iltimos tekshirib qaytadan yuboring!")
+        await msg.answer("Pasport malumotlari noto'g'ri kiritildi. Iltimos tekshirib qaytadan yuboring!")
         return
 
     # Update user passport in DB
@@ -164,7 +164,7 @@ async def set_passport(msg: Message, state: FSMContext):
 
     # Finish conversation
     await state.finish()
-    await msg.answer("Passport muvaffaqiyatli saqlandi!")
+    await msg.answer("Pasport muvaffaqiyatli saqlandi!")
     await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
 
 
