@@ -96,7 +96,8 @@ async def contact_us(call: CallbackQuery):
            f"<b>E-mail:</b> info@niuedu.uz\n" \
            f"<b>Manzil:</b> Navoiy viloyati Karmana tumani Toshkent ko'chasi 39-uy\n" \
            f"<b>Telegram:</b> @niuedu_uz\n" \
-           f"<b>Instagram:</b> <a href='https://instagram.com/niuedu.uz'>niuedu.uz</a>\n" \
+           f"<b>Instagram:</b> <a href='https://instagram.com/niuedu.uz'>niuedu.uz</a>\n\n" \
+           f"<b>Hemis:</b> <a href='https://student.niiedu.uz/'>student.niiedu.uz</a>\n"
         # send location
     await call.message.answer_location(40.14868330039444, 65.35709196263187)
     await call.message.answer(text, parse_mode='html')
