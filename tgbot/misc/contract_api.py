@@ -177,7 +177,7 @@ def get_credit_data(passport_data: str):
         text += f'📝 Kredit narxilari:\n'
 
         for credit in data['data']['credit_price']:
-            text += f'Talim shakli: <b>{credit["name"]}</b> uchun 1 kreedit narxi = <b>{credit["price"]}</b>\n'
+            text += f'Talim shakli: <b>{credit["name"]}</b> uchun 1 kredit narxi = <b>{credit["price"]}</b>\n'
 
         if total_credit_price:
             text += f'\nJami qarz kredit soni: <b>{total_credit_price}</b>'

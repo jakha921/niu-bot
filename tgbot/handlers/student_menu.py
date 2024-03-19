@@ -169,6 +169,8 @@ async def get_contract_payment(call: CallbackQuery):
 
     contract_payment = get_contract_payment_data(user.passport)
 
+    contract_payment += f"\n\n<b>Malumot olish uchun:</b> +998 79 222 02 00 (107) raqamiga murojaat qiling"
+
     if contract_payment:
         # delete previous message
         await wait.delete()
