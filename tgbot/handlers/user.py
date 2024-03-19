@@ -24,13 +24,14 @@ async def user_start(m: Message, texts: Map):
     text += "Botning Asosiy xususiyati:\n\n" \
             "📝 Talaba pasport ma'lumotlarini bazaga saqlaydi\n\n" \
             "va sizga quyidagi imkoniyatlarni beradi:\n\n" \
-            "<b>🆔 Talaba ID</b> - Talabani <b>Hemis</b> tizimiga kirish uchun kerak bo'ladigan <b>ID</b> raqami ni beradi\n\n" \
-            "<b>📄 Shartnoma</b> - Kontrakt shartnomangizni olishingiz mumkin\n\n" \
-            "<b>📚 Kutubxona</b> - NIU kutubxonasidagi bor kitoblarni izlash uchun kerak bo'ladigan bo'lim\n\n" \
-            "<b>📞 Aloqa ma'lumotlari</b> - Biz bilan bog'lanish va kontakt ma'lumotlari olish mumkin\n\n" \
-            "<b>❓ FAQ</b> - Tez-tez so'raladigan savollar va ularning javoblari\n\n" \
-            "<b>💰Kontrakt to'lovilari</b> - Kontrakt to'lovlarini tekshirish uchun kerak bo'ladigan bo'lim\n\n" \
-            "<b>🆔 Telegram ID</b> - Sizning telegram ID raqamingizni ko'rsatadi\n\n" \
+            "https://www.youtube.com/watch?v=XY0q-JJruk0"
+            # "<b>🆔 Talaba ID</b> - Talabani <b>Hemis</b> tizimiga kirish uchun kerak bo'ladigan <b>ID</b> raqami ni beradi\n\n" \
+            # "<b>📄 Shartnoma</b> - Kontrakt shartnomangizni olishingiz mumkin\n\n" \
+            # "<b>📚 Kutubxona</b> - NIU kutubxonasidagi bor kitoblarni izlash uchun kerak bo'ladigan bo'lim\n\n" \
+            # "<b>📞 Aloqa ma'lumotlari</b> - Biz bilan bog'lanish va kontakt ma'lumotlari olish mumkin\n\n" \
+            # "<b>❓ FAQ</b> - Tez-tez so'raladigan savollar va ularning javoblari\n\n" \
+            # "<b>💰Kontrakt to'lovilari</b> - Kontrakt to'lovlarini tekshirish uchun kerak bo'ladigan bo'lim\n\n" \
+            # "<b>🆔 Telegram ID</b> - Sizning telegram ID raqamingizni ko'rsatadi\n\n" \
 
         # "<b>📝 Pasport ma'lumotlari uzgartirish</b> - Agar pasportingizda o'zgarish bo'lsa uni yangilash uchun kerak bo'ladigan bo'lim\n\n" \
 
@@ -45,6 +46,10 @@ async def user_start(m: Message, texts: Map):
         await m.answer(text)
         await StudentPassport.passport.set()
     else:
+        msg = f"📝 Sizning pasportingiz bazada saqlangan!\n\n" \
+                f"bot sizga quyidagi imkoniyatlarni beradi:\n\n" \
+                "https://www.youtube.com/watch?v=XY0q-JJruk0"
+        await m.answer(msg)
         await m.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(m.from_user.id))
         return
 
