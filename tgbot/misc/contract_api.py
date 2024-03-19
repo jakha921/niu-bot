@@ -152,7 +152,39 @@ def get_contract_payment_data(passport_data: str):
                 text += '- ' * 20 + '\n'
                 text += f'Summasi: <b>{payment["amount"]}</b>\n' \
                         f'Sanasi: <b>{payment["payment_date"]}</b>\n' \
-                        # f'Bazaga qo\'yilgan sanasi: <b>{payment["created_at"]}</b>\n'
+                    # f'Bazaga qo\'yilgan sanasi: <b>{payment["created_at"]}</b>\n'
+        return text
+
+    return None
+
+
+def get_credit_data(passport_data: str):
+    url = f'http://marketing.niuedu.uz/student/get-credits?passport={passport_data}'
+
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        if data['status'] != 1:
+            return data['message']
+
+        total_credit_price = 0
+        for credit in data['data']['credit_history']:
+            total_credit_price += int(credit['credits'])
+
+        text = f'📝 Kredit to\'lovlari:\n\n'
+        text += f'<b>{data["student"]["last_name"]} {data["student"]["first_name"]} {data["student"]["middle_name"]}</b>\n'
+        text += f'Passport: <b>{data["student"]["passport_seria"]} {data["student"]["passport_number"]}</b>\n\n'
+        text += f'📝 Kredit narxilari:\n'
+
+        for credit in data['data']['credit_price']:
+            text += f'Talim shakli: <b>{credit["name"]}</b>. '
+            text += f'Kredit narxi: <b>1 kredit = {credit["price"]}</b>\n'
+
+        if total_credit_price:
+            text += f'\nJami qarz kreediti: <b>{total_credit_price}</b>\n'
+        else:
+            text += '\nSizda kredit yo\'q'
+
         return text
 
     return None
@@ -160,5 +192,6 @@ def get_contract_payment_data(passport_data: str):
 
 if __name__ == '__main__':
     # print(get_contract_link('AA7652863'))
-    foo = get_contract_payment_data('AA7652863')
+    # foo = get_contract_payment_data('AA7652863')
+    foo = get_credit_data('AD0414879')
     pprint(foo)

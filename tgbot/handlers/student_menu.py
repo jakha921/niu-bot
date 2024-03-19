@@ -8,7 +8,7 @@ from loguru import logger
 
 from tgbot.keyboards.inline import menu_keyboard_inline
 from tgbot.keyboards.reply import back_keyboard
-from tgbot.misc.contract_api import get_contract_link, get_contract_payment_data
+from tgbot.misc.contract_api import get_contract_link, get_contract_payment_data, get_credit_data
 from tgbot.misc.states import StudentPassport, StudentPassportChange
 from tgbot.models.models import TGUser, get_student_hemis_id, get_list_of_books
 
@@ -261,6 +261,32 @@ async def set_passport(msg: Message, state: FSMContext):
     await msg.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(msg.from_user.id))
 
 
+async def get_credit(call: CallbackQuery):
+    """
+    User get credit data
+    """
+    logger.info(f'User send {call.data}')
+    # delete inline keyboard
+    await call.message.delete()
+
+    wait = await call.message.answer("Iltimos kuting...")
+    user = await TGUser.get_user(call.bot['db'], call.from_user.id)
+
+    contract_payment = get_credit_data(user.passport)
+
+    if contract_payment:
+        # delete previous message
+        await wait.delete()
+        await call.message.answer(contract_payment, parse_mode='html')
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+
+    else:
+        await wait.delete()
+        await call.message.answer(
+            f"Sizning {user.passport} pasportingiz buyicha kredit ma'lumotlari topilmadi. Iltimos tekshirib qaytadan yuboring!")
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+
+
 def register_student(dp: Dispatcher):
     dp.register_callback_query_handler(
         get_user_hemis_id,
@@ -305,6 +331,11 @@ def register_student(dp: Dispatcher):
     dp.register_callback_query_handler(
         set_user_passport,
         text="user_passport",
+        state="*"
+    )
+    dp.register_callback_query_handler(
+        get_credit,
+        text="credit",
         state="*"
     )
     dp.register_message_handler(

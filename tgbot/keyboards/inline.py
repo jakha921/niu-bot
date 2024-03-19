@@ -42,17 +42,19 @@ async def menu_keyboard_inline(user_id: int):
                 InlineKeyboardButton(text="📚Kutubxona", switch_inline_query_current_chat="")
             ],
             [
-                InlineKeyboardButton(text="💰Kontrakt to'lovilari", callback_data="contract_payment")
+                InlineKeyboardButton(text="💰Kontrakt to'lovlari", callback_data="contract_payment")
+            ],
+            [
+                InlineKeyboardButton(text="📝Qarzdorlik(kredit)", callback_data="credit")
             ],
             [
                 InlineKeyboardButton(text="🆔Telegram ID", callback_data="telegram_id"),
-                # InlineKeyboardButton(text="🌐Tilni o'zgartirish", callback_data="change_language")
+                # InlineKeyboardButton(text="🌐Tilni ovv'zgartirish", callback_data="change_language")
             ],
             [
                 InlineKeyboardButton(text="📞Aloqa ma'lumotlari", callback_data="contact"),
-                InlineKeyboardButton(text="❓FAQ", callback_data="faq")
+                InlineKeyboardButton(text="❓TSS", callback_data="faq")
             ],
-
         ],
         # row_width=2,
     )
