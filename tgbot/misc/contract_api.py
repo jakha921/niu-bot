@@ -152,6 +152,7 @@ def get_contract_payment_data(passport_data: str):
                 text += '- ' * 20 + '\n'
                 text += f'Summasi: <b>{payment["amount"]}</b>\n' \
                         f'Sanasi: <b>{payment["payment_date"]}</b>\n' \
+                        f"To'lov maqsadi <b>{payment['description']}</b>\n"
                     # f'Bazaga qo\'yilgan sanasi: <b>{payment["created_at"]}</b>\n'
         return text
 
@@ -164,6 +165,8 @@ def get_credit_data(passport_data: str):
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
+
+        pprint('data', data)
         if data['status'] != 1:
             return data['message']
 
@@ -184,13 +187,13 @@ def get_credit_data(passport_data: str):
         else:
             text += '\nSizda kredit yo\'q'
 
-        return text
+        return data
 
     return None
 
 
 if __name__ == '__main__':
     # print(get_contract_link('AA7652863'))
-    # foo = get_contract_payment_data('AA7652863')
-    foo = get_credit_data('AD0414879')
+    foo = get_contract_payment_data('AB8056883')
+    # foo = get_credit_data('AD0414879')
     pprint(foo)

@@ -42,7 +42,7 @@ async def menu_keyboard_inline(user_id: int):
                 InlineKeyboardButton(text="📚Kutubxona", switch_inline_query_current_chat="")
             ],
             [
-                InlineKeyboardButton(text="💰Kontrakt to'lovlari", callback_data="contract_payment")
+                InlineKeyboardButton(text="💰To'lovlar", callback_data="contract_payment")
             ],
             [
                 InlineKeyboardButton(text="📝Qarzdorlik(kredit)", callback_data="credit")
