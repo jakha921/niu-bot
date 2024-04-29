@@ -141,7 +141,7 @@ def get_contract_payment_data(passport_data: str):
         if data['status'] != 1:
             return data['message']
 
-        text = f'📝 Kontrakt to\'lovlari:\n\n'
+        text = f'📝 To\'lovlar:\n\n'
         text += f'<b>{data["student"]["last_name"]} {data["student"]["first_name"]} {data["student"]["middle_name"]}</b>\n'
         text += f'Passport: <b>{data["student"]["passport_seria"]} {data["student"]["passport_number"]}</b>\n\n'
 
@@ -163,10 +163,12 @@ def get_credit_data(passport_data: str):
     url = f'http://marketing.niuedu.uz/student/get-credits?passport={passport_data}'
 
     response = requests.get(url)
+    print('response', response.status_code)
+    print('response', response.json())
     if response.status_code == 200:
         data = response.json()
 
-        pprint('data', data)
+        # pprint('data', data)
         if data['status'] != 1:
             return data['message']
 
@@ -185,15 +187,15 @@ def get_credit_data(passport_data: str):
         if total_credit_price:
             text += f'\nJami qarz kredit soni: <b>{total_credit_price}</b>'
         else:
-            text += '\nSizda kredit yo\'q'
+            text += '\nSizda kredit <b>yo\'q</b>'
 
-        return data
+        return text
 
     return None
 
 
 if __name__ == '__main__':
-    # print(get_contract_link('AA7652863'))
-    foo = get_contract_payment_data('AB8056883')
-    # foo = get_credit_data('AD0414879')
+    # foo = get_contract_link('AA7652863')
+    # foo = get_contract_payment_data('AB8056883')
+    foo = get_credit_data('AD0414879')
     pprint(foo)

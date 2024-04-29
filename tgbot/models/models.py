@@ -98,17 +98,17 @@ class TGUser(Base):
         return f'User (ID: {self.telegram_id} - {self.passport}'
 
 
-async def get_student_hemis_id(db_session: sessionmaker, passport_data: str):
+async def get_student_by_passport(db_session: sessionmaker, passport_data: str):
     """
     Get student by hemis_id from DB
     from students table
     """
     async with db_session() as session:
-        # Using SQL expression directly with table name 'students' and column 'passport' to get hemis_id
-        sql = text(f"SELECT hemis_id FROM app_student WHERE passport = '{passport_data}'")
+        # Using SQL expression directly with table name 'students' and column 'passport' to get all student data
+        sql = text(f"SELECT * FROM app_student WHERE passport = '{passport_data}'")
         request = await session.execute(sql)
-        hemis_id = request.scalar()
-    return hemis_id
+        student = request.mappings().fetchone()
+    return student
 
 
 async def get_list_of_books(db_session: sessionmaker):

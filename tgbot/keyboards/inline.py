@@ -35,7 +35,9 @@ async def menu_keyboard_inline(user_id: int):
     keyboard = InlineKeyboardMarkup(
         inline_keyboard=[
             [
-                InlineKeyboardButton(text="🆔Talaba ID", callback_data="student_id"),
+                # InlineKeyboardButton(text="🆔Talaba ID", callback_data="student_id"),
+                # profile
+                InlineKeyboardButton(text="👤Profil", callback_data="profile"),
                 InlineKeyboardButton(text="📄Shartnoma", callback_data="contract")
             ],
             [
@@ -48,7 +50,7 @@ async def menu_keyboard_inline(user_id: int):
                 InlineKeyboardButton(text="📝Qarzdorlik(kredit)", callback_data="credit")
             ],
             [
-                InlineKeyboardButton(text="🆔Telegram ID", callback_data="telegram_id"),
+                # InlineKeyboardButton(text="🆔Telegram ID", callback_data="telegram_id"),
                 # InlineKeyboardButton(text="🌐Tilni ovv'zgartirish", callback_data="change_language")
             ],
             [
