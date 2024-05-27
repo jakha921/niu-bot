@@ -40,7 +40,7 @@ async def get_profile(call: CallbackQuery):
                                       f"<b>Hemis ID:</b> <code>{student.hemis_id}</code>\n"
                                       f"<a href='https://student.niiedu.uz/'>Hemis</a> tizimiga kirish\n\n"
                                       f"Agar sizning ma'lumotlaringizda xatolik bo'lsa, "
-                                      f"iltimos <a href='https://t.me/niueduuz'>admin</a> bilan bog'laning",
+                                      f"iltimos <a href='https://t.me/nniueduuz '>admin</a> bilan bog'laning",
                                       parse_mode='html')
             await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
         else:
@@ -48,7 +48,7 @@ async def get_profile(call: CallbackQuery):
             await call.message.answer(
                 f"<b>Telegram ID:</b> <code>{user.telegram_id}</code>\n\n"
                 f"Sizning pasportingiz bazada topilmadi.\n"
-                f"Ma'lumotlaringizni topilmadi, iltimos <a href='https://t.me/niueduuz'>admin</a> bilan bog'laning",
+                f"Ma'lumotlaringizni topilmadi, iltimos <a href='https://t.me/nniueduuz'>admin</a> bilan bog'laning",
                 parse_mode='html')
             await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
     except asyncio.TimeoutError:
@@ -188,7 +188,7 @@ async def inline_query_handler(query: InlineQuery):
                       f"Kitob nomi: {book[2]}\n" \
                       f"Nashriyot: {book[3]}\n" \
                       f"Yili: {book[4]}\n" \
-                      f"Xavola: {book[9] if book[9] else 'Topilmadi'}\n"
+                      f"Xavola: {book[9] if book[9] else 'Elektron versiya topilmadi, kitobni olish uchun kutibxonaga murojaat qiling'}\n"
 
         if search_query and (search_query in book[1].lower() or search_query in book[2].lower()):
             results.append(InlineQueryResultArticle(
