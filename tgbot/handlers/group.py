@@ -33,7 +33,7 @@ async def send_congratulation_to_group(msg: Message):
             for bday in bdays:
                 text_admin += f"<i>{bday['first_name']} {bday['last_name']} {bday['middle_name']}</i> 🎂\n"
 
-            text_admin += f"\n\nJamoadoshimizni chin qalbdan jamoa nomidan qutlaymiz ! Sizga ishlaringgizga rivoj tilaymiz ! 🎉🎉🎉"
+            text_admin += f"\n\nJamoadosh(lar)imizni chin qalbdan jamoa nomidan qutlaymiz ! Sizga va  ishlaringgizga rivoj tilaymiz ! 🎉🎉🎉 Hurmat bilan NIU jamoasi."
 
             await msg.answer(text_admin)
         else:
