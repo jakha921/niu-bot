@@ -85,7 +85,7 @@ async def menu_keyboard_inline(user_id: int):
     print('user_id', user_id)
     if user_id in [179709417, 256841597,
                    983432313,
-                   1124567881, 1104388973, 6376261985, 989391636]:
+                   1124567881, 1104388973, 6376261985, 989391636, 387713426]:
         print('admin')
         keyboard.add(InlineKeyboardButton(text="📝Pasport ma'lumotlari o`zgartirish", callback_data="passport"))
         keyboard.add(InlineKeyboardButton(text="🪪Foydalanuvchi pasport ma'lumotlarini o'zgartirish",
