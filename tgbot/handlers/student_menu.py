@@ -39,7 +39,7 @@ async def get_profile(call: CallbackQuery):
                f"<b>Kurs:</b> {student.course.replace('-kurs', '')}\n" \
                f"<b>Guruh:</b> {student.stgroup}\n" \
                f"<b>Telegram ID:</b> <code>{user.telegram_id}</code>\n\n" \
-               f"<b>Hemis ID:</b> <code>{student.hemis_id}</code>\n" \
+               f"<b>Talaba ID:</b> <code>{student.hemis_id}</code>\n" \
                f"<a href='https://student.niiedu.uz/'>Hemis</a> tizimiga kirish\n\n" \
                f"Agar sizning ma'lumotlaringizda xatolik bo'lsa, " \
                f"iltimos <a href='https://t.me/nniueduuz '>admin</a> bilan bog'laning" \
