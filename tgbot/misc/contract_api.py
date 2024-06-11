@@ -196,6 +196,6 @@ def get_credit_data(passport_data: str):
 
 if __name__ == '__main__':
     # foo = get_contract_link('AA7652863')
-    # foo = get_contract_payment_data('AB8056883')
-    foo = get_credit_data('AD0414879')
+    foo = get_contract_payment_data('AB8056883')
+    # foo = get_credit_data('AD0414879')
     pprint(foo)

@@ -10,6 +10,7 @@ from loguru import logger
 from tgbot.keyboards.inline import menu_keyboard_inline
 from tgbot.keyboards.reply import back_keyboard
 from tgbot.misc.contract_api import get_contract_link, get_contract_payment_data, get_credit_data
+from tgbot.misc.hemis_api import get_student_data_by_hemis_id, get_student_schedule_by_hemis_id
 from tgbot.misc.states import StudentPassport, StudentPassportChange
 from tgbot.models.models import TGUser, get_list_of_books, get_student_by_passport
 
@@ -26,22 +27,30 @@ async def get_profile(call: CallbackQuery):
         user = await TGUser.get_user(call.bot['db'], call.from_user.id)
         student = await get_student_by_passport(call.bot['db'], user.passport)
 
+        # get image from api
+        # image = get_student_data_by_hemis_id(student.hemis_id)['image']
+        # print('image', type(image), image)
+
+        text = f"<b>Sizning profil ma'lumotlaringiz:</b>\n\n" \
+               f"<b>FIO:</b> {student.full_name}\n" \
+               f"<b>Pasport:</b> <code>{student.passport}</code>\n" \
+               f"<b>JSHSHIR:</b> <code>{student.jshshir}</code>\n" \
+               f"<b>Fakultet:</b> {student.faculty}\n" \
+               f"<b>Kurs:</b> {student.course.replace('-kurs', '')}\n" \
+               f"<b>Guruh:</b> {student.stgroup}\n" \
+               f"<b>Telegram ID:</b> <code>{user.telegram_id}</code>\n\n" \
+               f"<b>Hemis ID:</b> <code>{student.hemis_id}</code>\n" \
+               f"<a href='https://student.niiedu.uz/'>Hemis</a> tizimiga kirish\n\n" \
+               f"Agar sizning ma'lumotlaringizda xatolik bo'lsa, " \
+               f"iltimos <a href='https://t.me/nniueduuz '>admin</a> bilan bog'laning" \
+ \
+        # if image:
+        #     await call.message.answer_photo(photo=image, caption=text)
+
         if student:
             # delete previous message
             await wait.delete()
-            await call.message.answer(f"<b>Sizning profil ma'lumotlaringiz:</b>\n\n"
-                                      f"<b>FIO:</b> {student.full_name}\n"
-                                      f"<b>Pasport:</b> <code>{student.passport}</code>\n"
-                                      f"<b>JSHSHIR:</b> <code>{student.jshshir}</code>\n"
-                                      f"<b>Fakultet:</b> {student.faculty}\n"
-                                      f"<b>Kurs:</b> {student.course.replace('-kurs', '')}\n"
-                                      f"<b>Guruh:</b> {student.stgroup}\n"
-                                      f"<b>Telegram ID:</b> <code>{user.telegram_id}</code>\n\n"
-                                      f"<b>Hemis ID:</b> <code>{student.hemis_id}</code>\n"
-                                      f"<a href='https://student.niiedu.uz/'>Hemis</a> tizimiga kirish\n\n"
-                                      f"Agar sizning ma'lumotlaringizda xatolik bo'lsa, "
-                                      f"iltimos <a href='https://t.me/nniueduuz '>admin</a> bilan bog'laning",
-                                      parse_mode='html')
+            await call.message.answer(text, parse_mode='html')
             await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
         else:
             await wait.delete()
@@ -362,6 +371,42 @@ async def get_credit(call: CallbackQuery):
         await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
 
 
+async def get_schedule(call: CallbackQuery):
+    """
+    User get schedule data
+    """
+    logger.info(f'User send {call.data}')
+    # delete inline keyboard
+    await call.message.delete()
+
+    wait = await call.message.answer("Iltimos kuting...")
+
+    try:
+        user_task = TGUser.get_user(call.bot['db'], call.from_user.id)
+        user = await asyncio.wait_for(user_task, timeout=5)
+
+        student = await get_student_by_passport(call.bot['db'], user.passport)
+
+        schedule = get_student_schedule_by_hemis_id(student.hemis_id)
+        # print('schedule', schedule)
+
+        if schedule:
+            # delete previous message
+            await wait.delete()
+            await call.message.answer(schedule, parse_mode='html')
+            await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+        else:
+            await wait.delete()
+            await call.message.answer(
+                f"Sizning {user.passport} pasportingiz buyicha dars jadvali topilmadi. Iltimos tekshirib qaytadan yuboring!")
+            await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+    except asyncio.TimeoutError:
+        await wait.delete()
+        await call.message.answer(
+            "Bazaga so'rov uzun muddat ichida javob qaytarmadi. Iltimos, keyinroq urinib ko'ring.")
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+
+
 def register_student(dp: Dispatcher):
     dp.register_callback_query_handler(
         get_profile,
@@ -416,6 +461,11 @@ def register_student(dp: Dispatcher):
     dp.register_callback_query_handler(
         get_credit,
         text="credit",
+        state="*"
+    )
+    dp.register_callback_query_handler(
+        get_schedule,
+        text="schedule",
         state="*"
     )
     dp.register_message_handler(
