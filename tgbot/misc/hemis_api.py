@@ -1,3 +1,4 @@
+import os
 from datetime import datetime, timedelta
 from pprint import pprint
 
@@ -43,29 +44,16 @@ def get_student_data_by_hemis_id(hemis_id: str):
                 'name': data['district']['name'],
                 'code': data['district']['code']
             },
-            # O'quv varaqa
-            'academic_sheet': {
-                'file': data['documents'][0]['file'],
-                'link': data['documents'][0]['link'],
-                'name': data['documents'][0]['name'],
-            },
-            # Reyting daftarchasi
-            'academic_data': {
-                'file': data['documents'][1]['file'],
-                'link': data['documents'][1]['link'],
-                'name': data['documents'][1]['name'],
-            },
-            # Chaqiruv qog'ozi
-            'call-sheet': {
-                'file': data['documents'][2]['file'],
-                'link': data['documents'][2]['link'],
-                'name': data['documents'][2]['name'],
-            },
-            # Ma'lumotnomalar
-            'reference': {
-                'file': data['documents'][3]['file'],
-                'name': data['documents'][3]['name'],
-            },
+            'documents': [
+                {
+                    'name': i['name'],
+                    'file': i['file'],
+                    'type': i['type'],
+                    'data': i['attributes'],
+                    'link': i['link']
+                }
+                for i in data['documents'] if i['type'] not in ['reference', 'decree']
+            ]
         }
 
         # pprint(data)
@@ -93,7 +81,7 @@ def get_student_schedule_by_hemis_id(hemis_id: str):
     from_now = int(from_now.timestamp())
     to_now = int(to_now.timestamp())
 
-    print('unix time ', from_now, to_now)
+    # print('unix time ', from_now, to_now)
 
     url = f'https://student.niiedu.uz/rest/v1/data/schedule-list?_group={group_id}&lesson_date_from={from_now}&lesson_date_to={to_now}'
     headers = {
@@ -141,34 +129,47 @@ def get_student_schedule_by_hemis_id(hemis_id: str):
     return None
 
 
-def get_docs(url: str):
-    headers = {
-        'accept': 'application/json',
-        'Authorization': 'Bearer r9E1eEhFPM41R9-2dGq1ZWAsgfKzH2OE'
-    }
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
+def get_docs(student_info: str, type: str = 'call-sheet'):
+    name = [i['name'] for i in student_info['documents'] if i['type'] == type][0] if [i['name'] for i in student_info['documents'] if i['type'] == type] else None
+    url = [i['link'] for i in student_info['documents'] if i['type'] == type][0] if [i['link'] for i in student_info['documents'] if i['type'] == type] else None
+    print('url', url)
+
+    if name and url:
+        file_name = f'{name}.pdf' if type == 'reference' else f'{name}-{student_info["hemis_id"]}.pdf'
+        print('file_name', file_name)
+
+        headers = {
+            'accept': 'application/json',
+            'Authorization': 'Bearer r9E1eEhFPM41R9-2dGq1ZWAsgfKzH2OE'
+        }
+        response = requests.get(url, headers=headers)
         print('response', response)
 
-        # response return pdf file
-        with open('academic_data.pdf', 'wb') as file:
-            file.write(response.content)
+        if response.status_code == 200:
+            # response return pdf file
+            # with open(file_name, 'wb') as file:
+            with open(os.path.join('tgbot/misc/files/', file_name), 'wb') as file:
+                file.write(response.content)
 
-        return 'files/academic_data.pdf'
+            return os.path.join('tgbot/misc/files/', file_name)
     return None
 
 
 if __name__ == '__main__':
-    foo = (get_student_data_by_hemis_id('462231100103'))
-    # foo = (get_student_data_by_hemis_id('462221100016'))
+    # foo = (get_student_data_by_hemis_id('462231100931'))
+    foo = (get_student_data_by_hemis_id('462221100016'))
     pprint(foo)
     print('---')
-    bar = get_student_schedule_by_hemis_id('462221100016')
-    pprint(bar)
+    # bar = get_student_schedule_by_hemis_id('462221100016')
+    # pprint(bar)
 
-    academic_data = 'https://student.niiedu.uz/rest/v1/data/student-info-download?student_id_number=462231100103&id=32236&type=academic_data'
-    academic_sheet = 'https://student.niiedu.uz/rest/v1/data/student-info-download?student_id_number=462231100103&id=32236&type=academic_sheet'
-    call_sheet = 'https://student.niiedu.uz/rest/v1/data/student-info-download?student_id_number=462231100103&id=1815&type=call-sheet'
+    # academic_data = 'https://student.niiedu.uz/rest/v1/data/student-info-download?student_id_number=462231100103&id=32236&type=academic_data'
+    # academic_sheet = 'https://student.niiedu.uz/rest/v1/data/student-info-download?student_id_number=462231100103&id=32236&type=academic_sheet'
+    # call_sheet = 'https://student.niiedu.uz/rest/v1/data/student-info-download?student_id_number=462231100103&id=1815&type=call-sheet'
+    # call_sheet = 'https://student.niiedu.uz/rest/v1/student/document-download?id=9694&type=call-sheet'
 
-    # bar = get_docs(call_sheet)
-    # print(bar)
+    # call_sheet = [i['file'] for i in foo['documents'] if i['type'] == 'call-sheet'][0]
+    # print('call_sheet', call_sheet)
+
+    bar = get_docs(foo, 'call-sheet')
+    print(bar)

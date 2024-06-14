@@ -1,4 +1,5 @@
 import asyncio
+import os
 import re
 
 from aiogram import Dispatcher
@@ -10,7 +11,7 @@ from loguru import logger
 from tgbot.keyboards.inline import menu_keyboard_inline
 from tgbot.keyboards.reply import back_keyboard
 from tgbot.misc.contract_api import get_contract_link, get_contract_payment_data, get_credit_data
-from tgbot.misc.hemis_api import get_student_data_by_hemis_id, get_student_schedule_by_hemis_id
+from tgbot.misc.hemis_api import get_student_data_by_hemis_id, get_student_schedule_by_hemis_id, get_docs
 from tgbot.misc.states import StudentPassport, StudentPassportChange
 from tgbot.models.models import TGUser, get_list_of_books, get_student_by_passport
 
@@ -407,6 +408,49 @@ async def get_schedule(call: CallbackQuery):
         await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
 
 
+async def get_call_sheet(call: CallbackQuery):
+    """
+    User get call sheet data
+    """
+    logger.info(f'User send {call.data}')
+    # delete inline keyboard
+    await call.message.delete()
+
+    wait = await call.message.answer("Iltimos kuting...")
+
+    try:
+        user_task = TGUser.get_user(call.bot['db'], call.from_user.id)
+        user = await asyncio.wait_for(user_task, timeout=5)
+
+        student = await get_student_by_passport(call.bot['db'], user.passport)
+
+        hemis_data = get_student_data_by_hemis_id(student.hemis_id)
+        link_to_call_sheet = get_docs(hemis_data, type='call-sheet')
+        print('link_to_call_sheet', link_to_call_sheet)
+
+        if link_to_call_sheet:
+            # delete previous message
+            await wait.delete()
+
+            # send call sheet file
+            with open(link_to_call_sheet, 'rb') as file:
+                await call.message.answer_document(file, caption=f"{student.full_name} chaqiruv varaqasi")
+
+            # delete file
+            os.remove(link_to_call_sheet)
+
+            await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+        else:
+            await wait.delete()
+            await call.message.answer(
+                f"Sizni chaqiruv varaqasi topilmadi. Iltimos tekshirib qaytadan yuboring!")
+            await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+    except asyncio.TimeoutError:
+        await wait.delete()
+        await call.message.answer(
+            "Bazaga so'rov uzun muddat ichida javob qaytarmadi. Iltimos, keyinroq urinib ko'ring.")
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+
 def register_student(dp: Dispatcher):
     dp.register_callback_query_handler(
         get_profile,
@@ -466,6 +510,11 @@ def register_student(dp: Dispatcher):
     dp.register_callback_query_handler(
         get_schedule,
         text="schedule",
+        state="*"
+    )
+    dp.register_callback_query_handler(
+        get_call_sheet,
+        text="call-sheet",
         state="*"
     )
     dp.register_message_handler(

@@ -24,7 +24,7 @@ async def user_start(m: Message, texts: Map):
     text += "Botning Asosiy xususiyati:\n\n" \
             "📝 Talaba pasport ma'lumotlarini bazaga saqlaydi\n\n" \
             "va sizga quyidagi imkoniyatlarni beradi:\n\n" \
-            "https://www.youtube.com/watch?v=XY0q-JJruk0"
+            "https://youtu.be/XBVyfiu2Ipo?si=w2iRbc_n21F9i-m1"
             # "<b>🆔 Talaba ID</b> - Talabani <b>Hemis</b> tizimiga kirish uchun kerak bo'ladigan <b>ID</b> raqami ni beradi\n\n" \
             # "<b>📄 Shartnoma</b> - Kontrakt shartnomangizni olishingiz mumkin\n\n" \
             # "<b>📚 Kutubxona</b> - NIU kutubxonasidagi bor kitoblarni izlash uchun kerak bo'ladigan bo'lim\n\n" \
