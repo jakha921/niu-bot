@@ -143,7 +143,7 @@ def get_docs(student_info: str, type: str = 'call-sheet'):
             'Authorization': 'Bearer r9E1eEhFPM41R9-2dGq1ZWAsgfKzH2OE'
         }
         response = requests.get(url, headers=headers)
-        print('response', response)
+        # print('response', response)
 
         if response.status_code == 200:
             # response return pdf file
@@ -171,5 +171,5 @@ if __name__ == '__main__':
     # call_sheet = [i['file'] for i in foo['documents'] if i['type'] == 'call-sheet'][0]
     # print('call_sheet', call_sheet)
 
-    bar = get_docs(foo, 'call-sheet')
+    bar = get_docs(foo, 'academic_data')
     print(bar)

@@ -47,8 +47,12 @@ async def menu_keyboard_inline(user_id: int):
             [
                 # schedule
                 InlineKeyboardButton(text="📅Dars jadvali", callback_data="schedule"),
-                #     # call - sheet
+            ],
+            [
+                # call - sheet
                 InlineKeyboardButton(text="📄Chaqiruv varaqa", callback_data="call-sheet"),
+                # academic_data
+                InlineKeyboardButton(text="📊Reyting daftarchasi", callback_data="academic_data"),
             ],
             [
                 InlineKeyboardButton(text="📚Kutubxona", switch_inline_query_current_chat="")
@@ -56,8 +60,7 @@ async def menu_keyboard_inline(user_id: int):
             [
             #     # academic_sheet
             #     InlineKeyboardButton(text="📄O'quv varaqa", callback_data="academic_sheet"),
-            #     # academic_data
-            #     InlineKeyboardButton(text="📊Reyting", callback_data="academic_data"),
+
             #     # reference
             #     InlineKeyboardButton(text="📄Ma'lumotnoma", callback_data="reference")
             ],
