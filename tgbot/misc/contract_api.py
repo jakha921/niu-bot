@@ -137,6 +137,7 @@ def get_contract_payment_data(passport_data: str):
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
+        # print('data', data)
 
         if data['status'] != 1:
             return data['message']
@@ -163,8 +164,8 @@ def get_credit_data(passport_data: str):
     url = f'http://marketing.niuedu.uz/student/get-credits?passport={passport_data}'
 
     response = requests.get(url)
-    print('response', response.status_code)
-    print('response', response.json())
+    # print('response', response.status_code)
+    # pprint(response.json())
     if response.status_code == 200:
         data = response.json()
 
@@ -189,6 +190,19 @@ def get_credit_data(passport_data: str):
         else:
             text += '\nSizda kredit <b>yo\'q</b>'
 
+        payed_credit = 0
+        if creadit_payment:= data['data']['credit_payment']:
+            text += f'\n\n📝 Kredit qarzdorlik buycha to\'lovlar:\n'
+            # print('creadit_payment', creadit_payment)
+            for payment in creadit_payment:
+                payed_credit += int(payment['amount'])
+                text += '- ' * 20 + '\n'
+                text += f'Summasi: <b>{payment["amount"]}</b>\n' \
+                        f'Sanasi: <b>{payment["payment_date"]}</b>\n'
+
+        if payed_credit:
+            text += f'\nJami to\'langan kredit summasi: <b>{payed_credit}</b>'
+
         return text
 
     return None
@@ -196,6 +210,6 @@ def get_credit_data(passport_data: str):
 
 if __name__ == '__main__':
     # foo = get_contract_link('AA7652863')
-    foo = get_contract_payment_data('AB8056883')
-    # foo = get_credit_data('AD0414879')
+    # foo = get_contract_payment_data('AB8056883')
+    foo = get_credit_data('AD1398393')
     pprint(foo)
