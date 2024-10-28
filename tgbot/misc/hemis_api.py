@@ -21,8 +21,8 @@ def get_student_data_by_hemis_id(hemis_id: str):
     # print('response', response)
     if response.status_code == 200:
         data = response.json()['data']
-        pprint(data)
-        print('---', '\n')
+        # pprint(data)
+        # print('---', '\n')
 
         dict_of_links = {
             'hemis_id': data['student_id_number'],
@@ -149,7 +149,7 @@ def get_docs(student_info: str, type: str = 'call-sheet'):
     if not name or not url:
         return None
 
-    print('url', url)
+    # print('url', url)
     file_name = f'{name}.pdf' if type == 'reference' else f'{name}-{student_info["hemis_id"]}.pdf'
     print('file_name', file_name)
     headers = {

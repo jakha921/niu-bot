@@ -137,7 +137,7 @@ def get_contract_payment_data(passport_data: str):
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
-        # print('data', data)
+        # pprint(data)
 
         if data['status'] != 1:
             return data['message']
@@ -210,6 +210,6 @@ def get_credit_data(passport_data: str):
 
 if __name__ == '__main__':
     # foo = get_contract_link('AA7652863')
-    # foo = get_contract_payment_data('AB8056883')
-    foo = get_credit_data('AD1398393')
+    foo = get_contract_payment_data('AA6005372')
+    # foo = get_credit_data('AD1398393')
     pprint(foo)

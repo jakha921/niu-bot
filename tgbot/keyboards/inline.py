@@ -59,7 +59,7 @@ async def menu_keyboard_inline(user_id: int):
             ],
             [
             #     # academic_sheet
-            #     InlineKeyboardButton(text="📄O'quv varaqa", callback_data="academic_sheet"),
+                InlineKeyboardButton(text="📄O'quv varaqa", callback_data="academic_sheet"),
 
             #     # reference
             #     InlineKeyboardButton(text="📄Ma'lumotnoma", callback_data="reference")

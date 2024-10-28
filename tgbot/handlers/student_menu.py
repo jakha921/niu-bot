@@ -22,7 +22,7 @@ async def get_profile(call: CallbackQuery):
     # delete inline keyboard
     # await call.message.delete()
 
-    wait = await call.message.answer("Iltimos kuting...")
+    wait = await call.message.answer("Sizning ma'lumotlaringizni qidirilmoqda, iltimos kuting...")
 
     try:
         user = await TGUser.get_user(call.bot['db'], call.from_user.id)
@@ -102,7 +102,7 @@ async def get_user_contract(call: CallbackQuery):
     # delete inline keyboard
     await call.message.delete()
 
-    wait = await call.message.answer("Iltimos kuting...")
+    wait = await call.message.answer("Sizning shartnomangiz qidirilmoqda, iltimos kuting...")
 
     try:
         user_task = TGUser.get_user(call.bot['db'], call.from_user.id)
@@ -232,7 +232,7 @@ async def get_contract_payment(call: CallbackQuery):
     # delete inline keyboard
     await call.message.delete()
 
-    wait = await call.message.answer("Iltimos kuting...")
+    wait = await call.message.answer("Sizning to'lovlar ma'lumotlaringiz qidirilmoqda, iltimos kuting...")
 
     try:
         user_task = TGUser.get_user(call.bot['db'], call.from_user.id)
@@ -347,7 +347,7 @@ async def get_credit(call: CallbackQuery):
     # delete inline keyboard
     await call.message.delete()
 
-    wait = await call.message.answer("Iltimos kuting...")
+    wait = await call.message.answer("Sizning kredit ma'lumotlaringiz qidirilmoqda, iltimos kuting...")
 
     try:
         user_task = TGUser.get_user(call.bot['db'], call.from_user.id)
@@ -380,7 +380,7 @@ async def get_schedule(call: CallbackQuery):
     # delete inline keyboard
     await call.message.delete()
 
-    wait = await call.message.answer("Iltimos kuting...")
+    wait = await call.message.answer("Sizning dars jadvalingiz qidirilmoqda, iltimos kuting...")
 
     try:
         user_task = TGUser.get_user(call.bot['db'], call.from_user.id)
@@ -416,7 +416,7 @@ async def get_call_sheet(call: CallbackQuery):
     # delete inline keyboard
     await call.message.delete()
 
-    wait = await call.message.answer("Iltimos kuting...")
+    wait = await call.message.answer("Sizning chaqiruv varaqangiz qidirilmoqda, iltimos kuting...")
 
     try:
         user_task = TGUser.get_user(call.bot['db'], call.from_user.id)
@@ -461,7 +461,7 @@ async def get_academic_data(call: CallbackQuery):
     # delete inline keyboard
     await call.message.delete()
 
-    wait = await call.message.answer("Iltimos kuting...")
+    wait = await call.message.answer("Sizning reyting daftarchangiz qidirilmoqda, iltimos kuting...")
 
     try:
         user_task = TGUser.get_user(call.bot['db'], call.from_user.id)
@@ -490,6 +490,51 @@ async def get_academic_data(call: CallbackQuery):
             await wait.delete()
             await call.message.answer(
                 f"Sizni reyting daftarchasi topilmadi. Iltimos tekshirib qaytadan yuboring!")
+            await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+    except asyncio.TimeoutError:
+        await wait.delete()
+        await call.message.answer(
+            "Bazaga so'rov uzun muddat ichida javob qaytarmadi. Iltimos, keyinroq urinib ko'ring.")
+        await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+
+
+async def get_academic_sheet(call: CallbackQuery):
+    """
+    User get academic sheet data
+    """
+    logger.info(f'User send {call.data}')
+    # delete inline keyboard
+    await call.message.delete()
+
+    wait = await call.message.answer("Sizning o'quv varaqangiz qidirilmoqda, iltimos kuting...")
+
+    try:
+        user_task = TGUser.get_user(call.bot['db'], call.from_user.id)
+        user = await asyncio.wait_for(user_task, timeout=5)
+
+        student = await get_student_by_passport(call.bot['db'], user.passport)
+
+        hemis_data = get_student_data_by_hemis_id(student.hemis_id)
+        link_to_call_sheet = get_docs(hemis_data, type='academic_sheet')
+        # link_to_call_sheet = get_docs(hemis_data, type='academic_data')
+        print('link_to_call_sheet', link_to_call_sheet)
+
+        if link_to_call_sheet:
+            # delete previous message
+            await wait.delete()
+
+            # send call sheet file
+            with open(link_to_call_sheet, 'rb') as file:
+                await call.message.answer_document(file, caption=f"{student.full_name} o'quv varaqasi")
+
+            # delete file
+            os.remove(link_to_call_sheet)
+
+            await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
+        else:
+            await wait.delete()
+            await call.message.answer(
+                f"Sizni o'quv varaqasi topilmadi. Iltimos tekshirib qaytadan yuboring!")
             await call.message.answer("Bosh menyu", reply_markup=await menu_keyboard_inline(call.from_user.id))
     except asyncio.TimeoutError:
         await wait.delete()
@@ -567,6 +612,11 @@ def register_student(dp: Dispatcher):
     dp.register_callback_query_handler(
         get_academic_data,
         text="academic_data",
+        state="*"
+    )
+    dp.register_callback_query_handler(
+        get_academic_sheet,
+        text="academic_sheet",
         state="*"
     )
     dp.register_message_handler(
