@@ -74,6 +74,7 @@ async def set_bot_commands(bot: Bot):
     """Initialize bot commands for bot to preview them when typing slash \"/\""""
     commands = [
         BotCommand(command="start", description="Botni qayta ishga tushirish"),
+        BotCommand(command="weather", description="Ob-havo ma'lumotlari qidirish guruhda ishlaydi (NAMUNA: /weather Toshkent)"),
         # BotCommand(command="me", description="Your info in DB"),
         # BotCommand(command="phone", description="Add / Update phone number"),
         # BotCommand(command="lang", description="Choose language"),

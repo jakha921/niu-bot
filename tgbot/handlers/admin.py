@@ -1,11 +1,14 @@
+import os
+from datetime import datetime
+
 from aiogram import Dispatcher
 from aiogram.types import Message
 from loguru import logger
 
-from tgbot.services.database import AsyncSession
-from tgbot.models.models import TGUser
 from tgbot.misc.broadcast import broadcast
 from tgbot.misc.utils import Map
+from tgbot.models.models import TGUser
+from tgbot.services.database import AsyncSession
 
 
 async def admin_start(msg: Message, texts: Map):
@@ -70,6 +73,39 @@ async def admin_send_message(msg: Message, db_session: AsyncSession):
         logger.exception(e)
 
 
+async def remove_weather_forecast_img(msg: Message, texts: Map):
+    """Admin remove weather forecast image command handler"""
+    logger.info(f'Admin {msg.from_user.id} requested remove weather forecast image')
+    try:
+        to_remove = []
+        folder = 'tgbot/misc/weather_forecast_img'
+
+        if not os.listdir(folder):
+            await msg.reply("No images to remove")
+            return
+
+        today_date = datetime.today().strftime("%Y-%m-%d")
+        for file in os.listdir(folder):
+            if file.endswith('.png') and file.split('_')[-1].replace('.png', '') < today_date:
+                to_remove.append(file)
+
+        if not to_remove:
+            await msg.reply("All images are up to date")
+            return
+
+        # remove images
+        for file in to_remove:
+            os.remove(os.path.join(folder, file))
+            logger.info(f"Removed {file}")
+        await msg.reply(f"Removed {len(to_remove)} images")
+
+
+    except Exception as e:
+        await msg.reply(f"Error while removing weather forecast image: {e}")
+        logger.error("Error while removing weather forecast image!")
+        logger.exception(e)
+
+
 def register_admin(dp: Dispatcher):
     dp.register_message_handler(
         admin_start,
@@ -92,6 +128,12 @@ def register_admin(dp: Dispatcher):
     dp.register_message_handler(
         admin_send_message,
         commands=["send_post"],
+        state="*",
+        is_admin=True
+    )
+    dp.register_message_handler(
+        remove_weather_forecast_img,
+        commands=["remove"],
         state="*",
         is_admin=True
     )

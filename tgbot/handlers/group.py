@@ -1,4 +1,5 @@
 import json
+import os
 from datetime import datetime
 
 from aiogram import Dispatcher
@@ -7,6 +8,7 @@ from aiogram.types import Message
 from loguru import logger
 
 from tgbot.filters.group import GroupChatFilter
+from tgbot.misc.weather_integration.convert_data_to_img import generate_weather_report
 
 
 async def send_congratulation_to_group(msg: Message):
@@ -42,7 +44,46 @@ async def send_congratulation_to_group(msg: Message):
 
 async def start(msg: Message):
     """Bot start handler"""
-    await msg.answer(f"Hello, {msg.from_user.full_name}, Welcome to the group!")
+    await msg.answer(f"Asalomu aleykum, {msg.from_user.first_name}, xush kelibsiz!")
+
+
+async def get_weather_report(message: Message):
+    """
+    Handles the /weather command. Generates a weather report for the given city.
+    Usage: /weather <city>
+    """
+    logger.info(f"User {message.from_user.id} requested weather report")
+    args = message.get_args()
+
+    city = args.strip() if args else "Navoiy"
+    wait = await message.reply(f"Ob-havo ma'lumotlari {city} uchun qidirilmoqda...")
+
+    try:
+        # Check if the city is has weather data available
+        weather_img_name = f'weather_report_{city.capitalize()}_{datetime.today().strftime("%Y-%m-%d")}.png'
+        if os.path.exists(f'tgbot/misc/weather_forecast_img/{weather_img_name}'):
+            with open(f'tgbot/misc/weather_forecast_img/{weather_img_name}', 'rb') as photo:
+                await wait.delete()
+                await message.reply_photo(photo, caption=f"Ob-havo ma'lumotlari {city} uchun, kuningiz xayrli bo'lsin!")
+            return
+
+        # Run the generate_weather_report function asynchronously
+        output_image = await generate_weather_report(
+            location=city.capitalize(),
+            output_image=weather_img_name
+        )
+        if not output_image:
+            await wait.edit_text(f"Ob-havo ma'lumotlari {city} uchun topilmadi.")
+            return
+
+        # Send the generated image back to the user
+        with open(f'tgbot/misc/weather_forecast_img/{output_image}', 'rb') as photo:
+            await wait.delete()
+            await message.reply_photo(photo, caption=f"Ob-havo ma'lumotlari {city} uchun, kuningiz xayrli bo'lsin!")
+
+    except Exception as e:
+        logger.exception("An error occurred while generating the weather report.")
+        await message.reply("Kutilmagan xatolik yuz berdi. Iltimos, keyinroq urinib ko'ring.")
 
 
 def register_manage_chat(dp: Dispatcher):
@@ -50,6 +91,11 @@ def register_manage_chat(dp: Dispatcher):
         start,
         GroupChatFilter(),
         commands=["start"],
+    )
+    dp.register_message_handler(
+        get_weather_report,
+        GroupChatFilter(),
+        commands=["weather"],
     )
     dp.register_message_handler(
         send_congratulation_to_group,

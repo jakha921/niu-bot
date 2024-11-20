@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .weather-forecast {
+      background-color: #3b82f6;
+      color: white;
+      padding: 24px;
+      border-radius: 24px;
+      max-width: 400px;
+      width: 100%;
+    }
+    .weather-forecast h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0;
+    }
+    .weather-forecast h2 {
+      font-size: 20px;
+      margin: 4px 0;
+    }
+    .weather-forecast p {
+      margin: 4px 0;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      margin-bottom: 16px;
+    }
+    .header .icon {
+      opacity: 0.5;
+    }
+    .current-weather {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    .current-weather .temp {
+      display: flex;
+      align-items: center;
+    }
+    .current-weather .temp span {
+      font-size: 56px;
+      font-weight: bold;
+    }
+    .current-weather .temp .icon {
+      margin-left: 8px;
+      font-size: 48px;
+    }
+    .current-weather .details {
+      text-align: right;
+    }
+    .current-weather .details p {
+      margin: 4px 0;
+    }
+    .weather-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      font-size: 14px;
+    }
+    .hourly-forecast {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+    }
+    .hourly-forecast .hour {
+      flex: 1;
+    }
+    .hourly-forecast .hour p {
+      margin: 4px 0;
+    }
+    .hourly-forecast .hour .icon {
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="weather-forecast">
+    <div class="header">
+      <div>
+        <h1>Alisher Navoiy mahalla fuqarolar yig'ini,</h1>
+        <h2>Karmana District</h2>
+        <p>Now 15:09. This time yesterday +16°</p>
+      </div>
+      <div class="icon">✉️</div>
+    </div>
+
+    <div class="current-weather">
+      <div class="temp">
+        <span>+15°</span>
+        <div class="icon">🌤️</div>
+      </div>
+      <div class="details">
+        <p>Partly cloudy</p>
+        <p>Feels like +13°</p>
+      </div>
+    </div>
+
+    <div class="weather-info">
+      <div>2,0 m/s, NW</div>
+      <div>66%</div>
+      <div>734 mmHg</div>
+    </div>
+
+    <div class="hourly-forecast">
+      <div class="hour">
+        <p>15:00</p>
+        <div class="icon">☁️</div>
+        <p>+15°</p>
+      </div>
+      <div class="hour">
+        <p>16:00</p>
+        <div class="icon">☁️</div>
+        <p>+14°</p>
+      </div>
+      <div class="hour">
+        <p>17:00</p>
+        <div class="icon">☁️</div>
+        <p>+13°</p>
+      </div>
+      <div class="hour">
+        <p>17:18</p>
+        <div class="icon">☀️</div>
+        <p>Sunset</p>
+      </div>
+      <div class="hour">
+        <p>18:00</p>
+        <div class="icon">☁️</div>
+        <p>+12°</p>
+      </div>
+      <div class="hour">
+        <p>19:00</p>
+        <div class="icon">☁️</div>
+        <p>+11°</p>
+      </div>
+      <div class="hour">
+        <p>20:00</p>
+        <div class="icon">☁️</div>
+        <p>+10°</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
