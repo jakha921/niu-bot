@@ -1,6 +1,7 @@
 import asyncio
 import os
 
+import jinja2.exceptions
 from html2image import Html2Image
 from jinja2 import Environment, FileSystemLoader
 
@@ -92,8 +93,12 @@ async def generate_weather_report(
     os.makedirs(output_dir, exist_ok=True)
 
     # Load the HTML template
-    env = Environment(loader=FileSystemLoader(template_dir))
-    template = env.get_template(template_path)
+    try:
+        env = Environment(loader=FileSystemLoader(template_dir))
+        template = env.get_template(template_path)
+    except jinja2.exceptions.TemplateNotFound:
+        print(f"Template '{template_path}' not found in '{template_dir}'")
+        return None
 
     # Render the HTML with weather data
     html_content = template.render(
