@@ -2,9 +2,8 @@ from sqlalchemy import (Column, String, BigInteger,
                         insert, update, func, select, text)
 from sqlalchemy.orm import sessionmaker
 
-from tgbot.services.db_base import Base
-
 from tgbot.config import load_config
+from tgbot.services.db_base import Base
 
 # load config from bot.ini file
 config = load_config("bot.ini")
@@ -122,3 +121,16 @@ async def get_list_of_books(db_session: sessionmaker):
         request = await session.execute(sql)
         books = request.fetchall()
     return books
+
+
+async def get_student_which_has_not_passport(db_session: sessionmaker):
+    """
+    Get list of students which has not passport
+    from students table
+    """
+    async with db_session() as session:
+        # Using SQL expression directly with table name 'students' and column 'passport' to get all student data
+        sql = text(f"SELECT * FROM app_student WHERE passport IS NULL")
+        request = await session.execute(sql)
+        students = request.fetchall()
+    return students
