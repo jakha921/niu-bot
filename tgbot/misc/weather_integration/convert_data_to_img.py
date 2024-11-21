@@ -83,21 +83,23 @@ async def generate_weather_report(
     # Define base directory
     base_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # Define paths
-    template_dir = os.path.join(base_dir, 'tgbot', 'misc', 'weather_integration')
-    output_dir = os.path.join(base_dir, 'tgbot', 'misc', 'weather_forecast_img')
-    html_file_path = os.path.join(output_dir, 'weather_report.html')
-    output_image_path = os.path.join(output_dir, output_image)
+    # Define the output directory
+    output_dir = os.path.join(base_dir, 'weather_forecast_img')
 
-    # Ensure output directory exists
+    # Create the output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
 
-    # Load the HTML template
+    # Define the output image path
+    output_image_path = os.path.join(output_dir, output_image)
+
+    # Define the HTML file path
+    html_file_path = os.path.join(base_dir, 'weather_forecast_img', 'weather_report.html')
+    print('html_file_path', '-->', html_file_path)
+
     try:
-        env = Environment(loader=FileSystemLoader(template_dir))
-        template = env.get_template(template_path)
+        template = Environment(loader=FileSystemLoader(base_dir)).get_template(template_path)
     except jinja2.exceptions.TemplateNotFound:
-        print(f"Template '{template_path}' not found in '{template_dir}'")
+        print(f"Template file not found: {template_path}")
         return None
 
     # Render the HTML with weather data
@@ -135,9 +137,10 @@ async def generate_weather_report(
     )
 
     # Generate the screenshot
+    print('hti path', '-->', output_image)
     hti.screenshot(
         html_file=html_file_path,
-        save_as=output_image
+        save_as=output_image.split('/')[-1]
     )
 
     print(f"Weather report saved as {output_image_path}")
@@ -145,7 +148,7 @@ async def generate_weather_report(
     # Clean up the HTML file
     os.remove(html_file_path)
 
-    return output_image_path
+    return os.path.join(output_dir, output_image)
 
 
 if __name__ == '__main__':

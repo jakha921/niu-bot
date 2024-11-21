@@ -88,7 +88,7 @@ async def get_weather_report(message: Message):
             return
 
         # Send the generated image back to the user
-        with open(output_image, 'rb') as photo:
+        with open(f"tgbot/misc/weather_integration/weather_forecast_img/{weather_img_name}", "rb") as photo:
             await wait.delete()
             await message.reply_photo(photo, caption=f"Ob-havo ma'lumotlari {city} uchun, kuningiz xayrli bo'lsin!")
 
