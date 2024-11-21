@@ -71,16 +71,29 @@ async def generate_weather_report(
     :param output_image: Filename for the output image.
     :param scale_factor: Device scale factor for the screenshot.
     :param window_size: Window size for the screenshot.
+    :return: Path to the generated image or None if an error occurred.
     """
     # Fetch weather data
     weather_data = await get_weather_json(location)
     if not weather_data:
         print(f"Failed to get weather data for {location}")
-        return
+        return None
+
+    # Define base directory
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Define paths
+    template_dir = os.path.join(base_dir, 'tgbot', 'misc', 'weather_integration')
+    output_dir = os.path.join(base_dir, 'tgbot', 'misc', 'weather_forecast_img')
+    html_file_path = os.path.join(output_dir, 'weather_report.html')
+    output_image_path = os.path.join(output_dir, output_image)
+
+    # Ensure output directory exists
+    os.makedirs(output_dir, exist_ok=True)
 
     # Load the HTML template
-    env = Environment(loader=FileSystemLoader(''))
-    template = env.get_template(f'tgbot/misc/weather_integration/{template_path}')
+    env = Environment(loader=FileSystemLoader(template_dir))
+    template = env.get_template(template_path)
 
     # Render the HTML with weather data
     html_content = template.render(
@@ -104,8 +117,7 @@ async def generate_weather_report(
     )
 
     # Save the rendered HTML to a file
-    html_file = 'weather_report.html'
-    with open(html_file, 'w', encoding='utf-8') as file:
+    with open(html_file_path, 'w', encoding='utf-8') as file:
         file.write(html_content)
 
     # Initialize Html2Image with custom flags
@@ -114,19 +126,21 @@ async def generate_weather_report(
             f'--force-device-scale-factor={scale_factor}',
             f'--window-size={window_size[0]},{window_size[1]}'
         ],
-        output_path='tgbot/misc/weather_forecast_img'
+        output_path=output_dir
     )
+
     # Generate the screenshot
     hti.screenshot(
-        html_file=html_file,
+        html_file=html_file_path,
         save_as=output_image
     )
 
-    print(f"Weather report saved as {output_image}")
-    # Clean up the HTML file
-    os.remove(html_file)
+    print(f"Weather report saved as {output_image_path}")
 
-    return output_image
+    # Clean up the HTML file
+    os.remove(html_file_path)
+
+    return output_image_path
 
 
 if __name__ == '__main__':
