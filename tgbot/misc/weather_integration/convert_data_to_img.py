@@ -129,6 +129,7 @@ async def generate_weather_report(
 
     hti = Html2Image(
         custom_flags=[
+            '--no-sandbox',
             f'--force-device-scale-factor={scale_factor}',
             f'--window-size={window_size[0]},{window_size[1]}'
         ],
