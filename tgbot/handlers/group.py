@@ -73,21 +73,26 @@ async def get_weather_report(message: Message):
 
         # Check if the image already exists
         if os.path.exists(image_path):
+            logger.info(f"Sending existing weather report image to user: {message.from_user.id}")
             with open(image_path, 'rb') as photo:
                 await wait.delete()
                 await message.reply_photo(photo, caption=f"Ob-havo ma'lumotlari {city} uchun, kuningiz xayrli bo'lsin!")
             return
+        logger.info(f"Weather report image not found: {image_path}")
 
         # Run the generate_weather_report function asynchronously
         output_image = await generate_weather_report(
             location=city.capitalize(),
             output_image=image_path
         )
-        if not output_image or not os.path.exists(image_path):
+        logger.info(f"Generated weather report for {city}")
+        if not os.path.exists(os.path.join(base_dir, 'weather_forecast_img', weather_img_name)) \
+                or not output_image:
             logger.error(f"File was not created: {image_path}")
             await wait.edit_text(f"Ob-havo ma'lumotlari {city} uchun topilmadi.")
             return
 
+        logger.info(f"Sending weather report image to user: {message.from_user.id}")
         # Send the generated image back to the user
         with open(os.path.join(base_dir, 'weather_forecast_img', weather_img_name), 'rb') as photo:
             await wait.delete()

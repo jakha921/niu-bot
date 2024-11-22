@@ -1,8 +1,8 @@
 from datetime import datetime
-from pprint import pprint
 
 import aiohttp
 import pytz
+from loguru import logger
 
 API_KEY = "056aea965aa6404ea93125839242011"
 
@@ -15,6 +15,7 @@ async def fetch_weather(session, city_name):
     :param city_name: Name of the city.
     :return: JSON data with weather information or None in case of an error.
     """
+    logger.info(f"Fetching weather data for {city_name}")
     url = "http://api.weatherapi.com/v1/forecast.json"
     params = {
         "key": API_KEY,
@@ -43,6 +44,7 @@ async def get_weather_json(city_name: str):
     :param city_name: Name of the city.
     :return: Formatted weather data dictionary or None.
     """
+    logger.info(f"Getting weather data for {city_name}")
     async with aiohttp.ClientSession() as session:
         weather_data = await fetch_weather(session, city_name)
         if weather_data:
@@ -58,6 +60,7 @@ def format_weather_data(data):
     :param data: JSON data from WeatherAPI.com.
     :return: Dictionary with formatted data.
     """
+    logger.info("Formatting weather data")
     # pprint(data)
     # print('---------------------------------')
     location = data['location']

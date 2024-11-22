@@ -4,6 +4,7 @@ import os
 import jinja2.exceptions
 from html2image import Html2Image
 from jinja2 import Environment, FileSystemLoader
+from loguru import logger
 
 from tgbot.misc.weather_integration.weather_api import get_weather_json
 
@@ -74,6 +75,7 @@ async def generate_weather_report(
     :param window_size: Window size for the screenshot.
     :return: Path to the generated image or None if an error occurred.
     """
+    logger.info(f"Generating weather report for {location}")
     # Fetch weather data
     weather_data = await get_weather_json(location)
     if not weather_data:
@@ -94,7 +96,6 @@ async def generate_weather_report(
 
     # Define the HTML file path
     html_file_path = os.path.join(output_dir, 'weather_report.html')
-    print('html_file_path', '-->', html_file_path)
 
     try:
         template = Environment(loader=FileSystemLoader(base_dir)).get_template(template_path)
@@ -126,6 +127,7 @@ async def generate_weather_report(
     # Save the rendered HTML to a file
     with open(html_file_path, 'w', encoding='utf-8') as file:
         file.write(html_content)
+        logger.info(f"HTML file saved as {html_file_path}")
 
     # Initialize Html2Image with custom flags
     hti = Html2Image(
@@ -135,6 +137,7 @@ async def generate_weather_report(
         ],
         output_path=output_dir
     )
+    logger.info("Html2Image initialized")
 
     # Generate the screenshot
     print('hti path', '-->', output_image)
@@ -142,11 +145,13 @@ async def generate_weather_report(
         html_file=html_file_path,
         save_as=output_image.split('/')[-1]
     )
+    logger.info("Screenshot generated")
 
     print(f"Weather report saved as {output_image_path}")
 
     # Clean up the HTML file
     os.remove(html_file_path)
+    logger.info("HTML file removed")
 
     return os.path.join(output_dir, output_image)
 
