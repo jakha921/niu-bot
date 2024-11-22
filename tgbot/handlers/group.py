@@ -67,7 +67,8 @@ async def get_weather_report(message: Message):
     try:
         # Construct the image filename
         weather_img_name = f'weather_report_{city.capitalize()}_{datetime.today().strftime("%Y-%m-%d")}.png'
-        base_dir = os.path.join('tgbot', 'misc', 'weather_integration')
+        # base_dir = os.path.join('tgbot', 'misc', 'weather_integration')
+        base_dir = os.path.abspath(os.path.join('tgbot', 'misc', 'weather_integration'))
         image_path = os.path.join('tgbot', 'misc', 'weather_integration', 'weather_forecast_img', weather_img_name)
 
         # Check if the image already exists
@@ -82,13 +83,13 @@ async def get_weather_report(message: Message):
             location=city.capitalize(),
             output_image=image_path
         )
-        if not output_image:
+        if not output_image or not os.path.exists(image_path):
+            logger.error(f"File was not created: {image_path}")
             await wait.edit_text(f"Ob-havo ma'lumotlari {city} uchun topilmadi.")
             return
 
         # Send the generated image back to the user
-        with open(os.path.join(base_dir, 'weather_forecast_img', weather_img_name),
-                  'rb') as photo:
+        with open(os.path.join(base_dir, 'weather_forecast_img', weather_img_name), 'rb') as photo:
             await wait.delete()
             await message.reply_photo(photo, caption=f"Ob-havo ma'lumotlari {city} uchun, kuningiz xayrli bo'lsin!")
 
