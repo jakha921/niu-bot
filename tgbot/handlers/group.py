@@ -12,7 +12,7 @@ from tgbot.misc.weather_integration.convert_data_to_img import generate_weather_
 
 # Define the base directory relative to this script's location
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-IMAGE_DIR = os.path.join(BASE_DIR, 'tgbot', 'misc', 'weather_forecast_img')
+IMAGE_DIR = os.path.join(BASE_DIR, 'tgbot', 'misc', 'weather_integration', 'weather_forecast_img')
 
 
 
@@ -58,6 +58,12 @@ async def get_weather_report(message: Message):
     Usage: /weather <city>
     """
     logger.info(f"User {message.from_user.id} requested weather report")
+
+    # if not from group, return error
+    if message.chat.type not in ['group', 'supergroup']:
+        await message.reply("Bu buyruq faqat guruhda ishlaydi.")
+        return
+
     args = message.get_args()
 
     city = args.strip() if args else "Navoiy"
@@ -88,7 +94,7 @@ async def get_weather_report(message: Message):
             return
 
         # Send the generated image back to the user
-        with open(f"tgbot/misc/weather_integration/weather_forecast_img/{weather_img_name}", "rb") as photo:
+        with open(os.path.join(IMAGE_DIR, weather_img_name), 'rb') as photo:
             await wait.delete()
             await message.reply_photo(photo, caption=f"Ob-havo ma'lumotlari {city} uchun, kuningiz xayrli bo'lsin!")
 
@@ -105,7 +111,7 @@ def register_manage_chat(dp: Dispatcher):
     )
     dp.register_message_handler(
         get_weather_report,
-        GroupChatFilter(),
+        # GroupChatFilter(),
         commands=["weather"],
     )
     dp.register_message_handler(

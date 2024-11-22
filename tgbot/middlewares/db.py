@@ -13,9 +13,7 @@ class DbMiddleware(LifetimeControllerMiddleware):
         # If user not exists in DB, add him/her
         db_session = obj.bot.get('db')
         telegram_user: types.User = obj.from_user
-        print('telegram_user', '-->', obj)
-        if obj.chat.type != 'private':
-            return
+
         user = await TGUser.get_user(db_session=db_session, telegram_id=telegram_user.id)
         if not user:
             await TGUser.add_user(

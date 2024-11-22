@@ -130,7 +130,7 @@ async def get_student_which_has_not_passport(db_session: sessionmaker):
     """
     async with db_session() as session:
         # Using SQL expression directly with table name 'students' and column 'passport' to get all student data
-        sql = text(f"SELECT * FROM app_student WHERE passport IS NULL")
+        sql = text(f"SELECT * FROM telegram_users WHERE passport IS NULL")
         request = await session.execute(sql)
         students = request.fetchall()
     return students
