@@ -76,34 +76,24 @@ async def generate_weather_report(
     :return: Path to the generated image or None if an error occurred.
     """
     logger.info(f"Generating weather report for {location}")
-    # Fetch weather data
     weather_data = await get_weather_json(location)
     if not weather_data:
-        print(f"Failed to get weather data for {location}")
+        logger.error(f"Failed to get weather data for {location}")
         return None
 
-    # Define base directory
-    base_dir = os.path.join('tgbot', 'misc', 'weather_integration')
-
-    # Define the output directory
-    output_dir = os.path.join(base_dir, 'weather_forecast_img')
-
-    # Create the output directory if it doesn't exist
+    base_dir = os.path.abspath('tgbot/misc/weather_integration')
+    output_dir = os.path.abspath(os.path.join(base_dir, 'weather_forecast_img'))
     os.makedirs(output_dir, exist_ok=True)
 
-    # Define the output image path
-    output_image_path = os.path.join(output_dir, output_image)
-
-    # Define the HTML file path
+    output_image_path = os.path.abspath(os.path.join(output_dir, output_image))
     html_file_path = os.path.join(output_dir, 'weather_report.html')
 
     try:
         template = Environment(loader=FileSystemLoader(base_dir)).get_template(template_path)
     except jinja2.exceptions.TemplateNotFound:
-        print(f"Template file not found: {template_path}")
+        logger.error(f"Template file not found: {template_path}")
         return None
 
-    # Render the HTML with weather data
     html_content = template.render(
         location_name=weather_data['location']['name'],
         country=weather_data['location']['country'],
@@ -137,25 +127,22 @@ async def generate_weather_report(
         ],
         output_path=output_dir
     )
-    logger.info("Html2Image initialized")
 
-    # Generate the screenshot
-    hti.screenshot(
-        html_file=html_file_path,
-        save_as=output_image.split('/')[-1]
-    )
-    logger.info(f"Screenshot saved to {output_dir} as {output_image} with {output_image.split('/')[-1]}")
+    try:
+        logger.info(f"Attempting to save screenshot to {output_image_path}")
+        hti.screenshot(
+            html_file=html_file_path,
+            save_as=os.path.basename(output_image_path)
+        )
+        if not os.path.exists(output_image_path):
+            logger.error(f"Screenshot not created: {output_image_path}")
+            return None
+    finally:
+        os.remove(html_file_path)
+        logger.info(f"HTML file removed: {html_file_path}")
 
-    # check if the image was created
-    logger.info(f"Checking if the image was created: {os.path.join(output_dir, output_image)}")
-    if not os.path.exists(os.path.join(output_dir, output_image)):
-        logger.error(f"File was not created: {output_image}")
-
-    # Clean up the HTML file
-    os.remove(html_file_path)
-    logger.info(f"HTML file removed: {html_file_path}")
-
-    return os.path.join(output_dir, output_image)
+    logger.info(f"Weather report image created at {output_image_path}")
+    return output_image_path
 
 
 if __name__ == '__main__':
