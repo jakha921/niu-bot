@@ -140,18 +140,20 @@ async def generate_weather_report(
     logger.info("Html2Image initialized")
 
     # Generate the screenshot
-    print('hti path', '-->', output_image)
     hti.screenshot(
         html_file=html_file_path,
         save_as=output_image.split('/')[-1]
     )
-    logger.info("Screenshot generated")
+    logger.info(f"Screenshot saved to {output_dir} as {output_image} with {output_image.split('/')[-1]}")
 
-    print(f"Weather report saved as {output_image_path}")
+    # check if the image was created
+    logger.info(f"Checking if the image was created: {os.path.join(output_dir, output_image)}")
+    if not os.path.exists(os.path.join(output_dir, output_image)):
+        logger.error(f"File was not created: {output_image}")
 
     # Clean up the HTML file
     os.remove(html_file_path)
-    logger.info("HTML file removed")
+    logger.info(f"HTML file removed: {html_file_path}")
 
     return os.path.join(output_dir, output_image)
 
