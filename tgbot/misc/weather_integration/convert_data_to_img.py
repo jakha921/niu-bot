@@ -85,15 +85,19 @@ async def generate_weather_report(
     output_dir = os.path.abspath(os.path.join(base_dir, 'weather_forecast_img'))
     os.makedirs(output_dir, exist_ok=True)
 
-    output_image_path = os.path.abspath(os.path.join(output_dir, output_image))
+    # Correctly construct the full output path
+    output_image_filename = os.path.basename(output_image)
+    output_image_path = os.path.join(output_dir, output_image_filename)
     html_file_path = os.path.join(output_dir, 'weather_report.html')
 
     try:
+        # Load the HTML template
         template = Environment(loader=FileSystemLoader(base_dir)).get_template(template_path)
     except jinja2.exceptions.TemplateNotFound:
         logger.error(f"Template file not found: {template_path}")
         return None
 
+    # Render the HTML with weather data
     html_content = template.render(
         location_name=weather_data['location']['name'],
         country=weather_data['location']['country'],
@@ -119,14 +123,7 @@ async def generate_weather_report(
         file.write(html_content)
         logger.info(f"HTML file saved as {html_file_path}")
 
-    # Initialize Html2Image with custom flags
-    # Define absolute output directory and image path
-    output_dir = os.path.abspath(os.path.join(base_dir, 'weather_forecast_img'))
-    os.makedirs(output_dir, exist_ok=True)
-
-    # Ensure save_as is a filename, not a full path
-    output_image_filename = os.path.basename(output_image)
-
+    # Initialize Html2Image with the correct flags
     hti = Html2Image(
         custom_flags=[
             '--no-sandbox',
@@ -137,17 +134,20 @@ async def generate_weather_report(
     )
 
     try:
+        # Generate the screenshot
         logger.info(f"Attempting to save screenshot to {output_image_path}")
         hti.screenshot(
             html_file=html_file_path,
-            save_as=output_image_filename
+            save_as=output_image_filename  # Use only the filename here
         )
         if not os.path.exists(output_image_path):
             logger.error(f"Screenshot not created: {output_image_path}")
             return None
     finally:
-        os.remove(html_file_path)
-        logger.info(f"HTML file removed: {html_file_path}")
+        # Clean up the HTML file
+        if os.path.exists(html_file_path):
+            os.remove(html_file_path)
+            logger.info(f"HTML file removed: {html_file_path}")
 
     logger.info(f"Weather report image created at {output_image_path}")
     return output_image_path
