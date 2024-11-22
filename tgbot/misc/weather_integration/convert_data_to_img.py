@@ -81,7 +81,7 @@ async def generate_weather_report(
         return None
 
     # Define base directory
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.join('tgbot', 'misc', 'weather_integration')
 
     # Define the output directory
     output_dir = os.path.join(base_dir, 'weather_forecast_img')
@@ -93,7 +93,7 @@ async def generate_weather_report(
     output_image_path = os.path.join(output_dir, output_image)
 
     # Define the HTML file path
-    html_file_path = os.path.join(base_dir, 'weather_forecast_img', 'weather_report.html')
+    html_file_path = os.path.join(output_dir, 'weather_report.html')
     print('html_file_path', '-->', html_file_path)
 
     try:
