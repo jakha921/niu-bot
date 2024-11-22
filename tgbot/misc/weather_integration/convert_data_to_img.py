@@ -120,6 +120,13 @@ async def generate_weather_report(
         logger.info(f"HTML file saved as {html_file_path}")
 
     # Initialize Html2Image with custom flags
+    # Define absolute output directory and image path
+    output_dir = os.path.abspath(os.path.join(base_dir, 'weather_forecast_img'))
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Ensure save_as is a filename, not a full path
+    output_image_filename = os.path.basename(output_image)
+
     hti = Html2Image(
         custom_flags=[
             f'--force-device-scale-factor={scale_factor}',
@@ -132,7 +139,7 @@ async def generate_weather_report(
         logger.info(f"Attempting to save screenshot to {output_image_path}")
         hti.screenshot(
             html_file=html_file_path,
-            save_as=os.path.basename(output_image_path)
+            save_as=output_image_filename
         )
         if not os.path.exists(output_image_path):
             logger.error(f"Screenshot not created: {output_image_path}")
