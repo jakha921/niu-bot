@@ -67,9 +67,10 @@ async def get_weather_report(message: Message):
     try:
         # Construct the image filename
         weather_img_name = f'weather_report_{city.capitalize()}_{datetime.today().strftime("%Y-%m-%d")}.png'
-        # base_dir = os.path.join('tgbot', 'misc', 'weather_integration')
-        base_dir = os.path.abspath(os.path.join('tgbot', 'misc', 'weather_integration'))
-        image_path = os.path.join('tgbot', 'misc', 'weather_integration', 'weather_forecast_img', weather_img_name)
+        # base_dir = os.path.abspath(os.path.join('tgbot', 'misc', 'weather_integration'))
+        base_dir = "./tgbot/misc/weather_integration"
+        # image_path = os.path.join('tgbot', 'misc', 'weather_integration', 'weather_forecast_img', weather_img_name)
+        image_path = f"{base_dir}/weather_forecast_img/{weather_img_name}"
 
         # Check if the image already exists
         if os.path.exists(image_path):
@@ -81,20 +82,19 @@ async def get_weather_report(message: Message):
         logger.info(f"Weather report image not found: {image_path}")
 
         # Run the generate_weather_report function asynchronously
-        output_image = await generate_weather_report(
+        is_created_img = await generate_weather_report(
             location=city.capitalize(),
-            output_image=image_path
+            output_image_name=weather_img_name
         )
         logger.info(f"Generated weather report for {city}")
-        if not os.path.exists(os.path.join(base_dir, 'weather_forecast_img', weather_img_name)) \
-                or not output_image:
+        if not os.path.exists(f"{base_dir}/weather_forecast_img/{weather_img_name}") and is_created_img!=True:
             logger.error(f"File was not created: {image_path}")
             await wait.edit_text(f"Ob-havo ma'lumotlari {city} uchun topilmadi.")
             return
 
         logger.info(f"Sending weather report image to user: {message.from_user.id}")
         # Send the generated image back to the user
-        with open(os.path.join(base_dir, 'weather_forecast_img', weather_img_name), 'rb') as photo:
+        with open(f"{base_dir}/weather_forecast_img/{weather_img_name}", 'rb') as photo:
             await wait.delete()
             await message.reply_photo(photo, caption=f"Ob-havo ma'lumotlari {city} uchun, kuningiz xayrli bo'lsin!")
 

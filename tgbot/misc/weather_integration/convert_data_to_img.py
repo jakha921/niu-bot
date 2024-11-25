@@ -1,5 +1,6 @@
 import asyncio
 import os
+from datetime import datetime
 
 import jinja2.exceptions
 from html2image import Html2Image
@@ -62,7 +63,7 @@ translation_text = {
 async def generate_weather_report(
         location: str,
         template_path: str = 'template.html',
-        output_image: str = 'weather_report.png',
+        output_image_name: str = f'weather_report_{datetime.today().strftime("%Y-%m-%d")}.png',
         scale_factor: int = 5,
         window_size: tuple = (520, 420)):
     """
@@ -70,7 +71,7 @@ async def generate_weather_report(
 
     :param location: Name of the location for the weather report.
     :param template_path: Path to the HTML template file.
-    :param output_image: Filename for the output image.
+    :param output_image_name: Filename for the output image.
     :param scale_factor: Device scale factor for the screenshot.
     :param window_size: Window size for the screenshot.
     :return: Path to the generated image or None if an error occurred.
@@ -81,14 +82,17 @@ async def generate_weather_report(
         logger.error(f"Failed to get weather data for {location}")
         return None
 
-    base_dir = os.path.abspath('tgbot/misc/weather_integration')
-    output_dir = os.path.abspath(os.path.join(base_dir, 'weather_forecast_img'))
+    # base_dir = os.path.abspath('tgbot/misc/weather_integration')
+    base_dir = "./tgbot/misc/weather_integration"
+    # output_dir = os.path.abspath(os.path.join(base_dir, 'weather_forecast_img'))
+    output_dir = f"{base_dir}/weather_forecast_img"
     os.makedirs(output_dir, exist_ok=True)
 
     # Correctly construct the full output path
-    output_image_filename = os.path.basename(output_image)
-    output_image_path = os.path.join(output_dir, output_image_filename)
-    html_file_path = os.path.join(output_dir, 'weather_report.html')
+    # output_image_filename = os.path.basename(output_image)
+    # output_image_path = f"{output_dir}/{output_image_name}"
+    # html_file_path = os.path.join(output_dir, 'weather_report.html')
+    html_file_path = f"{output_dir}/weather_report.html"
 
     try:
         # Load the HTML template
@@ -135,13 +139,13 @@ async def generate_weather_report(
 
     try:
         # Generate the screenshot
-        logger.info(f"Attempting to save screenshot to {output_image_path}")
+        logger.info(f"Attempting to save screenshot to {output_dir}")
         hti.screenshot(
             html_file=html_file_path,
-            save_as=output_image_filename  # Use only the filename here
+            save_as=output_image_name
         )
-        if not os.path.exists(output_image_path):
-            logger.error(f"Screenshot not created: {output_image_path}")
+        if not os.path.exists(f"{output_dir}/{output_image_name}"):
+            logger.error(f"Screenshot not saved on disk: {output_dir}/{output_image_name}")
             return None
     finally:
         # Clean up the HTML file
@@ -149,8 +153,8 @@ async def generate_weather_report(
             os.remove(html_file_path)
             logger.info(f"HTML file removed: {html_file_path}")
 
-    logger.info(f"Weather report image created at {output_image_path}")
-    return output_image_path
+    logger.info(f"Weather report image created at {output_image_name}")
+    return True
 
 
 if __name__ == '__main__':
