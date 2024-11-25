@@ -60,12 +60,15 @@ translation_text = {
 }
 
 
-async def generate_weather_report(
+async def   generate_weather_report(
         location: str,
         template_path: str = 'template.html',
         output_image_name: str = f'weather_report_{datetime.today().strftime("%Y-%m-%d")}.png',
-        scale_factor: int = 5,
-        window_size: tuple = (520, 420)):
+        # scale_factor: int = 5,
+        # window_size: tuple = (520, 420)):
+
+        scale_factor: int = 1,
+        window_size: tuple = (1200, 1000)):
     """
     Asynchronously generates a weather report image for a specified location.
 
@@ -147,6 +150,9 @@ async def generate_weather_report(
         if not os.path.exists(f"{output_dir}/{output_image_name}"):
             logger.error(f"Screenshot not saved on disk: {output_dir}/{output_image_name}")
             return None
+    except Exception as e:
+        logger.exception(f"An error occurred while generating the weather report image. {e}")
+        return None
     finally:
         # Clean up the HTML file
         if os.path.exists(html_file_path):
