@@ -60,15 +60,12 @@ translation_text = {
 }
 
 
-async def   generate_weather_report(
+async def generate_weather_report(
         location: str,
         template_path: str = 'template.html',
         output_image_name: str = f'weather_report_{datetime.today().strftime("%Y-%m-%d")}.png',
-        # scale_factor: int = 5,
-        # window_size: tuple = (520, 420)):
-
-        scale_factor: int = 1,
-        window_size: tuple = (1200, 1000)):
+        scale_factor: int = 5,
+        window_size: tuple = (520, 420)):
     """
     Asynchronously generates a weather report image for a specified location.
 
@@ -85,16 +82,10 @@ async def   generate_weather_report(
         logger.error(f"Failed to get weather data for {location}")
         return None
 
-    # base_dir = os.path.abspath('tgbot/misc/weather_integration')
     base_dir = "./tgbot/misc/weather_integration"
-    # output_dir = os.path.abspath(os.path.join(base_dir, 'weather_forecast_img'))
     output_dir = f"{base_dir}/weather_forecast_img"
     os.makedirs(output_dir, exist_ok=True)
 
-    # Correctly construct the full output path
-    # output_image_filename = os.path.basename(output_image)
-    # output_image_path = f"{output_dir}/{output_image_name}"
-    # html_file_path = os.path.join(output_dir, 'weather_report.html')
     html_file_path = f"{output_dir}/weather_report.html"
 
     try:
