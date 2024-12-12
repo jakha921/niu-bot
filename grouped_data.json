@@ -2,359 +2,538 @@
     "01": {
         "01": [
             {
-                "first_name": "MAMAZARIF",
-                "last_name": "ELMURADOV",
-                "middle_name": "XUDAYBERDIYEVICH",
-                "dob": "01.01.1968",
-                "age": 56
-            },
-            {
-                "first_name": "FERUZA",
-                "last_name": "FAYZIYEVA",
-                "middle_name": "ISMATILLAYEVNA",
-                "dob": "01.01.1986",
-                "age": 38
-            },
-            {
-                "first_name": "MATLUBA",
-                "last_name": "TOJIYEVA",
-                "middle_name": "MAHMUD QIZI",
+                "first_name": "Matluba",
+                "last_name": "Tojiyeva",
+                "middle_name": "Mahmud",
                 "dob": "01.01.1994",
                 "age": 30
             }
         ],
         "02": [
             {
-                "first_name": "GULRUH",
-                "last_name": "JABBOROVA",
-                "middle_name": "JABBOROVNA",
+                "first_name": "Gulruh",
+                "last_name": "Jabborova",
+                "middle_name": null,
                 "dob": "01.02.1995",
                 "age": 29
             }
         ],
         "03": [
             {
-                "first_name": "NILUFAR",
-                "last_name": "JUMAYEVA",
-                "middle_name": "FARMONOVNA",
-                "dob": "01.03.1976",
-                "age": 48
+                "first_name": "Muxammad",
+                "last_name": "Avazov",
+                "middle_name": "Mamayusuf",
+                "dob": "01.03.1997",
+                "age": 27
             },
             {
-                "first_name": "AKTAM",
-                "last_name": "BERDIYEV",
-                "middle_name": "KAMOLOVICH",
+                "first_name": "Aktam",
+                "last_name": "Berdiyev",
+                "middle_name": "Kamolovich",
                 "dob": "01.03.1978",
                 "age": 46
             }
         ],
+        "04": [
+            {
+                "first_name": "Adolat",
+                "last_name": "Egamova",
+                "middle_name": null,
+                "dob": "01.04.1979",
+                "age": 45
+            }
+        ],
         "05": [
             {
-                "first_name": "G‘ULOM",
-                "last_name": "ABDURAXMANOV",
-                "middle_name": "ERKINOVICH",
+                "first_name": "Gʻulom",
+                "last_name": "Abdurahmonov",
+                "middle_name": "Erkinovich",
                 "dob": "01.05.1970",
                 "age": 54
+            },
+            {
+                "first_name": "Azizbek",
+                "last_name": "Toshmatov",
+                "middle_name": "Ne'matjon",
+                "dob": "01.05.2007",
+                "age": 17
             }
         ],
         "06": [
             {
-                "first_name": "NODIRJON",
-                "last_name": "ATAULLAYEV",
-                "middle_name": "ODILOVICH",
+                "first_name": "Ravshan",
+                "last_name": "Allayorov",
+                "middle_name": "Muzaffarovich",
+                "dob": "01.06.1992",
+                "age": 32
+            },
+            {
+                "first_name": "Nodir",
+                "last_name": "Ataullayev",
+                "middle_name": "Odilovich",
                 "dob": "01.06.1982",
                 "age": 42
-            }
-        ],
-        "07": [
+            },
             {
-                "first_name": "DANILA",
-                "last_name": "TIKUNOV",
-                "middle_name": "GENNADEVICH",
-                "dob": "01.07.1990",
-                "age": 34
+                "first_name": "Asadbek",
+                "last_name": "Shodiqulov",
+                "middle_name": "Mexriqulovich",
+                "dob": "01.06.2000",
+                "age": 24
             }
         ],
         "09": [
             {
-                "first_name": "RASHID",
-                "last_name": "SHAMURADOV",
-                "middle_name": "SAYFIYEVICH",
-                "dob": "01.09.1952",
-                "age": 72
+                "first_name": "Manzura",
+                "last_name": "Alimova",
+                "middle_name": "Axmet",
+                "dob": "01.09.1993",
+                "age": 31
             },
             {
-                "first_name": "KAMOLIDDIN",
-                "last_name": "KADIROV",
-                "middle_name": "NAMOZOVICH",
-                "dob": "01.09.1965",
-                "age": 59
+                "first_name": "A'zam",
+                "last_name": "Azizov",
+                "middle_name": null,
+                "dob": "01.09.1993",
+                "age": 31
+            },
+            {
+                "first_name": "Kamoliddin",
+                "last_name": "Kadirov",
+                "middle_name": "Namozovich",
+                "dob": "01.09.2065",
+                "age": -41
+            },
+            {
+                "first_name": "Rashid",
+                "last_name": "Shomurodov",
+                "middle_name": "Sayfiyevich",
+                "dob": "01.09.2052",
+                "age": -28
+            },
+            {
+                "first_name": "Saodat",
+                "last_name": "Xudoyorova",
+                "middle_name": "Nurillayevna",
+                "dob": "01.09.1998",
+                "age": 26
             }
         ],
         "10": [
             {
-                "first_name": "BAXTIYOR",
-                "last_name": "UNGAROV",
-                "middle_name": "XAYITOVICH",
-                "dob": "01.10.1961",
-                "age": 63
-            },
-            {
-                "first_name": "ZEBINISO",
-                "last_name": "NORQULOVA",
-                "middle_name": "HAMZA QIZI",
+                "first_name": "Zebiniso",
+                "last_name": "Norqulova",
+                "middle_name": "Hamza",
                 "dob": "01.10.1997",
                 "age": 27
+            },
+            {
+                "first_name": "Iroda",
+                "last_name": "Toʻqmirzayeva",
+                "middle_name": "Ismatovna",
+                "dob": "01.10.2001",
+                "age": 23
+            },
+            {
+                "first_name": "Baxtiyor",
+                "last_name": "Ungarov",
+                "middle_name": "Hayitovich",
+                "dob": "01.10.2061",
+                "age": -37
+            },
+            {
+                "first_name": "Baxtiyor",
+                "last_name": "Ungarov",
+                "middle_name": "Hayitovich",
+                "dob": "01.10.2061",
+                "age": -37
             }
         ]
     },
     "02": {
         "01": [
             {
-                "first_name": "UMIDA",
-                "last_name": "BAXODIROVA",
-                "middle_name": "BAXODIROVNA",
+                "first_name": "Umida",
+                "last_name": "Baxodirova",
+                "middle_name": "Baxodirovna",
                 "dob": "02.01.1983",
                 "age": 41
             }
         ],
-        "02": [
+        "04": [
             {
-                "first_name": "CHAROSXON",
-                "last_name": "TO‘RAYEVA",
-                "middle_name": "SHAVKAT QIZI",
-                "dob": "02.02.1999",
-                "age": 25
+                "first_name": "Bekzod",
+                "last_name": "Usmonov",
+                "middle_name": "Saydullayevich",
+                "dob": "02.04.1985",
+                "age": 39
             }
         ],
         "05": [
             {
-                "first_name": "BEKMUROT",
-                "last_name": "XUSHVAKTOV",
-                "middle_name": "NORMURODOVICH",
+                "first_name": "Malika",
+                "last_name": "Abdihakimova",
+                "middle_name": "Amir",
+                "dob": "02.05.1994",
+                "age": 30
+            },
+            {
+                "first_name": "Bekmurod",
+                "last_name": "Xushvaqtov",
+                "middle_name": "Normurodovich",
                 "dob": "02.05.1984",
                 "age": 40
             }
         ],
         "06": [
             {
-                "first_name": "SEVARA",
-                "last_name": "ORTIQOVA",
-                "middle_name": "ISMOILOVNA",
+                "first_name": "Sevara",
+                "last_name": "Ortiqova",
+                "middle_name": "Ismoilovna",
                 "dob": "02.06.1990",
                 "age": 34
             }
         ],
         "07": [
             {
-                "first_name": "DINARA",
-                "last_name": "ARAPBAYEVA",
-                "middle_name": "KURBANOVNA",
+                "first_name": "Dinara",
+                "last_name": "Arapbayeva",
+                "middle_name": "Kurbanovna",
                 "dob": "02.07.1976",
                 "age": 48
             }
         ],
+        "08": [
+            {
+                "first_name": "Shaxnoza",
+                "last_name": "Axmedova",
+                "middle_name": "Xusen",
+                "dob": "02.08.2002",
+                "age": 22
+            }
+        ],
+        "09": [
+            {
+                "first_name": "Dilfuza",
+                "last_name": "Yarasheva",
+                "middle_name": "Ravshanovna",
+                "dob": "02.09.1987",
+                "age": 37
+            }
+        ],
         "11": [
             {
-                "first_name": "KOMILJON",
-                "last_name": "NURMANOV",
-                "middle_name": "NURIDDIN O‘G‘LI",
+                "first_name": "Komiljon",
+                "last_name": "Nurmanov",
+                "middle_name": "Nuriddin",
                 "dob": "02.11.1992",
                 "age": 32
+            },
+            {
+                "first_name": "Albina",
+                "last_name": "Raxmonova",
+                "middle_name": null,
+                "dob": "02.11.2067",
+                "age": -43
+            }
+        ],
+        "12": [
+            {
+                "first_name": "Jonibek",
+                "last_name": "Axmadov",
+                "middle_name": "Otabek",
+                "dob": "02.12.1999",
+                "age": 25
             }
         ]
     },
     "03": {
         "01": [
             {
-                "first_name": "FARXOD",
-                "last_name": "RAJABOV",
-                "middle_name": "XAZRATOVICH",
-                "dob": "03.01.1965",
-                "age": 59
-            },
-            {
-                "first_name": "E’ZOZA",
-                "last_name": "QILICHOVA",
-                "middle_name": "XOLPO‘LAT QIZI",
+                "first_name": "E'zoza",
+                "last_name": "Qilichova",
+                "middle_name": "Xolpo'latovna",
                 "dob": "03.01.2000",
                 "age": 24
             }
         ],
-        "04": [
+        "03": [
             {
-                "first_name": "MAFTUNA",
-                "last_name": "MIRZAQULOVA",
-                "middle_name": "MUZAFAROVNA",
-                "dob": "03.04.2000",
-                "age": 24
-            }
-        ],
-        "05": [
-            {
-                "first_name": "SHAHNOZA",
-                "last_name": "KARSHIYEVA",
-                "middle_name": "TURAKULOVNA",
-                "dob": "03.05.1987",
-                "age": 37
+                "first_name": "Abror",
+                "last_name": "Safarov",
+                "middle_name": "Abduraxmonovich",
+                "dob": "03.03.1981",
+                "age": 43
             }
         ],
         "06": [
             {
-                "first_name": "LOBAR",
-                "last_name": "HASANOVA",
-                "middle_name": "YUSUF QIZI",
+                "first_name": "Lobar",
+                "last_name": "Hasanova",
+                "middle_name": "Yusuf",
                 "dob": "03.06.1993",
                 "age": 31
             }
         ],
+        "09": [
+            {
+                "first_name": "Maria",
+                "last_name": "Ivanova",
+                "middle_name": null,
+                "dob": "03.09.1985",
+                "age": 39
+            },
+            {
+                "first_name": "Zebinisso",
+                "last_name": "Axmedova",
+                "middle_name": "Nurliboyevna",
+                "dob": "03.09.1985",
+                "age": 39
+            }
+        ],
         "10": [
             {
-                "first_name": "HUSNIYA",
-                "last_name": "SATTOROVA",
-                "middle_name": "TO‘YIBOYEVNA",
+                "first_name": "Husniya",
+                "last_name": "Sattorova",
+                "middle_name": null,
                 "dob": "03.10.1977",
                 "age": 47
             }
         ],
-        "12": [
+        "11": [
             {
-                "first_name": "UMIDAXON",
-                "last_name": "RAJABOVA",
-                "middle_name": "ULUG‘BEKOVNA",
-                "dob": "03.12.1986",
-                "age": 38
+                "first_name": "Dilshoda",
+                "last_name": "Qambarova",
+                "middle_name": "Ravshanovna",
+                "dob": "03.11.1979",
+                "age": 45
             }
         ]
     },
     "04": {
         "01": [
             {
-                "first_name": "OLIM",
-                "last_name": "ABRALOV",
-                "middle_name": "SOBIROVICH",
+                "first_name": "Olim",
+                "last_name": "Abralov",
+                "middle_name": "Sobirovich",
                 "dob": "04.01.1986",
                 "age": 38
             }
         ],
         "02": [
             {
-                "first_name": "MALOHAT",
-                "last_name": "TO‘QBOYEVA",
-                "middle_name": "BAHODIROVNA",
+                "first_name": "Malohat",
+                "last_name": "To'qboyeva",
+                "middle_name": "Bahodirovna",
                 "dob": "04.02.1981",
                 "age": 43
             }
         ],
-        "06": [
+        "03": [
             {
-                "first_name": "MAXMUD",
-                "last_name": "RAVSHANOV",
-                "middle_name": "XXX",
-                "dob": "04.06.1948",
-                "age": 76
+                "first_name": "Xurshida",
+                "last_name": "Aminova",
+                "middle_name": "Hamdullo",
+                "dob": "04.03.1998",
+                "age": 26
+            }
+        ],
+        "04": [
+            {
+                "first_name": "Temur",
+                "last_name": "Hasanov",
+                "middle_name": "Abdimurod",
+                "dob": "04.04.1990",
+                "age": 34
+            },
+            {
+                "first_name": "Maxfuza",
+                "last_name": "Yuliyeva",
+                "middle_name": "Olim",
+                "dob": "04.04.1998",
+                "age": 26
+            },
+            {
+                "first_name": "Mahfuza",
+                "last_name": "Yuliyeva",
+                "middle_name": null,
+                "dob": "04.04.1998",
+                "age": 26
+            }
+        ],
+        "05": [
+            {
+                "first_name": "Abdumalik",
+                "last_name": "Axmatov",
+                "middle_name": "Abduvahob",
+                "dob": "04.05.1993",
+                "age": 31
             }
         ],
         "07": [
             {
-                "first_name": "MALIKA",
-                "last_name": "QAHHAROVA",
-                "middle_name": "LUTFILLA QIZI",
+                "first_name": "Malika",
+                "last_name": "Qahhorova",
+                "middle_name": "Lutfullayevna",
                 "dob": "04.07.1996",
                 "age": 28
             }
         ],
         "08": [
             {
-                "first_name": "UMIDA",
-                "last_name": "BAZAROVA",
-                "middle_name": "MAMURJANOVNA",
-                "dob": "04.08.1985",
-                "age": 39
-            },
-            {
-                "first_name": "RAYHON",
-                "last_name": "NARMURADOVA",
-                "middle_name": "UKTAMOVNA",
+                "first_name": "Rayxon",
+                "last_name": "Narmuradova",
+                "middle_name": "O'ktamovna",
                 "dob": "04.08.1992",
                 "age": 32
+            },
+            {
+                "first_name": "Ikromjon",
+                "last_name": "Shodiyev",
+                "middle_name": "Islom",
+                "dob": "04.08.1998",
+                "age": 26
+            }
+        ],
+        "09": [
+            {
+                "first_name": "Kamola",
+                "last_name": "Karimova",
+                "middle_name": "Shomuratovna",
+                "dob": "04.09.1987",
+                "age": 37
             }
         ],
         "10": [
             {
-                "first_name": "AZIZJON",
-                "last_name": "BOBOYEV",
-                "middle_name": "AZIMJONOVICH",
+                "first_name": "Azizjon",
+                "last_name": "Boboyev",
+                "middle_name": "Azimjonovich",
                 "dob": "04.10.1988",
                 "age": 36
             }
         ],
+        "11": [
+            {
+                "first_name": "Islom",
+                "last_name": "Karimov",
+                "middle_name": "G`ulom",
+                "dob": "04.11.1995",
+                "age": 29
+            },
+            {
+                "first_name": "Islom",
+                "last_name": "Karimov",
+                "middle_name": "G'ulom",
+                "dob": "04.11.1995",
+                "age": 29
+            }
+        ],
         "12": [
             {
-                "first_name": "MUHTABAR",
-                "last_name": "SANOYEVA",
-                "middle_name": "NABIYEVNA",
+                "first_name": "Mexrigul",
+                "last_name": "Najmiddinova",
+                "middle_name": "Najmiddin",
+                "dob": "04.12.1993",
+                "age": 31
+            },
+            {
+                "first_name": "Muxtabar",
+                "last_name": "Sanoyeva",
+                "middle_name": "Nabiyevna",
                 "dob": "04.12.1980",
                 "age": 44
             }
         ]
     },
     "05": {
+        "01": [
+            {
+                "first_name": "Ravshan",
+                "last_name": "Sharipov",
+                "middle_name": "Olimovich",
+                "dob": "05.01.1974",
+                "age": 50
+            }
+        ],
         "03": [
             {
-                "first_name": "OYDIN",
-                "last_name": "AMANBAYEVA",
-                "middle_name": "URAZALI QIZI",
+                "first_name": "Oydin",
+                "last_name": "Amanbayeva",
+                "middle_name": "Urazali",
                 "dob": "05.03.1993",
                 "age": 31
+            },
+            {
+                "first_name": "Dilfuza",
+                "last_name": "Beknazarova",
+                "middle_name": "G'ayratovna",
+                "dob": "05.03.1986",
+                "age": 38
+            }
+        ],
+        "04": [
+            {
+                "first_name": "Dilfuza",
+                "last_name": "Sherbekova",
+                "middle_name": "Asadovna",
+                "dob": "05.04.1971",
+                "age": 53
+            }
+        ],
+        "05": [
+            {
+                "first_name": "Sanobar",
+                "last_name": "Raximova",
+                "middle_name": "Karimovna",
+                "dob": "05.05.1977",
+                "age": 47
             }
         ],
         "06": [
             {
-                "first_name": "ZULXUMOR",
-                "last_name": "MIRZAYEVA",
-                "middle_name": "ABDUKAXOR QIZI",
+                "first_name": "Zulxumor",
+                "last_name": "Mirzayeva",
+                "middle_name": "Abduqahhor",
                 "dob": "05.06.1990",
                 "age": 34
-            },
-            {
-                "first_name": "NAFOSAT",
-                "last_name": "XAKIMOVA",
-                "middle_name": "SOLIJON QIZI",
-                "dob": "05.06.1996",
-                "age": 28
-            }
-        ],
-        "08": [
-            {
-                "first_name": "NASIBA",
-                "last_name": "YULDASHEVA",
-                "middle_name": "IBRAGIMOVNA",
-                "dob": "05.08.1985",
-                "age": 39
             }
         ],
         "10": [
             {
-                "first_name": "SURAYYO",
-                "last_name": "SANAYEVA",
-                "middle_name": "BOBONAZAROVNA",
+                "first_name": "Akmal",
+                "last_name": "Asatov",
+                "middle_name": "Ismatovich",
                 "dob": "05.10.1981",
                 "age": 43
             },
             {
-                "first_name": "GULNORA",
-                "last_name": "MAVLONOVA",
-                "middle_name": "ABDIG‘ANI QIZI",
+                "first_name": "Gulnora",
+                "last_name": "Mavlonova",
+                "middle_name": "Abdug'aniyevna",
                 "dob": "05.10.1993",
                 "age": 31
+            },
+            {
+                "first_name": "Ma'mura",
+                "last_name": "To'rayeva",
+                "middle_name": null,
+                "dob": "05.10.1991",
+                "age": 33
             }
         ],
         "11": [
             {
-                "first_name": "UMIDA",
-                "last_name": "UMURZAQOVA",
-                "middle_name": "NOSIRJONOVNA",
+                "first_name": "Umida",
+                "last_name": "Umrzoqova",
+                "middle_name": "Nosirjonovna",
+                "dob": "05.11.1980",
+                "age": 44
+            },
+            {
+                "first_name": "Umida",
+                "last_name": "Umurzaqova",
+                "middle_name": "Nosirjanovna",
                 "dob": "05.11.1980",
                 "age": 44
             }
@@ -363,92 +542,163 @@
     "06": {
         "02": [
             {
-                "first_name": "NARGIZA",
-                "last_name": "BERDIQULOVA",
-                "middle_name": "NAJMIDDIN QIZI",
+                "first_name": "Nargiza",
+                "last_name": "Berdiqulova",
+                "middle_name": "Najmiddin",
                 "dob": "06.02.1994",
                 "age": 30
+            },
+            {
+                "first_name": "Rustam",
+                "last_name": "Ikromov",
+                "middle_name": "Islomovich",
+                "dob": "06.02.1985",
+                "age": 39
+            },
+            {
+                "first_name": "Dilnora",
+                "last_name": "Axmedova",
+                "middle_name": null,
+                "dob": "06.02.1995",
+                "age": 29
             }
         ],
         "03": [
             {
-                "first_name": "ZILOLA",
-                "last_name": "SHARIPOVA",
-                "middle_name": "SHOKIRJONOVNA",
+                "first_name": "Zilola",
+                "last_name": "Sharipova",
+                "middle_name": "Shokirjonovna",
                 "dob": "06.03.1992",
                 "age": 32
             }
         ],
         "04": [
             {
-                "first_name": "SOBIR",
-                "last_name": "ESHBOLTAYEV",
-                "middle_name": "TO‘RAQULOVICH",
+                "first_name": "Sobir",
+                "last_name": "Eshboltayev",
+                "middle_name": "To'raqulovich",
                 "dob": "06.04.1993",
                 "age": 31
             }
         ],
-        "05": [
-            {
-                "first_name": "SHAXNOZA",
-                "last_name": "XOLIKULOVA",
-                "middle_name": "BOYMUXAMMATOVNA",
-                "dob": "06.05.1983",
-                "age": 41
-            }
-        ],
         "06": [
             {
-                "first_name": "LAYLO",
-                "last_name": "RAXMATULLAYEVA",
-                "middle_name": "BAXTIYOR QIZI",
+                "first_name": "Laylo",
+                "last_name": "Raxmatullayeva",
+                "middle_name": "Baxtiyor",
                 "dob": "06.06.1996",
                 "age": 28
             }
         ],
+        "07": [
+            {
+                "first_name": "Zuhriddin",
+                "last_name": "Nuriddinov",
+                "middle_name": "Sherali",
+                "dob": "06.07.1999",
+                "age": 25
+            },
+            {
+                "first_name": "Xosiyat",
+                "last_name": "Allanazarova",
+                "middle_name": "Abduxaliqovna",
+                "dob": "06.07.1984",
+                "age": 40
+            }
+        ],
         "08": [
             {
-                "first_name": "SOXIB",
-                "last_name": "AXMEDOV",
-                "middle_name": "SAIMOVICH",
+                "first_name": "Soxib",
+                "last_name": "Axmedov",
+                "middle_name": "Saimovich",
                 "dob": "06.08.1985",
                 "age": 39
+            },
+            {
+                "first_name": "Mahfuza",
+                "last_name": "Nazaraliyeva",
+                "middle_name": "Pardayevna",
+                "dob": "06.08.1995",
+                "age": 29
+            }
+        ],
+        "09": [
+            {
+                "first_name": "Shavkat",
+                "last_name": "Rashidov",
+                "middle_name": "Sharofovich",
+                "dob": "06.09.1977",
+                "age": 47
+            }
+        ],
+        "12": [
+            {
+                "first_name": "Dilnoza",
+                "last_name": "Qodirova",
+                "middle_name": "Mamadiyorovna",
+                "dob": "06.12.1982",
+                "age": 42
             }
         ]
     },
     "07": {
+        "02": [
+            {
+                "first_name": "Aziza",
+                "last_name": "Olimova",
+                "middle_name": "Tolib",
+                "dob": "07.02.2005",
+                "age": 19
+            }
+        ],
         "05": [
             {
-                "first_name": "UMIDA",
-                "last_name": "SA’DULLAYEVA",
-                "middle_name": "FAYZULLAYEVNA",
+                "first_name": "Umida",
+                "last_name": "Sa'dullayeva",
+                "middle_name": "Fayzullayevna",
                 "dob": "07.05.1974",
                 "age": 50
             }
         ],
         "08": [
             {
-                "first_name": "SHAXNOZA",
-                "last_name": "JUMAYEVA",
-                "middle_name": "DAVRONOVNA",
-                "dob": "07.08.1985",
-                "age": 39
+                "first_name": "Saida",
+                "last_name": "Obloqulova",
+                "middle_name": "Qosimjon",
+                "dob": "07.08.2001",
+                "age": 23
             }
         ],
         "09": [
             {
-                "first_name": "DILMUROD",
-                "last_name": "UMURZOQOV",
-                "middle_name": "XOLMURODOVICH",
+                "first_name": "Dilmurod",
+                "last_name": "Umrzoqov",
+                "middle_name": null,
                 "dob": "07.09.1980",
                 "age": 44
             }
         ],
+        "11": [
+            {
+                "first_name": "Nurali",
+                "last_name": "Qudratov",
+                "middle_name": "Sunnat",
+                "dob": "07.11.1997",
+                "age": 27
+            }
+        ],
         "12": [
             {
-                "first_name": "BAHROMJON",
-                "last_name": "QUVONDIQOV",
-                "middle_name": "BURXON O‘G‘LI",
+                "first_name": "Umid",
+                "last_name": "Axtamov",
+                "middle_name": "Ilmurod",
+                "dob": "07.12.1995",
+                "age": 29
+            },
+            {
+                "first_name": "Bahrom",
+                "last_name": "Quvondiqov",
+                "middle_name": "Burxonovich",
                 "dob": "07.12.1997",
                 "age": 27
             }
@@ -457,86 +707,77 @@
     "08": {
         "01": [
             {
-                "first_name": "DILOBAR",
-                "last_name": "OCHILOVA",
-                "middle_name": "KARAMATOVNA",
+                "first_name": "Dilobar",
+                "last_name": "Gafurova",
+                "middle_name": "Karamatovna",
                 "dob": "08.01.1981",
                 "age": 43
             }
         ],
         "04": [
             {
-                "first_name": "MA’MURJON",
-                "last_name": "AXADOV",
-                "middle_name": "SHARIPOVICH",
-                "dob": "08.03.1988",
-                "age": 36
-            },
-            {
-                "first_name": "DILOBAR",
-                "last_name": "OCHILOVA",
-                "middle_name": "KARAMATOVNA",
-                "dob": "08.01.1981",
-                "age": 43
+                "first_name": "Aktam",
+                "last_name": "Axmedov",
+                "middle_name": "Abdullayevich",
+                "dob": "08.04.1976",
+                "age": 48
             }
         ],
         "05": [
             {
-                "first_name": "ABBOS",
-                "last_name": "SHOMURODOV",
-                "middle_name": "TULKINOVICH",
+                "first_name": "Abbos",
+                "last_name": "Shomurodov",
+                "middle_name": "To'lqinovich",
                 "dob": "08.05.1991",
                 "age": 33
             }
         ],
         "07": [
             {
-                "first_name": "UMIRZAK",
-                "last_name": "IMAMOV",
-                "middle_name": "XAMROYEVICH",
-                "dob": "08.07.1956",
-                "age": 68
+                "first_name": "Umurzak",
+                "last_name": "Imamov",
+                "middle_name": "Xamrayevich",
+                "dob": "08.07.2056",
+                "age": -32
             },
             {
-                "first_name": "MALIKA",
-                "last_name": "ISKANDAROVA",
-                "middle_name": "ISLOMOVNA",
+                "first_name": "Malika",
+                "last_name": "Iskandarova",
+                "middle_name": null,
+                "dob": "08.07.1997",
+                "age": 27
+            },
+            {
+                "first_name": "Malika",
+                "last_name": "Iskandarova",
+                "middle_name": "Islomovna",
                 "dob": "08.07.1997",
                 "age": 27
             }
         ],
-        "09": [
-            {
-                "first_name": "DILDORA",
-                "last_name": "SADIKOVA",
-                "middle_name": "NIZOMOVNA",
-                "dob": "08.09.1988",
-                "age": 36
-            }
-        ],
         "10": [
             {
-                "first_name": "NIZOMIDDIN",
-                "last_name": "AZIMOV",
-                "middle_name": "BO‘RI O‘G‘LI",
+                "first_name": "Nizomiddin",
+                "last_name": "Azimov",
+                "middle_name": "Bo'ri",
                 "dob": "08.10.1992",
                 "age": 32
             }
         ],
         "11": [
             {
-                "first_name": "G‘OLIB",
-                "last_name": "SHOMIYEV",
-                "middle_name": "UKTAMOVICH",
+                "first_name": "Golib",
+                "last_name": "Shomiyev",
+                "middle_name": "O'ktamovich",
                 "dob": "08.11.1977",
                 "age": 47
             }
         ],
         "12": [
             {
-                "first_name": "SHERZOD",
-                "last_name": "ISROILOV",
-                "middle_name": "NARKAZAKOVICH",
+                "first_name": "Sherzod",
+                "last_name": "Isroilov",
+                "middle_name": "Narkazakovich",
                 "dob": "08.12.1988",
                 "age": 36
             }
@@ -545,1575 +786,2192 @@
     "09": {
         "01": [
             {
-                "first_name": "LAYLO",
-                "last_name": "QUDRATOVA",
-                "middle_name": "NARZULLAYEVNA",
+                "first_name": "Laylo",
+                "last_name": "Qudratova",
+                "middle_name": "Narzullayevna",
                 "dob": "09.01.1976",
                 "age": 48
             }
         ],
         "02": [
             {
-                "first_name": "JAHONGIR",
-                "last_name": "RUZIBAYEV",
-                "middle_name": "DILMURATOVICH",
+                "first_name": "Shahodat",
+                "last_name": "Farmonova",
+                "middle_name": "Primovna",
+                "dob": "09.02.1971",
+                "age": 53
+            },
+            {
+                "first_name": "Jahongir",
+                "last_name": "Ruzibayev",
+                "middle_name": "Dilmuratovich",
                 "dob": "09.02.2001",
                 "age": 23
             }
         ],
         "03": [
             {
-                "first_name": "RAYXON",
-                "last_name": "SHODIYEVA",
-                "middle_name": "SAMATOVNA",
+                "first_name": "Rayhon",
+                "last_name": "Shodiyeva",
+                "middle_name": "Samatovna",
                 "dob": "09.03.1971",
                 "age": 53
             }
         ],
-        "05": [
+        "04": [
             {
-                "first_name": "SABOXAT",
-                "last_name": "SHERNAZAROVA",
-                "middle_name": "SAPARKULOVNA",
-                "dob": "09.05.1985",
-                "age": 39
+                "first_name": "Gulchehra",
+                "last_name": "Sharifjanova",
+                "middle_name": "Sharifjanovna",
+                "dob": "09.04.2055",
+                "age": -31
+            }
+        ],
+        "07": [
+            {
+                "first_name": "Abdujamil",
+                "last_name": "Nurmanov",
+                "middle_name": "Abduxolikovich",
+                "dob": "09.07.1971",
+                "age": 53
             }
         ],
         "08": [
             {
-                "first_name": "RUXSORA",
-                "last_name": "JO‘RAYEVA",
-                "middle_name": "OLIMOVNA",
+                "first_name": "'rayeva",
+                "last_name": "Jo",
+                "middle_name": "Ruxsora",
                 "dob": "09.08.1995",
                 "age": 29
+            },
+            {
+                "first_name": "Elnur",
+                "last_name": "Abdualimov",
+                "middle_name": "Ixtiyorovich",
+                "dob": "09.08.1986",
+                "age": 38
             }
         ],
         "09": [
             {
-                "first_name": "SITORA",
-                "last_name": "QODIRQULOVA",
-                "middle_name": "BAHODIR QIZI",
+                "first_name": "Sitora",
+                "last_name": "Qodirqulova",
+                "middle_name": "Bahodir",
                 "dob": "09.09.1996",
                 "age": 28
             }
         ],
         "10": [
             {
-                "first_name": "MAVLUDA",
-                "last_name": "KUBAYEVA",
-                "middle_name": "BAXTIYOR QIZI",
+                "first_name": "Mavluda",
+                "last_name": "Kubayeva",
+                "middle_name": "Baxtiyor",
                 "dob": "09.10.1990",
                 "age": 34
             },
             {
-                "first_name": "FAZLIDDIN",
-                "last_name": "O‘ROLOV",
-                "middle_name": "ABDULLA O‘G‘LI",
+                "first_name": "Mavluda",
+                "last_name": "Kubayeva",
+                "middle_name": "Baxtiyor",
+                "dob": "09.10.1990",
+                "age": 34
+            },
+            {
+                "first_name": "O‘ktam",
+                "last_name": "Murotov",
+                "middle_name": "Abdixalil",
+                "dob": "09.10.1996",
+                "age": 28
+            },
+            {
+                "first_name": "Fazliddin",
+                "last_name": "O‘rolov",
+                "middle_name": "Abdullo",
                 "dob": "09.10.1998",
                 "age": 26
-            }
-        ],
-        "11": [
-            {
-                "first_name": "AKMAL",
-                "last_name": "MAMADIYAROV",
-                "middle_name": "JURAKULOVICH",
-                "dob": "09.11.1992",
-                "age": 32
-            }
-        ],
-        "12": [
-            {
-                "first_name": "SARDORJON",
-                "last_name": "TURDIYEV",
-                "middle_name": "ABDUMUMINOVICH",
-                "dob": "09.12.1990",
-                "age": 34
             }
         ]
     },
     "10": {
+        "01": [
+            {
+                "first_name": "Sherzod",
+                "last_name": "Murodov",
+                "middle_name": "Ilxomovich",
+                "dob": "10.01.1979",
+                "age": 45
+            }
+        ],
+        "02": [
+            {
+                "first_name": "Ra'no",
+                "last_name": "Rizayeva",
+                "middle_name": null,
+                "dob": "10.02.1973",
+                "age": 51
+            }
+        ],
         "03": [
             {
-                "first_name": "BAXTIYOR",
-                "last_name": "OCHILOV",
-                "middle_name": "SHUHRAT O‘G‘LI",
+                "first_name": "Baxtiyor",
+                "last_name": "Ochilov",
+                "middle_name": "Shuhratovich",
                 "dob": "10.03.1993",
                 "age": 31
             }
         ],
+        "04": [
+            {
+                "first_name": "Sanobar",
+                "last_name": "Inoyatova",
+                "middle_name": null,
+                "dob": "10.04.1977",
+                "age": 47
+            }
+        ],
         "05": [
             {
-                "first_name": "SHUXRAT",
-                "last_name": "NOROV",
-                "middle_name": "SUVONOVICH",
+                "first_name": "Shuhrat",
+                "last_name": "Norov",
+                "middle_name": null,
                 "dob": "10.05.1976",
                 "age": 48
+            },
+            {
+                "first_name": "Qutbiddin",
+                "last_name": "Pirmatov",
+                "middle_name": "Tojimurodovich",
+                "dob": "10.05.1984",
+                "age": 40
             }
         ],
         "07": [
             {
-                "first_name": "MUHTARAMA",
-                "last_name": "XALILOVA",
-                "middle_name": "INAYATULLAYEVNA",
+                "first_name": "Muxtarama",
+                "last_name": "Xalilova",
+                "middle_name": "Inoyatullayevna",
                 "dob": "10.07.1992",
                 "age": 32
             }
         ],
         "09": [
             {
-                "first_name": "RUSTAMJON",
-                "last_name": "CHORIQULOV",
-                "middle_name": "IBODULLA O‘G‘LI",
+                "first_name": "Marjona",
+                "last_name": "Boltayeva",
+                "middle_name": "Jasur",
+                "dob": "10.09.2003",
+                "age": 21
+            },
+            {
+                "first_name": "Rustamjon",
+                "last_name": "Choriqulov",
+                "middle_name": "Ibodullayevich",
                 "dob": "10.09.1994",
                 "age": 30
             },
             {
-                "first_name": "MARJONA",
-                "last_name": "BOLTAYEVA",
-                "middle_name": "JASUR QIZI",
-                "dob": "10.09.2003",
-                "age": 21
+                "first_name": "Umidjon",
+                "last_name": "Turdiyev",
+                "middle_name": "Kamoliddinovich",
+                "dob": "10.09.1982",
+                "age": 42
+            }
+        ],
+        "10": [
+            {
+                "first_name": "Gulmira",
+                "last_name": "Tulayeva",
+                "middle_name": "Elmurod",
+                "dob": "10.10.1991",
+                "age": 33
             }
         ],
         "11": [
             {
-                "first_name": "BOBIR",
-                "last_name": "ESHPO‘LOTOV",
-                "middle_name": "XUDOYBERDIYEVICH",
+                "first_name": "Bobir",
+                "last_name": "Eshpo'latov",
+                "middle_name": "Xudoyberdiyevich",
                 "dob": "10.11.1976",
                 "age": 48
             },
             {
-                "first_name": "RA’NO",
-                "last_name": "PAYZULLAYEVA",
-                "middle_name": "MAXMUDOVNA",
+                "first_name": "Bobur",
+                "last_name": "Eshpoʻlatov",
+                "middle_name": "Xudoyberdiyevich",
+                "dob": "10.11.1976",
+                "age": 48
+            },
+            {
+                "first_name": "Ra'no",
+                "last_name": "Fayzullayeva",
+                "middle_name": "Maxmudovna",
                 "dob": "10.11.1985",
                 "age": 39
+            },
+            {
+                "first_name": "Ozoda",
+                "last_name": "Akramova",
+                "middle_name": "Azizbek",
+                "dob": "10.11.2002",
+                "age": 22
             }
         ]
     },
     "11": {
+        "01": [
+            {
+                "first_name": "Sitora",
+                "last_name": "Axadova",
+                "middle_name": "Qamariddin",
+                "dob": "11.01.1998",
+                "age": 26
+            }
+        ],
         "03": [
             {
-                "first_name": "SHAHLO",
-                "last_name": "XASANOVA",
-                "middle_name": "SHUXRATOVNA",
+                "first_name": "Shaxlo",
+                "last_name": "Xasanova",
+                "middle_name": "Shuhratovna",
                 "dob": "11.03.1991",
                 "age": 33
             }
         ],
         "06": [
             {
-                "first_name": "NILUFAR",
-                "last_name": "TOSHEVA",
-                "middle_name": "SHIRINBOYEVNA",
+                "first_name": "Ravshanjon",
+                "last_name": "Ablayev",
+                "middle_name": "Oybek",
+                "dob": "11.06.1995",
+                "age": 29
+            },
+            {
+                "first_name": "Nilufar",
+                "last_name": "Tosheva",
+                "middle_name": "Shirinbayevna",
                 "dob": "11.06.1987",
                 "age": 37
             }
         ],
+        "07": [
+            {
+                "first_name": "Doniyor",
+                "last_name": "Azamov",
+                "middle_name": "Shuhratovich",
+                "dob": "11.07.1985",
+                "age": 39
+            }
+        ],
         "08": [
             {
-                "first_name": "ZAFARJON",
-                "last_name": "ISTAMOV",
-                "middle_name": "VOHID O‘G‘LI",
+                "first_name": "Zafarjon",
+                "last_name": "Istamov",
+                "middle_name": "Vohid",
                 "dob": "11.08.1998",
                 "age": 26
+            },
+            {
+                "first_name": "Dilshod",
+                "last_name": "Mirzayev",
+                "middle_name": "Xamidovich",
+                "dob": "11.08.1984",
+                "age": 40
             }
         ],
         "09": [
             {
-                "first_name": "BAXRIDDIN",
-                "last_name": "BERDIYEV",
-                "middle_name": "XIKMATOVICH",
-                "dob": "11.09.1964",
-                "age": 60
+                "first_name": "Baxriddin",
+                "last_name": "Berdiyev",
+                "middle_name": "Hikmatovich",
+                "dob": "11.09.2064",
+                "age": -40
             },
             {
-                "first_name": "BOZOR",
-                "last_name": "QARSHIYEV",
-                "middle_name": "JO‘RA O‘G‘LI",
+                "first_name": "Bozor",
+                "last_name": "Qarshiyev",
+                "middle_name": "Jo'ra",
                 "dob": "11.09.1994",
                 "age": 30
             }
         ],
+        "10": [
+            {
+                "first_name": "Maftuna",
+                "last_name": "Axtamova",
+                "middle_name": null,
+                "dob": "11.10.1996",
+                "age": 28
+            }
+        ],
         "11": [
             {
-                "first_name": "DILNOZA",
-                "last_name": "YO‘LDOSHEVA",
-                "middle_name": "XASAN QIZI",
+                "first_name": "Dilnoza",
+                "last_name": "Yo'ldosheva",
+                "middle_name": "Xasan",
                 "dob": "11.11.1994",
                 "age": 30
             }
         ],
         "12": [
             {
-                "first_name": "HUSAN",
-                "last_name": "BAQOYEV",
-                "middle_name": "NURIDDINOVICH",
+                "first_name": "Husan",
+                "last_name": "Baqoyev",
+                "middle_name": "Nuriddinovich",
                 "dob": "11.12.1977",
                 "age": 47
+            },
+            {
+                "first_name": "Asliddin",
+                "last_name": "Muhammadiyev",
+                "middle_name": "Qabriddin",
+                "dob": "11.12.1996",
+                "age": 28
             }
         ]
     },
     "12": {
         "01": [
             {
-                "first_name": "FARXAD",
-                "last_name": "RAXMANOV",
-                "middle_name": "NORMURATOVICH",
+                "first_name": "Nilufar",
+                "last_name": "Abdullayeva",
+                "middle_name": "Umarovna",
+                "dob": "12.01.1981",
+                "age": 43
+            },
+            {
+                "first_name": "Farxod",
+                "last_name": "Raxmonov",
+                "middle_name": "Normuradovich",
                 "dob": "12.01.1985",
                 "age": 39
             }
         ],
+        "04": [
+            {
+                "first_name": "Fotima",
+                "last_name": "Murtozayeva",
+                "middle_name": "Ahror",
+                "dob": "12.04.1999",
+                "age": 25
+            }
+        ],
         "05": [
             {
-                "first_name": "ILIYOS",
-                "last_name": "OQBOYEV",
-                "middle_name": "BOBOMUROT O‘G‘LI",
+                "first_name": "Gulbahor",
+                "last_name": "Bobobekova",
+                "middle_name": "Sobirovna",
+                "dob": "12.05.1976",
+                "age": 48
+            },
+            {
+                "first_name": "Iliyos",
+                "last_name": "Oqboyev",
+                "middle_name": null,
                 "dob": "12.05.1998",
                 "age": 26
             }
         ],
         "06": [
             {
-                "first_name": "TOZAGUL",
-                "last_name": "DUSANOVA",
-                "middle_name": "RASULOVNA",
-                "dob": "12.06.1971",
-                "age": 53
+                "first_name": "Marjona",
+                "last_name": "Bozorova",
+                "middle_name": "Anvar",
+                "dob": "12.06.1998",
+                "age": 26
             }
         ],
         "07": [
             {
-                "first_name": "UMIDA",
-                "last_name": "KAMALOVA",
-                "middle_name": "TUYMUROD QIZI",
+                "first_name": "Umida",
+                "last_name": "Kamolova",
+                "middle_name": "To'ymurod",
                 "dob": "12.07.1985",
                 "age": 39
             }
         ],
-        "08": [
-            {
-                "first_name": "AZIZA",
-                "last_name": "EGAMBERDIYEVA",
-                "middle_name": "MUSTAFAYEVNA",
-                "dob": "12.08.1984",
-                "age": 40
-            },
-            {
-                "first_name": "NOZIMA",
-                "last_name": "SHOMURATOVA",
-                "middle_name": "BAXRIDDIN QIZI",
-                "dob": "12.08.1996",
-                "age": 28
-            }
-        ],
         "09": [
             {
-                "first_name": "SHUHRAT",
-                "last_name": "TADJIYEV",
-                "middle_name": "TULQINOVICH",
-                "dob": "12.09.1979",
-                "age": 45
-            },
-            {
-                "first_name": "MAFTUNA",
-                "last_name": "OCHILOVA",
-                "middle_name": "SHUXRATOVNA",
+                "first_name": "Maftuna",
+                "last_name": "Ochilova",
+                "middle_name": "Shuhratovna",
                 "dob": "12.09.1990",
                 "age": 34
+            },
+            {
+                "first_name": "Zarnigor",
+                "last_name": "Nasriddinova",
+                "middle_name": "Akmaljon",
+                "dob": "12.09.2002",
+                "age": 22
+            },
+            {
+                "first_name": "Dilnoza",
+                "last_name": "Toshpo‘latova",
+                "middle_name": "Abduqodirovna",
+                "dob": "12.09.1991",
+                "age": 33
+            }
+        ],
+        "11": [
+            {
+                "first_name": "Malika",
+                "last_name": "Najmiddinova",
+                "middle_name": "Akmal",
+                "dob": "12.11.2002",
+                "age": 22
             }
         ]
     },
     "13": {
         "01": [
             {
-                "first_name": "JALOLIDDIN",
-                "last_name": "NOMOZOV",
-                "middle_name": "HASANOVICH",
+                "first_name": "Jaloliddin",
+                "last_name": "Namozov",
+                "middle_name": null,
                 "dob": "13.01.1994",
                 "age": 30
             }
         ],
         "02": [
             {
-                "first_name": "ULUGBEK",
-                "last_name": "SAFAROV",
-                "middle_name": "TURSUNOVICH",
-                "dob": "13.02.1981",
-                "age": 43
+                "first_name": "Eshmamat",
+                "last_name": "Xamrayev",
+                "middle_name": "XXX",
+                "dob": "13.02.2058",
+                "age": -34
+            }
+        ],
+        "03": [
+            {
+                "first_name": "Rauan",
+                "last_name": "Ziyatov",
+                "middle_name": "Kaldibayevich",
+                "dob": "13.03.1995",
+                "age": 29
             }
         ],
         "05": [
             {
-                "first_name": "LOLA",
-                "last_name": "SADILLOYEVA",
-                "middle_name": "SIROJOVNA",
+                "first_name": "Lola",
+                "last_name": "Sadullayeva",
+                "middle_name": "Sirojovna",
                 "dob": "13.05.1984",
                 "age": 40
             }
         ],
         "06": [
             {
-                "first_name": "ILYOS",
-                "last_name": "KALANDAROV",
-                "middle_name": "IBODULLAYEVICH",
+                "first_name": "Ilyos",
+                "last_name": "Qalandarov",
+                "middle_name": "Ibodullayevich",
                 "dob": "13.06.1987",
                 "age": 37
             }
         ],
-        "07": [
+        "08": [
             {
-                "first_name": "BIJAY",
-                "last_name": "KUMAR",
-                "middle_name": "KANDEL",
-                "dob": "13.07.1975",
-                "age": 49
+                "first_name": "Malika",
+                "last_name": "Ismoilova",
+                "middle_name": null,
+                "dob": "13.08.1996",
+                "age": 28
+            },
+            {
+                "first_name": "Malikaxon",
+                "last_name": "Orziqulova",
+                "middle_name": "Iskandar",
+                "dob": "13.08.1999",
+                "age": 25
             }
         ],
         "09": [
             {
-                "first_name": "AZIZ",
-                "last_name": "ILYASOV",
-                "middle_name": "SAIDMURATOVICH",
-                "dob": "13.09.1963",
-                "age": 61
-            }
-        ],
-        "10": [
+                "first_name": "Aziz",
+                "last_name": "Ilyasov",
+                "middle_name": "Saidmuratich",
+                "dob": "13.09.2063",
+                "age": -39
+            },
             {
-                "first_name": "SARVINOZ",
-                "last_name": "RAHIMOVA",
-                "middle_name": "SADIQ QIZI",
-                "dob": "13.10.1994",
-                "age": 30
+                "first_name": "Azizijon",
+                "last_name": "Qahhorov",
+                "middle_name": "Bozorboy",
+                "dob": "13.09.1999",
+                "age": 25
             }
         ],
         "11": [
             {
-                "first_name": "MADINA",
-                "last_name": "SAVRIYEVA",
-                "middle_name": "XAKIMOVNA",
+                "first_name": "Utkir",
+                "last_name": "Boltayev",
+                "middle_name": "Jaloliddinovich",
+                "dob": "13.11.1984",
+                "age": 40
+            },
+            {
+                "first_name": "Madina",
+                "last_name": "Savriyeva",
+                "middle_name": "Xakimovna",
                 "dob": "13.11.1981",
                 "age": 43
             }
         ],
         "12": [
             {
-                "first_name": "RANO",
-                "last_name": "YUSUBOVA",
-                "middle_name": "NORBOYEVNA",
+                "first_name": "Ra'no",
+                "last_name": "Yusubova",
+                "middle_name": "Norboyevna",
                 "dob": "13.12.1974",
-                "age": 50
+                "age": 49
             }
         ]
     },
     "14": {
+        "01": [
+            {
+                "first_name": "Zokirjon",
+                "last_name": "Pardayev",
+                "middle_name": "Erkinovich",
+                "dob": "14.01.1972",
+                "age": 52
+            }
+        ],
+        "03": [
+            {
+                "first_name": "Kamola",
+                "last_name": "Bo’riyeva",
+                "middle_name": "Hikmatillo",
+                "dob": "14.03.1994",
+                "age": 30
+            }
+        ],
+        "04": [
+            {
+                "first_name": "Shavkatjon",
+                "last_name": "Sultonov",
+                "middle_name": "Abdullayevich",
+                "dob": "14.04.1985",
+                "age": 39
+            }
+        ],
         "05": [
             {
-                "first_name": "ZEBOXON",
-                "last_name": "MALLAYEVA",
-                "middle_name": "SAIBNAZAROVNA",
+                "first_name": "Zebo",
+                "last_name": "Mallayeva",
+                "middle_name": "Soibnazarovna",
                 "dob": "14.05.1989",
                 "age": 35
             }
         ],
         "06": [
             {
-                "first_name": "BAHODIR",
-                "last_name": "HAMROYEV",
-                "middle_name": "BAXTIYOROVICH",
+                "first_name": "Bahodir",
+                "last_name": "Hamroyev",
+                "middle_name": "Baxtiyorovich",
                 "dob": "14.06.1978",
                 "age": 46
             }
         ],
-        "09": [
+        "10": [
             {
-                "first_name": "SHOXSANAM",
-                "last_name": "HUJAYEVA",
-                "middle_name": "ORZI QIZI",
-                "dob": "14.09.1995",
-                "age": 29
+                "first_name": "Dilshod",
+                "last_name": "Norov",
+                "middle_name": "Shuxratillayevich",
+                "dob": "14.10.1988",
+                "age": 36
+            },
+            {
+                "first_name": "Zilola",
+                "last_name": "Saparova",
+                "middle_name": "Anvarovna",
+                "dob": "14.10.1982",
+                "age": 42
             }
         ],
         "11": [
             {
-                "first_name": "BOBOMUROD",
-                "last_name": "RUSTAMOV",
-                "middle_name": "DILMURODOVICH",
+                "first_name": "Bobomurod",
+                "last_name": "Rustamov",
+                "middle_name": "Dilmurodovich",
+                "dob": "14.11.1987",
+                "age": 37
+            },
+            {
+                "first_name": "Bobomurod",
+                "last_name": "Rustamov",
+                "middle_name": "Dilmurodovich",
                 "dob": "14.11.1987",
                 "age": 37
             }
         ],
         "12": [
             {
-                "first_name": "GULNOZA",
-                "last_name": "SAPAYEVA",
-                "middle_name": "AZIMBOYEVNA",
+                "first_name": "Gulnoz",
+                "last_name": "Sapayeva",
+                "middle_name": "Azimboyevna",
                 "dob": "14.12.1987",
-                "age": 37
+                "age": 36
             }
         ]
     },
     "15": {
         "01": [
             {
-                "first_name": "RAXMATILLO",
-                "last_name": "ABDANOV",
-                "middle_name": "ABDIGAFUROVICH",
+                "first_name": "Rahmatillo",
+                "last_name": "Abdanov",
+                "middle_name": "Abdug'afforovich",
                 "dob": "15.01.1988",
                 "age": 36
+            },
+            {
+                "first_name": "Elbek",
+                "last_name": "Isaqulov",
+                "middle_name": "O'ktam",
+                "dob": "15.01.1995",
+                "age": 29
             }
         ],
         "02": [
             {
-                "first_name": "RUSLAN",
-                "last_name": "KURAMSHIN",
-                "middle_name": "MINEAROVICH",
+                "first_name": "Asadbek",
+                "last_name": "Ochilov",
+                "middle_name": "Tolib",
+                "dob": "15.02.2006",
+                "age": 18
+            },
+            {
+                "first_name": "Ruslan",
+                "last_name": "Kuramshin",
+                "middle_name": "Minearovich",
                 "dob": "15.02.1992",
                 "age": 32
             }
         ],
+        "03": [
+            {
+                "first_name": "Shavkat",
+                "last_name": "Aqboyev",
+                "middle_name": "Isoqovich",
+                "dob": "15.03.1984",
+                "age": 40
+            }
+        ],
         "04": [
             {
-                "first_name": "SHAHNOZA",
-                "last_name": "BARNOYEVA",
-                "middle_name": "RAHMONQUL QIZI",
+                "first_name": "Shaxnoza",
+                "last_name": "Barnoyeva",
+                "middle_name": "Rahmonqulovna",
                 "dob": "15.04.1993",
                 "age": 31
             },
             {
-                "first_name": "ABBOS",
-                "last_name": "DILMURODOV",
-                "middle_name": "ANVAR O‘G‘LI",
+                "first_name": "Abbos",
+                "last_name": "Dilmurodov",
+                "middle_name": "Anvar",
                 "dob": "15.04.1994",
                 "age": 30
             },
             {
-                "first_name": "NARGIZA",
-                "last_name": "RAXMATULLAYEVA",
-                "middle_name": "BAXTIYOR QIZI",
+                "first_name": "Abbos",
+                "last_name": "Dilmurodov",
+                "middle_name": "Anvar",
+                "dob": "15.04.1994",
+                "age": 30
+            },
+            {
+                "first_name": "Nargiza",
+                "last_name": "Raxmatullayeva",
+                "middle_name": "Baxtiyor",
                 "dob": "15.04.1999",
                 "age": 25
             }
         ],
+        "05": [
+            {
+                "first_name": "Shaxnoza",
+                "last_name": "Raxmatova",
+                "middle_name": "Rustamovna",
+                "dob": "15.05.1984",
+                "age": 40
+            }
+        ],
         "06": [
             {
-                "first_name": "ELBEK",
-                "last_name": "DO‘SANOV",
-                "middle_name": "ABSAMATOVICH",
+                "first_name": "Elbek",
+                "last_name": "Do'sanov",
+                "middle_name": null,
                 "dob": "15.06.1989",
                 "age": 35
             }
         ],
+        "07": [
+            {
+                "first_name": "Madina",
+                "last_name": "Ismatullayeva",
+                "middle_name": "Ismatillo",
+                "dob": "15.07.1995",
+                "age": 29
+            }
+        ],
         "08": [
             {
-                "first_name": "MOHICHEHRA",
-                "last_name": "RABBIMOVA",
-                "middle_name": "SOYIBJON QIZI",
+                "first_name": "Mohichexra",
+                "last_name": "Rabbimova",
+                "middle_name": "Soyibjon",
                 "dob": "15.08.1992",
                 "age": 32
             }
         ],
-        "09": [
-            {
-                "first_name": "UMIDA",
-                "last_name": "MUMINOVA",
-                "middle_name": "ISANOVNA",
-                "dob": "15.09.1983",
-                "age": 41
-            }
-        ],
         "10": [
             {
-                "first_name": "SHUXRAT",
-                "last_name": "TOIROV",
-                "middle_name": "ADXAMOVICH",
-                "dob": "15.10.1973",
-                "age": 51
+                "first_name": "Sunnatillo",
+                "last_name": "Baqoyev",
+                "middle_name": "Burxon",
+                "dob": "15.10.1997",
+                "age": 27
+            }
+        ],
+        "12": [
+            {
+                "first_name": "Otabek",
+                "last_name": "Musayev",
+                "middle_name": null,
+                "dob": "15.12.1975",
+                "age": 48
             }
         ]
     },
     "16": {
         "01": [
             {
-                "first_name": "AZIZA",
-                "last_name": "DAVLATOVA",
-                "middle_name": "AKMALOVNA",
+                "first_name": "Aziza",
+                "last_name": "Davlatova",
+                "middle_name": "Akmalovna",
                 "dob": "16.01.1995",
                 "age": 29
             }
         ],
         "02": [
             {
-                "first_name": "UMIDA",
-                "last_name": "XIDIROVA",
-                "middle_name": "ERKIN QIZI",
+                "first_name": "Umida",
+                "last_name": "Xidirova",
+                "middle_name": "Erkin",
                 "dob": "16.02.1999",
                 "age": 25
             }
         ],
         "03": [
             {
-                "first_name": "SHOXISTA",
-                "last_name": "XASANOVA",
-                "middle_name": "BOBOXOLOVNA",
-                "dob": "16.03.1963",
-                "age": 61
+                "first_name": "Nafisa",
+                "last_name": "Maxmudova",
+                "middle_name": "Fazliddin",
+                "dob": "16.03.1995",
+                "age": 29
             }
         ],
         "05": [
             {
-                "first_name": "NAFOSAT",
-                "last_name": "RO‘ZIYEVA",
-                "middle_name": "ABDUMUMIN QIZI",
+                "first_name": "Nafosat",
+                "last_name": "Ro'ziyeva",
+                "middle_name": "Abdumumin",
                 "dob": "16.05.1994",
                 "age": 30
             },
             {
-                "first_name": "SHAXLO",
-                "last_name": "USMONOVA",
-                "middle_name": "AKMAL QIZI",
+                "first_name": "Shaxlo",
+                "last_name": "Usmonova",
+                "middle_name": "Almal",
                 "dob": "16.05.1999",
                 "age": 25
             }
         ],
         "07": [
             {
-                "first_name": "BOBIR",
-                "last_name": "NASIROV",
-                "middle_name": "NARMURADOVICH",
-                "dob": "16.07.1964",
-                "age": 60
-            },
-            {
-                "first_name": "DILMUROD",
-                "last_name": "SAFAROV",
-                "middle_name": "XALIMOVICH",
-                "dob": "16.07.1988",
-                "age": 36
-            },
-            {
-                "first_name": "ZILOLA",
-                "last_name": "JUMAQULOVA",
-                "middle_name": "SHUHRAT QIZI",
+                "first_name": "Zilola",
+                "last_name": "Jumaqulova",
+                "middle_name": "Shuhrat",
                 "dob": "16.07.1997",
                 "age": 27
+            },
+            {
+                "first_name": "Dilmurod",
+                "last_name": "Safarov",
+                "middle_name": null,
+                "dob": "16.07.1988",
+                "age": 36
             }
         ],
         "09": [
             {
-                "first_name": "AZIZBEK",
-                "last_name": "ISMATOV",
-                "middle_name": "AKRAMOVICH",
+                "first_name": "Azizbek",
+                "last_name": "Ismatov",
+                "middle_name": "Akramovich",
                 "dob": "16.09.1999",
                 "age": 25
             }
         ],
         "10": [
             {
-                "first_name": "GAROLD",
-                "last_name": "OGANOV",
-                "middle_name": "IGOREVICH",
-                "dob": "16.10.1988",
-                "age": 36
+                "first_name": "Aziz",
+                "last_name": "Shomurodov",
+                "middle_name": "Akbar",
+                "dob": "16.10.1991",
+                "age": 33
             }
         ],
         "12": [
             {
-                "first_name": "NARGIZA",
-                "last_name": "JURAYEVA",
-                "middle_name": "BAXSHULLOYEVNA",
+                "first_name": "Nargiza",
+                "last_name": "Jurayeva",
+                "middle_name": null,
                 "dob": "16.12.1998",
-                "age": 26
+                "age": 25
             }
         ]
     },
     "17": {
         "01": [
             {
-                "first_name": "MAVLYUDA",
-                "last_name": "MIRZAYEVA",
-                "middle_name": "NARMURATOVNA",
-                "dob": "17.01.1987",
-                "age": 37
+                "first_name": "Muhammad",
+                "last_name": "Xasanov",
+                "middle_name": "Abdumurodovich",
+                "dob": "17.01.1999",
+                "age": 25
             }
         ],
         "02": [
             {
-                "first_name": "KOBILJON",
-                "last_name": "G‘OFUROV",
-                "middle_name": "BURIKULOVICH",
+                "first_name": "Kobiljon",
+                "last_name": "Gʻofurov",
+                "middle_name": "Bo'rikulovich",
                 "dob": "17.02.1985",
                 "age": 39
             }
         ],
-        "06": [
+        "05": [
             {
-                "first_name": "BARNO",
-                "last_name": "RAXMATULLAYEVA",
-                "middle_name": "BAXTIYOR QIZI",
-                "dob": "17.06.1994",
-                "age": 30
+                "first_name": "Muʼtabar",
+                "last_name": "Xasanova",
+                "middle_name": "Sultonovna",
+                "dob": "17.05.1980",
+                "age": 44
             }
         ],
         "07": [
             {
-                "first_name": "AKBAR",
-                "last_name": "CHORIQULOV",
-                "middle_name": "OROMQUL O‘G‘LI",
-                "dob": "17.07.1991",
-                "age": 33
-            },
-            {
-                "first_name": "SHOXSANAM",
-                "last_name": "YAVKACHEVA",
-                "middle_name": "ULUGBEK QIZI",
+                "first_name": "Shohsanam",
+                "last_name": "Yavkacheva",
+                "middle_name": "Ulug'bek",
                 "dob": "17.07.1993",
                 "age": 31
             }
         ],
         "09": [
             {
-                "first_name": "FARRUX",
-                "last_name": "ESHMURODOV",
-                "middle_name": "G‘AYRAT O‘G‘LI",
+                "first_name": "Farrux",
+                "last_name": "Eshmurodov",
+                "middle_name": "G'ayrat",
                 "dob": "17.09.1998",
                 "age": 26
+            },
+            {
+                "first_name": "Marg'uba",
+                "last_name": "Turdiyeva",
+                "middle_name": "Norpo'latovna",
+                "dob": "17.09.1981",
+                "age": 43
             }
         ],
         "11": [
             {
-                "first_name": "MAFTUNA",
-                "last_name": "MANSUROVA",
-                "middle_name": "KOMILJON QIZI",
+                "first_name": "Maftuna",
+                "last_name": "Mansurova",
+                "middle_name": "Komilovna",
                 "dob": "17.11.1992",
                 "age": 32
+            },
+            {
+                "first_name": "Abdullo",
+                "last_name": "Xosilboyev",
+                "middle_name": "Fozil",
+                "dob": "17.11.1995",
+                "age": 29
             }
         ],
         "12": [
             {
-                "first_name": "ZILOLA",
-                "last_name": "RUZIYEVA",
-                "middle_name": "MUSTAFAYEVNA",
-                "dob": "17.12.1974",
-                "age": 50
+                "first_name": "Laziz",
+                "last_name": "Ne`matov",
+                "middle_name": "Hikmatillo",
+                "dob": "17.12.1998",
+                "age": 25
             },
             {
-                "first_name": "OLIM",
-                "last_name": "SATTAROV",
-                "middle_name": "USMONQULOVICH",
-                "dob": "17.12.1981",
-                "age": 43
+                "first_name": "Zilola",
+                "last_name": "Ruziyeva",
+                "middle_name": "Mustafoyevna",
+                "dob": "17.12.1974",
+                "age": 49
+            },
+            {
+                "first_name": "Farangiz",
+                "last_name": "Najmiddinova",
+                "middle_name": "Najmiddinovna",
+                "dob": "17.12.2002",
+                "age": 21
             }
         ]
     },
     "18": {
         "02": [
             {
-                "first_name": "NUSRATILLO",
-                "last_name": "SHUKUROV",
-                "middle_name": "NARZULLAYEVICH",
+                "first_name": "Yorqinoy",
+                "last_name": "Allayorova",
+                "middle_name": "Farxod",
+                "dob": "18.02.1996",
+                "age": 28
+            },
+            {
+                "first_name": "Nusratillo",
+                "last_name": "Shukurov",
+                "middle_name": "Mavlonivich",
                 "dob": "18.02.1972",
                 "age": 52
             }
         ],
         "03": [
             {
-                "first_name": "FAXRIDDIN",
-                "last_name": "RAJABOV",
-                "middle_name": "TOSHPO‘LOTOVICH",
+                "first_name": "Faxriddin",
+                "last_name": "Rajabov",
+                "middle_name": "Toshpo'latovich",
                 "dob": "18.03.1989",
                 "age": 35
             }
         ],
         "04": [
             {
-                "first_name": "MAMURA",
-                "last_name": "AVEZOVA",
-                "middle_name": "RAXMONQULOVNA",
+                "first_name": "Ma’mura",
+                "last_name": "Avezova",
+                "middle_name": null,
                 "dob": "18.04.1984",
                 "age": 40
             }
         ],
         "05": [
             {
-                "first_name": "SARDORBEK",
-                "last_name": "FARMANOV",
-                "middle_name": "UTKIR O‘G‘LI",
+                "first_name": "Sardor",
+                "last_name": "Farmonov",
+                "middle_name": "O'tkir",
                 "dob": "18.05.1995",
                 "age": 29
             }
         ],
         "06": [
             {
-                "first_name": "DAVRON",
-                "last_name": "ESHMURODOV",
-                "middle_name": "XOLMAMATOVICH",
-                "dob": "18.06.1986",
-                "age": 38
-            },
-            {
-                "first_name": "MAXLIYO",
-                "last_name": "MUXAMMADIYEVA",
-                "middle_name": "MALIKOVNA",
-                "dob": "18.06.1992",
-                "age": 32
-            },
-            {
-                "first_name": "FIRUZA",
-                "last_name": "SHARIPOVA",
-                "middle_name": "MEXRIDDINOVNA",
+                "first_name": "Firuza",
+                "last_name": "Sharipova",
+                "middle_name": "Mehriddinovna",
                 "dob": "18.06.1994",
                 "age": 30
-            }
-        ],
-        "08": [
+            },
             {
-                "first_name": "ELYOR",
-                "last_name": "KENJAYEV",
-                "middle_name": "SATTOROVICH",
-                "dob": "18.08.1984",
-                "age": 40
+                "first_name": "Nargiza",
+                "last_name": "Ziyodullayeva",
+                "middle_name": "Ixtiyorovna",
+                "dob": "18.06.2001",
+                "age": 23
             }
         ],
         "12": [
             {
-                "first_name": "NURIYMAN",
-                "last_name": "ABULXASAN",
-                "middle_name": "ABDURAXIM",
-                "dob": "18.12.1973",
-                "age": 51
+                "first_name": "Azizbek",
+                "last_name": "Xurramov",
+                "middle_name": "Muzaffar",
+                "dob": "18.12.2004",
+                "age": 19
             }
         ]
     },
     "19": {
-        "02": [
+        "03": [
             {
-                "first_name": "NURIDDIN",
-                "last_name": "XOLMIRZAYEV",
-                "middle_name": "ABDULLAYEVICH",
-                "dob": "19.02.1977",
-                "age": 47
+                "first_name": "Roxila",
+                "last_name": "Rabbimova",
+                "middle_name": "Raxmonqulovna",
+                "dob": "19.03.1983",
+                "age": 41
             }
         ],
         "04": [
             {
-                "first_name": "SHOHSANAM",
-                "last_name": "ISKANDAROVA",
-                "middle_name": "ISOYEVNA",
+                "first_name": "Shohsanam",
+                "last_name": "Iskandarova",
+                "middle_name": "Isoyevna",
                 "dob": "19.04.1996",
                 "age": 28
             }
         ],
+        "05": [
+            {
+                "first_name": "Ilgʻor",
+                "last_name": "Raxmonov",
+                "middle_name": "Gʻaybullayevich",
+                "dob": "19.05.2067",
+                "age": -43
+            }
+        ],
         "06": [
             {
-                "first_name": "ELDO‘ST",
-                "last_name": "RAXMONOV",
-                "middle_name": "ISAQULOVICH",
+                "first_name": "Erkin",
+                "last_name": "Choʻlliyev",
+                "middle_name": "Amonovich",
+                "dob": "19.06.2062",
+                "age": -38
+            },
+            {
+                "first_name": "Nafisa",
+                "last_name": "Raxmatova",
+                "middle_name": "Ibodovna",
+                "dob": "19.06.1981",
+                "age": 43
+            },
+            {
+                "first_name": "Eldo‘st",
+                "last_name": "Raxmonov",
+                "middle_name": "Isaqulovich",
                 "dob": "19.06.1985",
                 "age": 39
             }
         ],
         "07": [
             {
-                "first_name": "BEXZOD",
-                "last_name": "YORKULOV",
-                "middle_name": "ABDUGABBAROVICH",
-                "dob": "19.07.1981",
-                "age": 43
-            },
-            {
-                "first_name": "ILHOM",
-                "last_name": "TOJIYEV",
-                "middle_name": "IBRAIMOVICH",
+                "first_name": "Ilhom",
+                "last_name": "Tojiyev",
+                "middle_name": "Ibraimovich",
                 "dob": "19.07.1982",
                 "age": 42
             },
             {
-                "first_name": "SITORABONU",
-                "last_name": "TURSUNOVA",
-                "middle_name": "UKTAMOVNA",
-                "dob": "19.07.1993",
-                "age": 31
+                "first_name": "Bexzod",
+                "last_name": "Yorkulov",
+                "middle_name": "Abdugabbarovich",
+                "dob": "19.07.1981",
+                "age": 43
             }
         ],
         "08": [
             {
-                "first_name": "RIMMA",
-                "last_name": "BIKSALIYEVA",
-                "middle_name": "RAFIKOVNA",
+                "first_name": "Asaloy",
+                "last_name": "Ergasheva",
+                "middle_name": "Faxriddinovna",
+                "dob": "19.08.1991",
+                "age": 33
+            },
+            {
+                "first_name": "Rimma",
+                "last_name": "Biksaliyeva",
+                "middle_name": "Rafikovna",
                 "dob": "19.08.1985",
                 "age": 39
             }
         ],
+        "09": [
+            {
+                "first_name": "Shaxnoza",
+                "last_name": "Yo`ldosheva",
+                "middle_name": "Farmonovna",
+                "dob": "19.09.1986",
+                "age": 38
+            }
+        ],
         "10": [
             {
-                "first_name": "IKROM",
-                "last_name": "AMIROV",
-                "middle_name": "NURALI O‘G‘LI",
+                "first_name": "Ikrom",
+                "last_name": "Amirov",
+                "middle_name": "Nurali",
                 "dob": "19.10.1993",
                 "age": 31
             }
         ],
         "11": [
             {
-                "first_name": "ZAHIRA",
-                "last_name": "ABDULLAYEVA",
-                "middle_name": "BAXODIROVNA",
+                "first_name": "Zahira",
+                "last_name": "Abdullayeva",
+                "middle_name": "Bahodirovna",
                 "dob": "19.11.1988",
                 "age": 36
             },
             {
-                "first_name": "DILSHODA",
-                "last_name": "SHARIPOVA",
-                "middle_name": "KAMOLOVNA",
+                "first_name": "Saboxat",
+                "last_name": "Barakayeva",
+                "middle_name": "Raxmatulloyevna",
+                "dob": "19.11.1981",
+                "age": 43
+            },
+            {
+                "first_name": "Dilshoda",
+                "last_name": "Sharipova",
+                "middle_name": "Kamolovna",
                 "dob": "19.11.1998",
                 "age": 26
+            },
+            {
+                "first_name": "Sevara",
+                "last_name": "Boltayeva",
+                "middle_name": "Farhod",
+                "dob": "19.11.1999",
+                "age": 25
             }
         ]
     },
     "20": {
         "01": [
             {
-                "first_name": "ILXAM",
-                "last_name": "TAGAYEV",
-                "middle_name": "AXROROVICH",
-                "dob": "20.01.1958",
-                "age": 66
+                "first_name": "Ilxom",
+                "last_name": "Tagayev",
+                "middle_name": "Axrorovich",
+                "dob": "20.01.2058",
+                "age": -34
             }
         ],
         "02": [
             {
-                "first_name": "MAQSUD",
-                "last_name": "BOBOQANDOV",
-                "middle_name": "BOBOQAND O‘G‘LI",
-                "dob": "20.02.1994",
-                "age": 30
+                "first_name": "Nilufar",
+                "last_name": "Raxmonova",
+                "middle_name": "Sattorovna",
+                "dob": "20.02.1984",
+                "age": 40
             }
         ],
         "03": [
             {
-                "first_name": "JASUR",
-                "last_name": "SAVRIYEV",
-                "middle_name": "FAXRIDDINOVICH",
-                "dob": "20.03.1981",
-                "age": 43
-            },
-            {
-                "first_name": "NODIRA",
-                "last_name": "KOBULOVA",
-                "middle_name": "BAHODIR QIZI",
+                "first_name": "Nodira",
+                "last_name": "Kobulova",
+                "middle_name": "Baxodirovna",
                 "dob": "20.03.1988",
                 "age": 36
+            },
+            {
+                "first_name": "Jasur",
+                "last_name": "Savriyev",
+                "middle_name": "Faxriddinovich",
+                "dob": "20.03.1981",
+                "age": 43
             }
         ],
         "05": [
             {
-                "first_name": "SITORA",
-                "last_name": "ARALBOYEVA",
-                "middle_name": "MURODULLO QIZI",
-                "dob": "20.05.1995",
-                "age": 29
-            },
-            {
-                "first_name": "ELBEK",
-                "last_name": "SHONIYOZOV",
-                "middle_name": "BEGBOYEVICH",
+                "first_name": "Elbek",
+                "last_name": "Shoniyozov",
+                "middle_name": "Begboyevich",
                 "dob": "20.05.1997",
                 "age": 27
             }
         ],
         "08": [
             {
-                "first_name": "KAMALITDIN",
-                "last_name": "ASTANAKULOV",
-                "middle_name": "MAXKAMOVICH",
-                "dob": "20.08.1980",
-                "age": 44
-            },
-            {
-                "first_name": "ALISHER",
-                "last_name": "DJUMAYEV",
-                "middle_name": "KAXRAMON O‘G‘LI",
+                "first_name": "Alisher",
+                "last_name": "Djumaev",
+                "middle_name": "Kaxramon",
                 "dob": "20.08.1999",
                 "age": 25
             }
         ],
         "10": [
             {
-                "first_name": "BEKZOD",
-                "last_name": "SOLIYEV",
-                "middle_name": "ZOKIRBOYEVICH",
-                "dob": "20.10.1981",
-                "age": 43
-            },
-            {
-                "first_name": "SUHROB",
-                "last_name": "CHULLIYEV",
-                "middle_name": "RABBONAQULOVICH",
+                "first_name": "Suxrob",
+                "last_name": "Choʻlliyev",
+                "middle_name": "Rabbonaqulovich",
                 "dob": "20.10.1988",
                 "age": 36
+            },
+            {
+                "first_name": "Nilufar",
+                "last_name": "Oripova",
+                "middle_name": "Raxmonqulovna",
+                "dob": "20.10.1994",
+                "age": 30
+            },
+            {
+                "first_name": "Alisher",
+                "last_name": "Shonazarov",
+                "middle_name": "Chinpo'latovich",
+                "dob": "20.10.1991",
+                "age": 33
+            },
+            {
+                "first_name": "Nasiba",
+                "last_name": "Shopulatova",
+                "middle_name": null,
+                "dob": "20.10.1989",
+                "age": 35
+            },
+            {
+                "first_name": "Sayyora",
+                "last_name": "Xujamqulova",
+                "middle_name": "Nazarovna",
+                "dob": "20.10.1977",
+                "age": 47
             }
         ],
         "12": [
             {
-                "first_name": "ILXOM",
-                "last_name": "MISLIBAYEV",
-                "middle_name": "TUYCHIBAYEVICH",
-                "dob": "20.12.1965",
-                "age": 59
-            },
-            {
-                "first_name": "SANOBAR",
-                "last_name": "NEGMATOVA",
-                "middle_name": "QARSHIBOYEVNA",
+                "first_name": "Sanobar",
+                "last_name": "Negmatova",
+                "middle_name": "Qarshiboyevna",
                 "dob": "20.12.1987",
-                "age": 37
+                "age": 36
             }
         ]
     },
     "21": {
         "02": [
             {
-                "first_name": "NAZIMA",
-                "last_name": "MAMADALIYEVA",
-                "middle_name": "ASHUROVNA",
-                "dob": "21.02.1965",
-                "age": 59
+                "first_name": "Nazima",
+                "last_name": "Mamadaliyeva",
+                "middle_name": "Ashurovna",
+                "dob": "21.02.2065",
+                "age": -41
             }
         ],
         "03": [
             {
-                "first_name": "BOBURJON",
-                "last_name": "NARZULLAYEV",
-                "middle_name": "SHIRINBOY O‘G‘LI",
+                "first_name": "Bobir",
+                "last_name": "Narzullayev",
+                "middle_name": "Shirinboy",
                 "dob": "21.03.1991",
                 "age": 33
             },
             {
-                "first_name": "JAVLONBEK",
-                "last_name": "SHAYMANOV",
-                "middle_name": "BAXTIYOROVICH",
+                "first_name": "Javlonbek",
+                "last_name": "Shaymanov",
+                "middle_name": "Baxtiyorovich",
                 "dob": "21.03.1995",
                 "age": 29
             }
         ],
         "04": [
             {
-                "first_name": "ELMUROD",
-                "last_name": "QUDRATOV",
-                "middle_name": "ABDUXALIMOVICH",
-                "dob": "21.04.1970",
-                "age": 54
-            },
-            {
-                "first_name": "NILUFAR",
-                "last_name": "SAIDOVA",
-                "middle_name": "RO‘ZIMUROTOVNA",
+                "first_name": "Nilufar",
+                "last_name": "Saidova",
+                "middle_name": "Roʻzimurodovna",
                 "dob": "21.04.1975",
                 "age": 49
             },
             {
-                "first_name": "SITORA",
-                "last_name": "SAMANDAROVA",
-                "middle_name": "A’ZAMOVNA",
+                "first_name": "Sitora",
+                "last_name": "Samandarova",
+                "middle_name": "A'zamovna",
                 "dob": "21.04.1993",
                 "age": 31
             }
         ],
         "05": [
             {
-                "first_name": "GO‘ZAL",
-                "last_name": "ESHANOVA",
-                "middle_name": "BARATOVNA",
+                "first_name": "Go‘zal",
+                "last_name": "Eshonova",
+                "middle_name": "Baratovna",
                 "dob": "21.05.1987",
                 "age": 37
             }
         ],
         "06": [
             {
-                "first_name": "RAXMIDDIN",
-                "last_name": "SHODIYEV",
-                "middle_name": "RUZIBAYEVICH",
+                "first_name": "Raxmiddin",
+                "last_name": "Shodiyev",
+                "middle_name": "Ro'ziboyevich",
                 "dob": "21.06.1969",
                 "age": 55
-            },
-            {
-                "first_name": "DILNOZA",
-                "last_name": "NARZIKULOVA",
-                "middle_name": "XASHIMJONOVNA",
-                "dob": "21.06.1984",
-                "age": 40
             }
         ],
         "07": [
             {
-                "first_name": "MUNIRA",
-                "last_name": "ASTANOVA",
-                "middle_name": "ISLAMOVNA",
-                "dob": "21.07.1967",
-                "age": 57
+                "first_name": "Munira",
+                "last_name": "Astanova",
+                "middle_name": null,
+                "dob": "21.07.2067",
+                "age": -43
+            },
+            {
+                "first_name": "Muxabbat",
+                "last_name": "Tosheva",
+                "middle_name": "Rustamovna",
+                "dob": "21.07.2064",
+                "age": -40
             }
         ],
         "08": [
             {
-                "first_name": "RAXIMBERDI",
-                "last_name": "TOSHMAMATOV",
-                "middle_name": "ULUG‘BEK O‘G‘LI",
+                "first_name": "Farog`at",
+                "last_name": "Kamolova",
+                "middle_name": "Islomovna",
+                "dob": "21.08.1983",
+                "age": 41
+            },
+            {
+                "first_name": "Raximberdi",
+                "last_name": "Toshmamatov",
+                "middle_name": "Ulug'bek",
                 "dob": "21.08.1994",
                 "age": 30
             }
         ],
         "10": [
             {
-                "first_name": "LAZIZJON",
-                "last_name": "ASHUROV",
-                "middle_name": "ABDIRASULOVICH",
-                "dob": "21.10.1983",
-                "age": 41
+                "first_name": "Yoqub",
+                "last_name": "Raxmatov",
+                "middle_name": "Ismatillayevich",
+                "dob": "21.10.1970",
+                "age": 54
             }
         ],
         "11": [
             {
-                "first_name": "DIANA",
-                "last_name": "SHARAPOVA",
-                "middle_name": "RINNATOVNA",
+                "first_name": "Diana",
+                "last_name": "Sharapova",
+                "middle_name": "Rinnatovna",
                 "dob": "21.11.1985",
                 "age": 39
+            },
+            {
+                "first_name": "Shahrizoda",
+                "last_name": "Shavkatova",
+                "middle_name": null,
+                "dob": "21.11.1998",
+                "age": 26
             }
         ]
     },
     "22": {
         "01": [
             {
-                "first_name": "O‘KTAM",
-                "last_name": "TEMIROV",
-                "middle_name": "SHAVKATOVICH",
-                "dob": "22.01.1985",
-                "age": 39
-            },
-            {
-                "first_name": "MAFTUNA",
-                "last_name": "RUSTAMOVA",
-                "middle_name": "ADXAMJON-QIZI",
+                "first_name": "Maftuna",
+                "last_name": "Rustamova",
+                "middle_name": "Adhamjon",
                 "dob": "22.01.1997",
                 "age": 27
             }
         ],
+        "02": [
+            {
+                "first_name": "Bobur",
+                "last_name": "Eshboltayev",
+                "middle_name": "Jo'rayevich",
+                "dob": "22.02.1994",
+                "age": 30
+            }
+        ],
         "04": [
             {
-                "first_name": "MAFTUNA",
-                "last_name": "BOYMURODOVA",
-                "middle_name": "KLICHEVNA",
+                "first_name": "Maftuna",
+                "last_name": "Boymurodova",
+                "middle_name": "Qlichevna",
                 "dob": "22.04.1993",
                 "age": 31
             }
         ],
         "05": [
             {
-                "first_name": "TUXTAMURAT",
-                "last_name": "URAKOV",
-                "middle_name": "MUXIDDINOVICH",
-                "dob": "22.05.1959",
-                "age": 65
+                "first_name": "Tuxtamurod",
+                "last_name": "Urakov",
+                "middle_name": "Muhiddinovich",
+                "dob": "22.05.2059",
+                "age": -35
             }
         ],
         "06": [
             {
-                "first_name": "LATIFA",
-                "last_name": "KORAYEVA",
-                "middle_name": "ZARIFOVNA",
+                "first_name": "Latifa",
+                "last_name": "Karayeva",
+                "middle_name": "Zarifovna",
                 "dob": "22.06.1982",
                 "age": 42
             }
         ],
         "07": [
             {
-                "first_name": "RAXIMA",
-                "last_name": "USMANOVA",
-                "middle_name": "MAMAYUSUPOVNA",
+                "first_name": "Raxima",
+                "last_name": "Usmanova",
+                "middle_name": "Mamayusupovna",
                 "dob": "22.07.1973",
                 "age": 51
             }
         ],
         "09": [
             {
-                "first_name": "AZIZBEK",
-                "last_name": "RUZIMURODOV",
-                "middle_name": "SHONAZAROVICH",
+                "first_name": "Azizbek",
+                "last_name": "Ro'zimurodov",
+                "middle_name": null,
                 "dob": "22.09.1992",
+                "age": 32
+            }
+        ],
+        "11": [
+            {
+                "first_name": "Eldor",
+                "last_name": "Fayziyev",
+                "middle_name": "Erkin",
+                "dob": "22.11.1992",
+                "age": 32
+            }
+        ],
+        "12": [
+            {
+                "first_name": "Mohigul",
+                "last_name": "Muhammatova",
+                "middle_name": "Mansurovna",
+                "dob": "22.12.1991",
                 "age": 32
             }
         ]
     },
     "23": {
+        "03": [
+            {
+                "first_name": "Zarina",
+                "last_name": "Maxamatova",
+                "middle_name": "Murodulla",
+                "dob": "23.03.1998",
+                "age": 26
+            }
+        ],
+        "06": [
+            {
+                "first_name": "Anvar",
+                "last_name": "Ruziyev",
+                "middle_name": "Saparboyevich",
+                "dob": "23.06.1981",
+                "age": 43
+            }
+        ],
         "07": [
             {
-                "first_name": "SHAXLO",
-                "last_name": "XAYDAROVA",
-                "middle_name": "NARZULLAYEVNA",
-                "dob": "23.07.1972",
-                "age": 52
-            },
-            {
-                "first_name": "GO‘ZAL",
-                "last_name": "ZARIPOVA",
-                "middle_name": "TOHIR QIZI",
+                "first_name": "Go'zal",
+                "last_name": "Zaripova",
+                "middle_name": "Tohirovna",
                 "dob": "23.07.1991",
                 "age": 33
             }
         ],
+        "08": [
+            {
+                "first_name": "Ulug'bek",
+                "last_name": "Kamolov",
+                "middle_name": null,
+                "dob": "23.08.1992",
+                "age": 32
+            },
+            {
+                "first_name": "Jurabek",
+                "last_name": "Mavlonov",
+                "middle_name": "Yorqul",
+                "dob": "23.08.1975",
+                "age": 49
+            },
+            {
+                "first_name": "Jurabek",
+                "last_name": "Mavlonov",
+                "middle_name": "Yorqulovich",
+                "dob": "23.08.1975",
+                "age": 49
+            }
+        ],
         "09": [
             {
-                "first_name": "XILOLA",
-                "last_name": "SUYUNOVA",
-                "middle_name": "AZAMATOVNA",
-                "dob": "23.09.1977",
-                "age": 47
-            },
-            {
-                "first_name": "ALISHER",
-                "last_name": "TUXTASHEV",
-                "middle_name": "BAXODIROVICH",
-                "dob": "23.09.1979",
-                "age": 45
-            },
-            {
-                "first_name": "IBROHIM",
-                "last_name": "BO‘RIYEV",
-                "middle_name": "SALOHIDDIN O‘G‘LI",
+                "first_name": "Ibrohim",
+                "last_name": "Bo'riyev",
+                "middle_name": null,
                 "dob": "23.09.1994",
                 "age": 30
+            },
+            {
+                "first_name": "Muzaffar",
+                "last_name": "Sag'dinov",
+                "middle_name": "Faxriddinovich",
+                "dob": "23.09.1985",
+                "age": 39
+            },
+            {
+                "first_name": "Iroda",
+                "last_name": "Shodiyeva",
+                "middle_name": "Sadulla",
+                "dob": "23.09.1996",
+                "age": 28
+            },
+            {
+                "first_name": "Alisher",
+                "last_name": "To’xtashev",
+                "middle_name": "Baxodirovich",
+                "dob": "23.09.1979",
+                "age": 45
             }
         ],
         "10": [
             {
-                "first_name": "DILNORA",
-                "last_name": "G‘AFUROVA",
-                "middle_name": "DILSHOD QIZI",
+                "first_name": "Dilnora",
+                "last_name": "Gafurova",
+                "middle_name": "Dilshod",
                 "dob": "23.10.1998",
                 "age": 26
             }
         ],
         "11": [
             {
-                "first_name": "QAXRAMON",
-                "last_name": "QANDAHAROV",
-                "middle_name": "HASANOVICH",
+                "first_name": "Firuza",
+                "last_name": "Boboyeva",
+                "middle_name": null,
+                "dob": "23.11.1989",
+                "age": 35
+            },
+            {
+                "first_name": "Qaxramon",
+                "last_name": "Qandaxorov",
+                "middle_name": null,
                 "dob": "23.11.1977",
                 "age": 47
+            },
+            {
+                "first_name": "O`ktam",
+                "last_name": "Sherqulov",
+                "middle_name": "Dexqonovich",
+                "dob": "23.11.2060",
+                "age": -36
+            }
+        ],
+        "12": [
+            {
+                "first_name": "Ramazon",
+                "last_name": "Rajabov",
+                "middle_name": "Isomiddinovich",
+                "dob": "23.12.2065",
+                "age": -42
             }
         ]
     },
     "24": {
         "02": [
             {
-                "first_name": "MUNISA",
-                "last_name": "RUSTAMOVA",
-                "middle_name": "TO‘LQIN QIZI",
-                "dob": "24.02.1992",
-                "age": 32
-            },
-            {
-                "first_name": "GULCHIROY",
-                "last_name": "FAYZIYEVA",
-                "middle_name": "PAXLAVON QIZI",
+                "first_name": "Gulchiroy",
+                "last_name": "Fayziyeva",
+                "middle_name": "Pahlavon",
                 "dob": "24.02.1997",
                 "age": 27
             }
         ],
+        "03": [
+            {
+                "first_name": "Saboxat",
+                "last_name": "Ganiyeva",
+                "middle_name": "O`ktamovna",
+                "dob": "24.03.1988",
+                "age": 36
+            },
+            {
+                "first_name": "Anvar",
+                "last_name": "Isayev",
+                "middle_name": "Mustafakulovich",
+                "dob": "24.03.1983",
+                "age": 41
+            }
+        ],
         "04": [
             {
-                "first_name": "ZOYIR",
-                "last_name": "RAXIMOV",
-                "middle_name": "JUMAYEVICH",
+                "first_name": "Zoir",
+                "last_name": "Raximov",
+                "middle_name": "Jumaevich",
                 "dob": "24.04.1989",
                 "age": 35
+            },
+            {
+                "first_name": "Axmad",
+                "last_name": "Donayev",
+                "middle_name": "Xushvaqtovich",
+                "dob": "24.04.1980",
+                "age": 44
             }
         ],
         "08": [
             {
-                "first_name": "LOBARXON",
-                "last_name": "SUVONOVA",
-                "middle_name": "ISLOM QIZI",
+                "first_name": "Lobarxon",
+                "last_name": "Suvonova",
+                "middle_name": "Islom",
                 "dob": "24.08.1991",
                 "age": 33
+            }
+        ],
+        "10": [
+            {
+                "first_name": "Ibrohim",
+                "last_name": "Isaqulov",
+                "middle_name": "O'ktam",
+                "dob": "24.10.1999",
+                "age": 25
+            },
+            {
+                "first_name": "Gavxar",
+                "last_name": "Xatamova",
+                "middle_name": "Qiyomovna",
+                "dob": "24.10.1969",
+                "age": 55
             }
         ]
     },
     "25": {
         "01": [
             {
-                "first_name": "NASIBA",
-                "last_name": "YARASHOVA",
-                "middle_name": "JUMAYEVNA",
+                "first_name": "Nodira",
+                "last_name": "Po'latova",
+                "middle_name": null,
+                "dob": "25.01.1995",
+                "age": 29
+            },
+            {
+                "first_name": "Matluba",
+                "last_name": "Rashidova",
+                "middle_name": "Isroil",
+                "dob": "25.01.1991",
+                "age": 33
+            },
+            {
+                "first_name": "Nasiba",
+                "last_name": "Yarasheva",
+                "middle_name": "Jumayevna",
                 "dob": "25.01.1990",
                 "age": 34
             }
         ],
         "02": [
             {
-                "first_name": "SHUHRAT",
-                "last_name": "XUDOYOROV",
-                "middle_name": "JUMAQULOVICH",
+                "first_name": "Shuhrat",
+                "last_name": "Xudoyorov",
+                "middle_name": "Jumaqulovich",
+                "dob": "25.02.1970",
+                "age": 54
+            },
+            {
+                "first_name": "Shuhrat",
+                "last_name": "Xudoyorov",
+                "middle_name": "Jumaqulovich",
                 "dob": "25.02.1970",
                 "age": 54
             }
         ],
-        "03": [
+        "04": [
             {
-                "first_name": "ZEBINISO",
-                "last_name": "TUYCHIYEVA",
-                "middle_name": "FARHOD QIZI",
-                "dob": "25.03.1994",
-                "age": 30
+                "first_name": "Nigora",
+                "last_name": "Nasimova",
+                "middle_name": null,
+                "dob": "25.04.1979",
+                "age": 45
             }
         ],
         "06": [
             {
-                "first_name": "OYBEK",
-                "last_name": "QURBONOV",
-                "middle_name": "MUHAMMATQULOVICH",
+                "first_name": "Oybek",
+                "last_name": "Qurbonov",
+                "middle_name": "Muxammadqulovich",
                 "dob": "25.06.1992",
                 "age": 32
             }
         ],
         "07": [
             {
-                "first_name": "ZOHIDJON",
-                "last_name": "HALIMOV",
-                "middle_name": "SHAVKAT O‘G‘LI",
+                "first_name": "Zoxid",
+                "last_name": "Xalimov",
+                "middle_name": "Shavkat",
                 "dob": "25.07.1995",
                 "age": 29
             }
         ],
         "08": [
             {
-                "first_name": "SHERMAMAT",
-                "last_name": "XASANOV",
-                "middle_name": "RAXMATULAYEVICH",
-                "dob": "25.08.1962",
-                "age": 62
-            },
-            {
-                "first_name": "NASIBA",
-                "last_name": "RAHMATOVA",
-                "middle_name": "SOBIROVNA",
+                "first_name": "Nasiba",
+                "last_name": "Raxmatova",
+                "middle_name": "Sobirovna",
                 "dob": "25.08.1990",
                 "age": 34
+            },
+            {
+                "first_name": "Ilhom",
+                "last_name": "Roʻziyev",
+                "middle_name": "Irisovich",
+                "dob": "25.08.1971",
+                "age": 53
+            },
+            {
+                "first_name": "Ilhom",
+                "last_name": "Ruziyev",
+                "middle_name": "Irisovich",
+                "dob": "25.08.1971",
+                "age": 53
+            },
+            {
+                "first_name": "Shermamat",
+                "last_name": "Xasanov",
+                "middle_name": "Raxmatullayevich",
+                "dob": "25.08.2062",
+                "age": -38
+            }
+        ],
+        "09": [
+            {
+                "first_name": "Alisher",
+                "last_name": "Alimov",
+                "middle_name": null,
+                "dob": "25.09.2068",
+                "age": -44
             }
         ],
         "10": [
             {
-                "first_name": "ADIBA",
-                "last_name": "BOTIROVA",
-                "middle_name": "ERKINOVNA",
-                "dob": "25.10.1983",
-                "age": 41
+                "first_name": "Munisa",
+                "last_name": "Shernazarova",
+                "middle_name": "Qaxramon",
+                "dob": "25.10.1999",
+                "age": 25
             }
         ],
         "11": [
             {
-                "first_name": "IBROXIM",
-                "last_name": "AGZAMOV",
+                "first_name": "Ibrohim",
+                "last_name": "Agzamov",
                 "middle_name": "XXX",
-                "dob": "25.11.1953",
-                "age": 71
-            }
-        ],
-        "12": [
-            {
-                "first_name": "BEKTOSH",
-                "last_name": "QODIROV",
-                "middle_name": "SHERQUVAT O‘G‘LI",
-                "dob": "25.12.1994",
-                "age": 30
+                "dob": "25.11.2053",
+                "age": -29
             }
         ]
     },
     "26": {
         "01": [
             {
-                "first_name": "AKRAMJON",
-                "last_name": "IRISOV",
-                "middle_name": "AVAZOVICH",
-                "dob": "26.01.1967",
-                "age": 57
+                "first_name": "Akramjon",
+                "last_name": "Irisov",
+                "middle_name": "Avazovich",
+                "dob": "26.01.2067",
+                "age": -43
             },
             {
-                "first_name": "MAMURA",
-                "last_name": "RAXMATOVA",
-                "middle_name": "SHAXRIDINOVNA",
-                "dob": "26.01.1976",
-                "age": 48
-            },
-            {
-                "first_name": "LUTFULLO",
-                "last_name": "QO‘LDOSHEV",
-                "middle_name": "SADULLAYEVICH",
-                "dob": "26.01.1977",
-                "age": 47
-            },
-            {
-                "first_name": "G‘ULOMJON",
-                "last_name": "NOROV",
-                "middle_name": "MIRZOG‘OLIB O‘G‘LI",
+                "first_name": "Gʻulomjon",
+                "last_name": "Norov",
+                "middle_name": "Mirzagʻolib",
                 "dob": "26.01.1991",
                 "age": 33
+            },
+            {
+                "first_name": "Ma'mura",
+                "last_name": "Rahmatova",
+                "middle_name": "Shahriddinovna",
+                "dob": "26.01.1976",
+                "age": 48
+            }
+        ],
+        "02": [
+            {
+                "first_name": "Sobit",
+                "last_name": "Bobomurodov",
+                "middle_name": "Erkinovich",
+                "dob": "26.02.1973",
+                "age": 51
+            },
+            {
+                "first_name": "Marjona",
+                "last_name": "Ro'ziboyeva",
+                "middle_name": "Baxtiyor",
+                "dob": "26.02.2003",
+                "age": 21
             }
         ],
         "03": [
             {
-                "first_name": "BURXON",
-                "last_name": "YALG‘ASHEV",
-                "middle_name": "FAYZULLAYEVICH",
-                "dob": "26.03.1972",
-                "age": 52
-            },
-            {
-                "first_name": "TO‘LQIN",
-                "last_name": "BOTIROV",
-                "middle_name": "VAFOKULOVICH",
+                "first_name": "To'lqin",
+                "last_name": "Botirov",
+                "middle_name": "Vafoqulovich",
                 "dob": "26.03.1979",
                 "age": 45
             },
             {
-                "first_name": "XURSHIDA",
-                "last_name": "RABBIMOVA",
-                "middle_name": "ERKIN QIZI",
-                "dob": "26.03.1992",
-                "age": 32
+                "first_name": "Dilnoza",
+                "last_name": "Nusratilloyeva",
+                "middle_name": null,
+                "dob": "26.03.1991",
+                "age": 33
             }
         ],
         "04": [
             {
-                "first_name": "RA’NO",
-                "last_name": "RAVSHANOVA",
-                "middle_name": "XANDAMOVNA",
-                "dob": "26.04.1983",
-                "age": 41
+                "first_name": "Aziz",
+                "last_name": "Toshtemirov",
+                "middle_name": "Ilmiamin",
+                "dob": "26.04.1991",
+                "age": 33
             },
             {
-                "first_name": "JAXONGIR",
-                "last_name": "PULATOV",
-                "middle_name": "NAZIROVICH",
-                "dob": "26.04.1986",
-                "age": 38
-            },
-            {
-                "first_name": "DILFUZA",
-                "last_name": "ZAYNUTDINOVA",
-                "middle_name": "SHAMSIDINOVNA",
+                "first_name": "Dilfuza",
+                "last_name": "Zaynutdinona",
+                "middle_name": "Shamsitdinovna",
                 "dob": "26.04.1991",
                 "age": 33
             }
         ],
-        "09": [
+        "07": [
             {
-                "first_name": "SHERZOD",
-                "last_name": "ATAMURADOV",
-                "middle_name": "AKRAMOVICH",
-                "dob": "26.09.1983",
-                "age": 41
+                "first_name": "Doston",
+                "last_name": "Amonov",
+                "middle_name": "O'tkir",
+                "dob": "26.07.1992",
+                "age": 32
+            },
+            {
+                "first_name": "Doston",
+                "last_name": "Amonov",
+                "middle_name": "Oʻtkir",
+                "dob": "26.07.1992",
+                "age": 32
+            },
+            {
+                "first_name": "Gulobod",
+                "last_name": "Raxmatova",
+                "middle_name": null,
+                "dob": "26.07.1994",
+                "age": 30
+            },
+            {
+                "first_name": "Marjona",
+                "last_name": "Hayitova",
+                "middle_name": "Husniddin",
+                "dob": "26.07.2002",
+                "age": 22
             }
         ],
         "11": [
             {
-                "first_name": "MOHINUR",
-                "last_name": "NORMUHAMMEDOVA",
-                "middle_name": "XAYRILLO QIZI",
+                "first_name": "Moxinur",
+                "last_name": "Normuxammedova",
+                "middle_name": "Xayrullo",
                 "dob": "26.11.1998",
                 "age": 26
             }
         ]
     },
     "27": {
+        "01": [
+            {
+                "first_name": "Alisher",
+                "last_name": "Pardayev",
+                "middle_name": "Hamzayevich",
+                "dob": "27.01.1990",
+                "age": 34
+            }
+        ],
+        "02": [
+            {
+                "first_name": "Javlon",
+                "last_name": "Eshboyev",
+                "middle_name": "Izzatullayevich",
+                "dob": "27.02.1985",
+                "age": 39
+            }
+        ],
+        "04": [
+            {
+                "first_name": "Alijon",
+                "last_name": "Ergashev",
+                "middle_name": null,
+                "dob": "27.04.1985",
+                "age": 39
+            },
+            {
+                "first_name": "Alijon",
+                "last_name": "Ergashev",
+                "middle_name": "Baxodirovich",
+                "dob": "27.04.1985",
+                "age": 39
+            }
+        ],
         "05": [
             {
-                "first_name": "MADINA",
-                "last_name": "XAMIDOVA",
-                "middle_name": "NIZOMBEK QIZI",
+                "first_name": "Davron",
+                "last_name": "Fayziyev",
+                "middle_name": "Haydarovich",
+                "dob": "27.05.1983",
+                "age": 41
+            },
+            {
+                "first_name": "Madina",
+                "last_name": "Xamidova",
+                "middle_name": "Nizombekovna",
                 "dob": "27.05.1999",
                 "age": 25
             }
         ],
-        "07": [
-            {
-                "first_name": "SOXIBJON",
-                "last_name": "SHERMANOV",
-                "middle_name": "UMAR O‘G‘LI",
-                "dob": "27.07.1989",
-                "age": 35
-            }
-        ],
         "09": [
             {
-                "first_name": "SHERZOD",
-                "last_name": "TOSHBO‘RIYEV",
-                "middle_name": "OYBEK O‘G‘LI",
+                "first_name": "Sherzod",
+                "last_name": "Toshbo'riyev",
+                "middle_name": "Oybekovich",
                 "dob": "27.09.1996",
                 "age": 28
             }
         ]
     },
     "28": {
-        "01": [
+        "02": [
             {
-                "first_name": "DILDORA",
-                "last_name": "XUDOYAROVA",
-                "middle_name": "NAJMIDINOVNA",
-                "dob": "28.01.1979",
-                "age": 45
+                "first_name": "Davlat",
+                "last_name": "Raxmonov",
+                "middle_name": null,
+                "dob": "28.02.2054",
+                "age": -30
             }
         ],
         "04": [
             {
-                "first_name": "NASIBA",
-                "last_name": "ASHUROVA",
-                "middle_name": "BATIROVNA",
-                "dob": "28.04.1974",
-                "age": 50
+                "first_name": "Amridin",
+                "last_name": "Turdiyev",
+                "middle_name": "Abdihakim",
+                "dob": "28.04.1994",
+                "age": 30
+            }
+        ],
+        "06": [
+            {
+                "first_name": "Odil",
+                "last_name": "Zohidov",
+                "middle_name": "Umirzoqovich",
+                "dob": "28.06.1985",
+                "age": 39
             }
         ],
         "07": [
             {
-                "first_name": "VASILA",
-                "last_name": "CHO‘LIYEVA",
-                "middle_name": "ERKINOVNA",
+                "first_name": "Vasila",
+                "last_name": "Cho'liyeva",
+                "middle_name": "Erkinovna",
+                "dob": "28.07.1986",
+                "age": 38
+            },
+            {
+                "first_name": "Vasila",
+                "last_name": "Cho'liyeva",
+                "middle_name": "Erkinovna",
                 "dob": "28.07.1986",
                 "age": 38
             }
         ],
         "08": [
             {
-                "first_name": "NARGIZA",
-                "last_name": "G‘ULOMOVA",
-                "middle_name": "SA’DULLAYEVNA",
+                "first_name": "Nargiza",
+                "last_name": "G'ulomova",
+                "middle_name": "Sa'dullayevna",
                 "dob": "28.08.1976",
                 "age": 48
+            },
+            {
+                "first_name": "Muxlisa",
+                "last_name": "Hojiyeva",
+                "middle_name": "Ergash",
+                "dob": "28.08.1998",
+                "age": 26
             }
         ],
         "09": [
             {
-                "first_name": "MAXSUDAXON",
-                "last_name": "NAZAROVA",
-                "middle_name": "SAYDULLAYEVNA",
-                "dob": "28.09.1970",
-                "age": 54
+                "first_name": "Gulmira",
+                "last_name": "Norkuvatova",
+                "middle_name": "Izatullayevna",
+                "dob": "28.09.1986",
+                "age": 38
             }
         ],
         "10": [
             {
-                "first_name": "ASATILLO",
-                "last_name": "ASLANOV",
-                "middle_name": "EKRAMOVICH",
-                "dob": "28.10.1964",
-                "age": 60
+                "first_name": "Asatullo",
+                "last_name": "Aslonov",
+                "middle_name": "Ekramovich",
+                "dob": "28.10.2064",
+                "age": -40
             },
             {
-                "first_name": "AKMAL",
-                "last_name": "KURBONOV",
-                "middle_name": "AZAMATOVICH",
+                "first_name": "Akmal",
+                "last_name": "Kurbanov",
+                "middle_name": "Azamatovich",
                 "dob": "28.10.1988",
                 "age": 36
+            },
+            {
+                "first_name": "Akmal",
+                "last_name": "Kurbonov",
+                "middle_name": "Azamatovich",
+                "dob": "28.10.1988",
+                "age": 36
+            },
+            {
+                "first_name": "Zarnigor",
+                "last_name": "Musayeva",
+                "middle_name": "Dilmurod",
+                "dob": "28.10.1999",
+                "age": 25
             }
         ],
         "12": [
             {
-                "first_name": "MUXAYYO",
-                "last_name": "UMMATOVA",
-                "middle_name": "EGAMBERDIYEVNA",
-                "dob": "28.12.1984",
-                "age": 40
+                "first_name": "Doniyor",
+                "last_name": "Baxtiyorov",
+                "middle_name": "Baxtiyorovich",
+                "dob": "28.12.1998",
+                "age": 25
+            },
+            {
+                "first_name": "Nasiba",
+                "last_name": "Gadayeva",
+                "middle_name": "Kadirovna",
+                "dob": "28.12.1986",
+                "age": 37
             }
         ]
     },
     "29": {
-        "05": [
+        "02": [
             {
-                "first_name": "NIGORA",
-                "last_name": "SHARIPOVA",
-                "middle_name": "NURIDDINOVNA",
-                "dob": "29.05.1986",
-                "age": 38
+                "first_name": "Mohichehra",
+                "last_name": "Islamova",
+                "middle_name": null,
+                "dob": "29.02.1988",
+                "age": 36
             }
         ],
-        "09": [
+        "03": [
             {
-                "first_name": "HUSNIDDIN",
-                "last_name": "ABDURAXIMOV",
-                "middle_name": "SADRIDDIN O‘G‘LI",
-                "dob": "29.09.1997",
-                "age": 27
-            }
-        ]
-    },
-    "30": {
-        "01": [
-            {
-                "first_name": "NAFISA",
-                "last_name": "EGAMBERDIYEVA",
-                "middle_name": "MUSTAFAYEVNA",
-                "dob": "30.01.1987",
-                "age": 37
+                "first_name": "Vapoqul",
+                "last_name": "Xudoyberdiyev",
+                "middle_name": "Oblayevich",
+                "dob": "29.03.2065",
+                "age": -41
             }
         ],
         "04": [
             {
-                "first_name": "ISROIL",
-                "last_name": "MIRZAYEV",
-                "middle_name": "MUSTAFAYEVICH",
-                "dob": "30.04.1974",
-                "age": 50
+                "first_name": "Aziza",
+                "last_name": "Eshpulatova",
+                "middle_name": null,
+                "dob": "29.04.1998",
+                "age": 26
             }
         ],
         "05": [
             {
-                "first_name": "MAQSUDA",
-                "last_name": "MAHAMOVA",
-                "middle_name": "NASRIDDIN QIZI",
+                "first_name": "Nigora",
+                "last_name": "Sharipova",
+                "middle_name": "Nuriddinovna",
+                "dob": "29.05.1986",
+                "age": 38
+            }
+        ],
+        "07": [
+            {
+                "first_name": "Fozil",
+                "last_name": "Hasanov",
+                "middle_name": null,
+                "dob": "29.07.1990",
+                "age": 34
+            }
+        ],
+        "09": [
+            {
+                "first_name": "Serikbay",
+                "last_name": "Aldamuratov",
+                "middle_name": "Bazarbayevich",
+                "dob": "29.09.2059",
+                "age": -35
+            }
+        ]
+    },
+    "30": {
+        "04": [
+            {
+                "first_name": "Feruza",
+                "last_name": "Mardonova",
+                "middle_name": "Baxodir",
+                "dob": "30.04.2067",
+                "age": -43
+            },
+            {
+                "first_name": "Isroil",
+                "last_name": "Mirzayev",
+                "middle_name": "Mustafayevich",
+                "dob": "30.04.1974",
+                "age": 50
+            },
+            {
+                "first_name": "Nafisa",
+                "last_name": "Sadinova",
+                "middle_name": null,
+                "dob": "30.04.1976",
+                "age": 48
+            }
+        ],
+        "05": [
+            {
+                "first_name": "Maqsuda",
+                "last_name": "Mahamova",
+                "middle_name": "Nasriddin",
                 "dob": "30.05.1994",
                 "age": 30
+            }
+        ],
+        "08": [
+            {
+                "first_name": "Madina",
+                "last_name": "Qobilova",
+                "middle_name": "Qodir",
+                "dob": "30.08.1996",
+                "age": 28
+            }
+        ],
+        "09": [
+            {
+                "first_name": "Umid",
+                "last_name": "Urakov",
+                "middle_name": "Alisher",
+                "dob": "30.09.2002",
+                "age": 22
+            }
+        ],
+        "11": [
+            {
+                "first_name": "Muhsin",
+                "last_name": "Amonov",
+                "middle_name": "Erkinovich",
+                "dob": "30.11.1993",
+                "age": 31
             }
         ]
     },
     "31": {
         "03": [
             {
-                "first_name": "KIBRIYOXON",
-                "last_name": "SULTONOVA",
-                "middle_name": "FAXRIDDIN QIZI",
+                "first_name": "Kibriyo",
+                "last_name": "Sultonova",
+                "middle_name": "Faxriddinovna",
                 "dob": "31.03.1994",
                 "age": 30
             }
         ],
         "05": [
             {
-                "first_name": "DILNAVOZ",
-                "last_name": "RAXMONOVA",
-                "middle_name": "MUXITDINOVNA",
+                "first_name": "Dilnavoz",
+                "last_name": "Raxmonova",
+                "middle_name": "Muhiddinovna",
                 "dob": "31.05.1981",
                 "age": 43
             }
         ],
-        "10": [
-            {
-                "first_name": "OLMAXON",
-                "last_name": "XAITOVA",
-                "middle_name": "SAIDOVNA",
-                "dob": "31.10.1967",
-                "age": 57
-            }
-        ],
         "12": [
             {
-                "first_name": "LOLA",
-                "last_name": "ZOIROVA",
-                "middle_name": "XAMIDOVNA",
+                "first_name": "lola",
+                "last_name": "Zoyirova",
+                "middle_name": "Hamidovna",
                 "dob": "31.12.1983",
-                "age": 41
+                "age": 40
             }
         ]
     }
