@@ -58,18 +58,18 @@ async def payment_sender(msg: Message):
                 text += f'Summasi: <b>{payment["amount"]}</b>\n' \
                         f'Sanasi: <b>{date.strftime(date.fromisoformat(payment["payment_date"]), "%d.%m.%Y")}</b>\n'
 
-                try:
-                    await msg.bot.send_message(telegram_id, text)
-                    logger.info(f'Payment sent to user {telegram_id}')
-                    sent_passports["passport"].append(passport)
-                except BotBlocked:
-                    logger.warning(f'Bot was blocked by user {telegram_id}. Skipping.')
-                    not_sent_passports["passport"].append(passport)
-                except Exception as e:
-                    logger.error(f'Failed to send message to user {telegram_id} due to {e}.')
-                    not_sent_passports["passport"].append(passport)
-            else:
+            try:
+                await msg.bot.send_message(telegram_id, text)
+                logger.info(f'Payment sent to user {telegram_id}')
+                sent_passports["passport"].append(passport)
+            except BotBlocked:
+                logger.warning(f'Bot was blocked by user {telegram_id}. Skipping.')
                 not_sent_passports["passport"].append(passport)
+            except Exception as e:
+                logger.error(f'Failed to send message to user {telegram_id} due to {e}.')
+                not_sent_passports["passport"].append(passport)
+        else:
+            not_sent_passports["passport"].append(passport)
 
         # sleep for 0.034 sec
         await asyncio.sleep(0.034)
