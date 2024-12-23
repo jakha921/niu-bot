@@ -154,7 +154,7 @@ def get_contract_payment_data(passport_data: str):
                 text += f'Summasi: <b>{payment["amount"]}</b>\n' \
                         f'Sanasi: <b>{payment["payment_date"]}</b>\n' \
                         f"To'lov maqsadi <b>{payment['description']}</b>\n"
-                    # f'Bazaga qo\'yilgan sanasi: <b>{payment["created_at"]}</b>\n'
+                # f'Bazaga qo\'yilgan sanasi: <b>{payment["created_at"]}</b>\n'
         return text
 
     return None
@@ -191,7 +191,7 @@ def get_credit_data(passport_data: str):
             text += '\nSizda kredit <b>yo\'q</b>'
 
         payed_credit = 0
-        if creadit_payment:= data['data']['credit_payment']:
+        if creadit_payment := data['data']['credit_payment']:
             text += f'\n\n📝 Kredit qarzdorlik buycha to\'lovlar:\n'
             # print('creadit_payment', creadit_payment)
             for payment in creadit_payment:
@@ -208,8 +208,59 @@ def get_credit_data(passport_data: str):
     return None
 
 
+def get_payed_data():
+    url = 'https://marketing.niuedu.uz/student/get-historyPayments'
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()['data']
+        # pprint(data)
+
+        # print('---------------------------------')
+        # print('data', len(data.keys()))
+        # print('data', len(set(data.keys())))
+        # print('---------------------------------')
+        # print('data', data.get('AA0000332'))
+        # print('data', data.get('AA0713386'))
+
+        payment_data = {}
+
+        for key, value in data.items():
+            if value.get('passport') not in payment_data:
+                payment_data[value.get('passport')] = [
+                    {
+                        'amount': value.get('amount'),
+                        'payment_date': value.get('payment_date'),
+                    }
+                ]
+
+            else:
+                payment_data[value.get('passport')].append(
+                    {
+                        'amount': value.get('amount'),
+                        'payment_date': value.get('payment_date'),
+                    }
+                )
+
+        # pprint(payment_data)
+        # print('---------------------------------')
+        # print('payment_data', len(payment_data.keys()))
+        # print('payment_data', payment_data.get('AA6983443'))
+
+        return payment_data
+
+
+def send_passport_data(sent_passports: dict):
+    url = 'https://marketing.niuedu.uz/student/get-UpdatePayments'
+
+    response = requests.get(url, json=sent_passports)
+    if response.status_code == 200:
+        return response
+    else:
+        return None
+
 if __name__ == '__main__':
     # foo = get_contract_link('AA7652863')
-    foo = get_contract_payment_data('AA6005372')
+    # foo = get_contract_payment_data('AA6005372')
     # foo = get_credit_data('AD1398393')
+    foo = get_payed_data()
     pprint(foo)

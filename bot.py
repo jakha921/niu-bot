@@ -12,6 +12,7 @@ from aiogram.types.bot_command_scope import BotCommandScopeDefault
 from tgbot.config import load_config
 from tgbot.filters import role, reply_kb
 from tgbot.handlers.group import register_manage_chat
+from tgbot.handlers.payment_cron import register_payment
 from tgbot.handlers.student_menu import register_student
 from tgbot.middlewares.throtling import ThrottlingMiddleware
 from tgbot.middlewares.db import DbMiddleware
@@ -68,6 +69,7 @@ def register_all_handlers(dp: Dispatcher):
     register_manage_chat(dp)
     register_user(dp)
     register_student(dp)
+    register_payment(dp)
 
 
 async def set_bot_commands(bot: Bot):

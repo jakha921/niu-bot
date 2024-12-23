@@ -10,7 +10,7 @@ from loguru import logger
 
 from tgbot.keyboards.inline import menu_keyboard_inline
 from tgbot.keyboards.reply import back_keyboard
-from tgbot.misc.contract_api import get_contract_link, get_contract_payment_data, get_credit_data
+from tgbot.misc.marketing_api import get_contract_link, get_contract_payment_data, get_credit_data
 from tgbot.misc.hemis_api import get_student_data_by_hemis_id, get_student_schedule_by_hemis_id, get_docs
 from tgbot.misc.states import StudentPassport, StudentPassportChange
 from tgbot.models.models import TGUser, get_list_of_books, get_student_by_passport
