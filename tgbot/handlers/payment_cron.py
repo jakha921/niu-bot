@@ -1,3 +1,4 @@
+import asyncio
 from datetime import date
 
 from aiogram import Dispatcher
@@ -64,6 +65,9 @@ async def payment_sender(msg: Message):
             # print(f'No payment for {passport}')
             not_sent_passports["passport"].append(passport)
             # print('-' * 20)
+
+        # sleep for 0.034 sec
+        await asyncio.sleep(0.034)
 
     print('sent_passports:', len(sent_passports["passport"]))
     print('not_sent_passports:', len(not_sent_passports["passport"]))
