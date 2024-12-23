@@ -73,15 +73,15 @@ async def payment_sender(msg: Message):
     print('not_sent_passports:', len(not_sent_passports["passport"]))
 
     # convert to csv
-    sent_passports = '\n'.join(sent_passports["passport"])
-    not_sent_passports = '\n'.join(not_sent_passports["passport"])
+    sent_passports_csv = '\n'.join(sent_passports["passport"])
+    not_sent_passports_csv = '\n'.join(not_sent_passports["passport"])
 
     # save to file
     with open(f'sent_passports_{date.today()}.csv', 'w') as file:
-        file.write(sent_passports)
+        file.write(sent_passports_csv)
 
     with open(f'not_sent_passports_{date.today()}.csv', 'w') as file:
-        file.write(not_sent_passports)
+        file.write(not_sent_passports_csv)
 
     # send csv file to admin
     await msg.answer_document(open(f'sent_passports_{date.today()}.csv', 'rb'), caption="Payment sent to users with passports:")
