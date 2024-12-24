@@ -44,6 +44,7 @@ async def payment_sender(msg: Message):
 
     sent_passports = {"passport": []}
     not_sent_passports = {"passport": []}
+    blocked_users = []
 
     # Send message to all users
     for passport, telegram_id in users_dict.items():
@@ -64,7 +65,8 @@ async def payment_sender(msg: Message):
                 sent_passports["passport"].append(passport)
             except BotBlocked:
                 logger.warning(f'Bot was blocked by user {telegram_id}. Skipping.')
-                not_sent_passports["passport"].append(passport)
+                # not_sent_passports["passport"].append(passport)
+                blocked_users.append(passport)
             except Exception as e:
                 logger.error(f'Failed to send message to user {telegram_id} due to {e}.')
                 not_sent_passports["passport"].append(passport)
@@ -76,10 +78,12 @@ async def payment_sender(msg: Message):
 
     print('sent_passports:', len(sent_passports["passport"]))
     print('not_sent_passports:', len(not_sent_passports["passport"]))
+    print('blocked_users:', len(blocked_users))
 
     # convert to csv
     sent_passports_csv = '\n'.join(sent_passports["passport"])
     not_sent_passports_csv = '\n'.join(not_sent_passports["passport"])
+    blocked_users_csv = '\n'.join(blocked_users)
 
     # save to file
     with open(f'sent_passports_{date.today()}.csv', 'w') as file:
@@ -88,9 +92,13 @@ async def payment_sender(msg: Message):
     with open(f'not_sent_passports_{date.today()}.csv', 'w') as file:
         file.write(not_sent_passports_csv)
 
+    with open(f'blocked_users_{date.today()}.csv', 'w') as file:
+        file.write(blocked_users_csv)
+
     # send csv file to admin
     await msg.answer_document(open(f'sent_passports_{date.today()}.csv', 'rb'), caption="Payment sent to users with passports:")
     await msg.answer_document(open(f'not_sent_passports_{date.today()}.csv', 'rb'), caption="No payment for users with passports:")
+    await msg.answer_document(open(f'blocked_users_{date.today()}.csv', 'rb'), caption="Blocked users with passports:")
 
     print('-' * 20)
     response = send_passport_data(sent_passports)
@@ -101,6 +109,7 @@ async def payment_sender(msg: Message):
         import os
         os.remove(f'sent_passports_{date.today()}.csv')
         os.remove(f'not_sent_passports_{date.today()}.csv')
+        os.remove(f'blocked_users_{date.today()}.csv')
 
 
 def register_payment(dp: Dispatcher):
