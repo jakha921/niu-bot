@@ -2,2976 +2,3258 @@
     "01": {
         "01": [
             {
-                "first_name": "Matluba",
                 "last_name": "Tojiyeva",
-                "middle_name": "Mahmud",
-                "dob": "01.01.1994",
-                "age": 30
+                "first_name": "Matluba",
+                "middle_name": "Mahmud qizi",
+                "dob": "01.01.94",
+                "position": "O'qituvchi",
+                "PINFL": 40101942380112
             }
         ],
         "02": [
             {
-                "first_name": "Gulruh",
                 "last_name": "Jabborova",
+                "first_name": "Gulruh",
                 "middle_name": null,
-                "dob": "01.02.1995",
-                "age": 29
+                "dob": "01.02.95",
+                "position": "O'qituvchi",
+                "PINFL": 40102953960023
             }
         ],
         "03": [
             {
-                "first_name": "Muxammad",
-                "last_name": "Avazov",
-                "middle_name": "Mamayusuf",
-                "dob": "01.03.1997",
-                "age": 27
+                "last_name": "Berdiyev",
+                "first_name": "Aktam",
+                "middle_name": "Kamolovich",
+                "dob": "01.03.78",
+                "position": "Bosh xisobchi",
+                "PINFL": 30103782390068
             },
             {
-                "first_name": "Aktam",
-                "last_name": "Berdiyev",
-                "middle_name": "Kamolovich",
-                "dob": "01.03.1978",
-                "age": 46
+                "last_name": "Avazov",
+                "first_name": "Muxammad",
+                "middle_name": "Mamayusuf o'g'li",
+                "dob": "01.03.97",
+                "position": "Iqtidorli talabalar bilan ishlash bo'limi uslubchisi",
+                "PINFL": 30103975830058
             }
         ],
         "04": [
             {
-                "first_name": "Adolat",
                 "last_name": "Egamova",
+                "first_name": "Adolat",
                 "middle_name": null,
-                "dob": "01.04.1979",
-                "age": 45
+                "dob": "01.04.79",
+                "position": "soatbay",
+                "PINFL": 40104792360064
             }
         ],
         "05": [
             {
-                "first_name": "Gʻulom",
                 "last_name": "Abdurahmonov",
+                "first_name": "Gʻulom",
                 "middle_name": "Erkinovich",
-                "dob": "01.05.1970",
-                "age": 54
+                "dob": "01.05.70",
+                "position": "O'qituchi",
+                "PINFL": 30105706020044
             },
             {
-                "first_name": "Azizbek",
                 "last_name": "Toshmatov",
-                "middle_name": "Ne'matjon",
-                "dob": "01.05.2007",
-                "age": 17
+                "first_name": "Azizbek",
+                "middle_name": "Ne'matjon o'g'li",
+                "dob": "01.05.07",
+                "position": "Iish yuritish bo'limiga Ish yurituvchi  mutaxassis",
+                "PINFL": 50105076750101
             }
         ],
         "06": [
             {
-                "first_name": "Ravshan",
-                "last_name": "Allayorov",
-                "middle_name": "Muzaffarovich",
-                "dob": "01.06.1992",
-                "age": 32
-            },
-            {
-                "first_name": "Nodir",
                 "last_name": "Ataullayev",
+                "first_name": "Nodir",
                 "middle_name": "Odilovich",
-                "dob": "01.06.1982",
-                "age": 42
+                "dob": "01.06.82",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 30106822340016
             },
             {
-                "first_name": "Asadbek",
+                "last_name": "Allayorov",
+                "first_name": "Ravshan",
+                "middle_name": "Muzaffarovich",
+                "dob": "01.06.92",
+                "position": "O'qituchi",
+                "PINFL": 30106921040059
+            },
+            {
                 "last_name": "Shodiqulov",
+                "first_name": "Asadbek",
                 "middle_name": "Mexriqulovich",
-                "dob": "01.06.2000",
-                "age": 24
+                "dob": "01.06.00",
+                "position": "O'qituvchi",
+                "PINFL": 50106005800014
             }
         ],
         "09": [
             {
-                "first_name": "Manzura",
                 "last_name": "Alimova",
-                "middle_name": "Axmet",
-                "dob": "01.09.1993",
-                "age": 31
+                "first_name": "Manzura",
+                "middle_name": "Axmet qizi",
+                "dob": "01.09.93",
+                "position": "farrosh",
+                "PINFL": 40109935820010
             },
             {
-                "first_name": "A'zam",
-                "last_name": "Azizov",
-                "middle_name": null,
-                "dob": "01.09.1993",
-                "age": 31
-            },
-            {
-                "first_name": "Kamoliddin",
                 "last_name": "Kadirov",
+                "first_name": "Kamoliddin",
                 "middle_name": "Namozovich",
-                "dob": "01.09.2065",
-                "age": -41
+                "dob": "01.09.65",
+                "position": "O'qituchi",
+                "PINFL": 30109652390040
             },
             {
-                "first_name": "Rashid",
                 "last_name": "Shomurodov",
+                "first_name": "Rashid",
                 "middle_name": "Sayfiyevich",
-                "dob": "01.09.2052",
-                "age": -28
+                "dob": "01.09.52",
+                "position": "O'qituchi",
+                "PINFL": 30109525760019
             },
             {
-                "first_name": "Saodat",
                 "last_name": "Xudoyorova",
+                "first_name": "Saodat",
                 "middle_name": "Nurillayevna",
-                "dob": "01.09.1998",
-                "age": 26
+                "dob": "01.09.98",
+                "position": "(cal sentir)operator",
+                "PINFL": 40109985820022
+            },
+            {
+                "last_name": "Azizov",
+                "first_name": "A'zam",
+                "middle_name": null,
+                "dob": "01.09.93",
+                "position": "O'qituvchi",
+                "PINFL": 30109932390056
             }
         ],
         "10": [
             {
-                "first_name": "Zebiniso",
                 "last_name": "Norqulova",
-                "middle_name": "Hamza",
-                "dob": "01.10.1997",
-                "age": 27
+                "first_name": "Zebiniso",
+                "middle_name": "Hamza qizi",
+                "dob": "01.10.97",
+                "position": "O'qituvchi",
+                "PINFL": 40110975790047
             },
             {
-                "first_name": "Iroda",
+                "last_name": "Ungarov",
+                "first_name": "Baxtiyor",
+                "middle_name": "Hayitovich",
+                "dob": "01.10.61",
+                "position": "Dekan muovini (matem)",
+                "PINFL": 30110612390112
+            },
+            {
                 "last_name": "Toʻqmirzayeva",
+                "first_name": "Iroda",
                 "middle_name": "Ismatovna",
-                "dob": "01.10.2001",
-                "age": 23
-            },
-            {
-                "first_name": "Baxtiyor",
-                "last_name": "Ungarov",
-                "middle_name": "Hayitovich",
-                "dob": "01.10.2061",
-                "age": -37
-            },
-            {
-                "first_name": "Baxtiyor",
-                "last_name": "Ungarov",
-                "middle_name": "Hayitovich",
-                "dob": "01.10.2061",
-                "age": -37
+                "dob": "01.10.01",
+                "position": "kabinet mudiri",
+                "PINFL": 60110015840022
             }
         ]
     },
     "02": {
         "01": [
             {
-                "first_name": "Umida",
                 "last_name": "Baxodirova",
+                "first_name": "Umida",
                 "middle_name": "Baxodirovna",
-                "dob": "02.01.1983",
-                "age": 41
+                "dob": "02.01.83",
+                "position": "O'qituchi",
+                "PINFL": 40201832390028
             }
         ],
         "04": [
             {
-                "first_name": "Bekzod",
                 "last_name": "Usmonov",
+                "first_name": "Bekzod",
                 "middle_name": "Saydullayevich",
-                "dob": "02.04.1985",
-                "age": 39
+                "dob": "02.04.85",
+                "position": "Bog'bon",
+                "PINFL": 30204855830019
             }
         ],
         "05": [
             {
-                "first_name": "Malika",
-                "last_name": "Abdihakimova",
-                "middle_name": "Amir",
-                "dob": "02.05.1994",
-                "age": 30
+                "last_name": "Xushvaqtov",
+                "first_name": "Bekmurod",
+                "middle_name": "Normurodovich",
+                "dob": "02.05.84",
+                "position": "O'qituchi",
+                "PINFL": 30205842360029
             },
             {
-                "first_name": "Bekmurod",
-                "last_name": "Xushvaqtov",
-                "middle_name": "Normurodovich",
-                "dob": "02.05.1984",
-                "age": 40
+                "last_name": "Abdihakimova",
+                "first_name": "Malika",
+                "middle_name": "Amir qizi",
+                "dob": "02.05.94",
+                "position": "O'qituvchi",
+                "PINFL": 40205942390066
             }
         ],
         "06": [
             {
-                "first_name": "Sevara",
                 "last_name": "Ortiqova",
+                "first_name": "Sevara",
                 "middle_name": "Ismoilovna",
-                "dob": "02.06.1990",
-                "age": 34
+                "dob": "02.06.90",
+                "position": "O'qituvchi",
+                "PINFL": 40206902390092
+            },
+            {
+                "last_name": "Axmedova",
+                "first_name": "Dilnora",
+                "middle_name": null,
+                "dob": "02.06.95",
+                "position": "O'qituvchi",
+                "PINFL": 40206952400057
             }
         ],
         "07": [
             {
-                "first_name": "Dinara",
                 "last_name": "Arapbayeva",
+                "first_name": "Dinara",
                 "middle_name": "Kurbanovna",
-                "dob": "02.07.1976",
-                "age": 48
+                "dob": "02.07.76",
+                "position": "O'qituvchi",
+                "PINFL": 40207765850015
             }
         ],
         "08": [
             {
-                "first_name": "Shaxnoza",
                 "last_name": "Axmedova",
-                "middle_name": "Xusen",
-                "dob": "02.08.2002",
-                "age": 22
+                "first_name": "Shaxnoza",
+                "middle_name": "Xusen qizi",
+                "dob": "02.08.02",
+                "position": "Menejer",
+                "PINFL": 60208025850024
             }
         ],
         "09": [
             {
-                "first_name": "Dilfuza",
                 "last_name": "Yarasheva",
+                "first_name": "Dilfuza",
                 "middle_name": "Ravshanovna",
-                "dob": "02.09.1987",
-                "age": 37
+                "dob": "02.09.87",
+                "position": "O'qituvchi",
+                "PINFL": 40209872330011
             }
         ],
         "11": [
             {
-                "first_name": "Komiljon",
                 "last_name": "Nurmanov",
-                "middle_name": "Nuriddin",
-                "dob": "02.11.1992",
-                "age": 32
+                "first_name": "Komiljon",
+                "middle_name": "Nuriddin o`g`li",
+                "dob": "02.11.92",
+                "position": "g`aznachi",
+                "PINFL": 30211922380056
             },
             {
-                "first_name": "Albina",
                 "last_name": "Raxmonova",
+                "first_name": "Albina",
                 "middle_name": null,
-                "dob": "02.11.2067",
-                "age": -43
+                "dob": "02.11.67",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 40211672330012
             }
         ],
         "12": [
             {
-                "first_name": "Jonibek",
                 "last_name": "Axmadov",
-                "middle_name": "Otabek",
-                "dob": "02.12.1999",
-                "age": 25
+                "first_name": "Jonibek",
+                "middle_name": "Otabek o`g`li",
+                "dob": "02.12.99",
+                "position": "O'qituchi",
+                "PINFL": 30212995840023
             }
         ]
     },
     "03": {
         "01": [
             {
-                "first_name": "E'zoza",
                 "last_name": "Qilichova",
+                "first_name": "E'zoza",
                 "middle_name": "Xolpo'latovna",
-                "dob": "03.01.2000",
-                "age": 24
+                "dob": "03.01.00",
+                "position": "O'qituvchi",
+                "PINFL": 60301005790010
             }
         ],
         "03": [
             {
-                "first_name": "Abror",
                 "last_name": "Safarov",
+                "first_name": "Abror",
                 "middle_name": "Abduraxmonovich",
-                "dob": "03.03.1981",
-                "age": 43
+                "dob": "03.03.81",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 30303816200015
             }
         ],
         "06": [
             {
-                "first_name": "Lobar",
                 "last_name": "Hasanova",
-                "middle_name": "Yusuf",
-                "dob": "03.06.1993",
-                "age": 31
+                "first_name": "Lobar",
+                "middle_name": "Yusuf qizi",
+                "dob": "03.06.93",
+                "position": "O'qituchi",
+                "PINFL": 40306932390049
+            },
+            {
+                "last_name": "Qahorov",
+                "first_name": "Tohir",
+                "middle_name": "Murodilloyevich",
+                "dob": "03.06.76",
+                "position": "Elektrik",
+                "PINFL": 30306765820015
             }
         ],
         "09": [
             {
-                "first_name": "Maria",
-                "last_name": "Ivanova",
-                "middle_name": null,
-                "dob": "03.09.1985",
-                "age": 39
+                "last_name": "Axmedova",
+                "first_name": "Zebinisso",
+                "middle_name": "Nurliboyevna",
+                "dob": "03.09.85",
+                "position": "Menejer",
+                "PINFL": 40309852340116
             },
             {
-                "first_name": "Zebinisso",
-                "last_name": "Axmedova",
-                "middle_name": "Nurliboyevna",
-                "dob": "03.09.1985",
-                "age": 39
+                "last_name": "Ivanova",
+                "first_name": "Maria",
+                "middle_name": null,
+                "dob": "03.09.85",
+                "position": "O'qituvchi",
+                "PINFL": 40309855840019
             }
         ],
         "10": [
             {
-                "first_name": "Husniya",
                 "last_name": "Sattorova",
+                "first_name": "Husniya",
                 "middle_name": null,
-                "dob": "03.10.1977",
-                "age": 47
+                "dob": "03.10.77",
+                "position": "farrosh",
+                "PINFL": 40310775780026
             }
         ],
         "11": [
             {
-                "first_name": "Dilshoda",
                 "last_name": "Qambarova",
+                "first_name": "Dilshoda",
                 "middle_name": "Ravshanovna",
-                "dob": "03.11.1979",
-                "age": 45
+                "dob": "03.11.79",
+                "position": "Tyutor",
+                "PINFL": 40311792390010
             }
         ]
     },
     "04": {
         "01": [
             {
-                "first_name": "Olim",
                 "last_name": "Abralov",
+                "first_name": "Olim",
                 "middle_name": "Sobirovich",
-                "dob": "04.01.1986",
-                "age": 38
+                "dob": "04.01.86",
+                "position": "O'qituchi",
+                "PINFL": 30401863910027
             }
         ],
         "02": [
             {
-                "first_name": "Malohat",
                 "last_name": "To'qboyeva",
+                "first_name": "Malohat",
                 "middle_name": "Bahodirovna",
-                "dob": "04.02.1981",
-                "age": 43
+                "dob": "04.02.81",
+                "position": "O'qituchi",
+                "PINFL": 40402811070029
             }
         ],
         "03": [
             {
-                "first_name": "Xurshida",
                 "last_name": "Aminova",
-                "middle_name": "Hamdullo",
-                "dob": "04.03.1998",
-                "age": 26
+                "first_name": "Xurshida",
+                "middle_name": "Hamdullo qiz",
+                "dob": "04.03.98",
+                "position": "Talabalar turar joyi tarbiyachisi",
+                "PINFL": 40403985830017
             }
         ],
         "04": [
             {
-                "first_name": "Temur",
                 "last_name": "Hasanov",
-                "middle_name": "Abdimurod",
-                "dob": "04.04.1990",
-                "age": 34
+                "first_name": "Temur",
+                "middle_name": "Abdimurod o‘g‘li",
+                "dob": "04.04.90",
+                "position": "Xo‘jalik ishlari va hisob boshqarmasi boshlig‘i",
+                "PINFL": 30404902380025
             },
             {
+                "last_name": "Yuliyeva",
                 "first_name": "Maxfuza",
-                "last_name": "Yuliyeva",
-                "middle_name": "Olim",
-                "dob": "04.04.1998",
-                "age": 26
-            },
-            {
-                "first_name": "Mahfuza",
-                "last_name": "Yuliyeva",
-                "middle_name": null,
-                "dob": "04.04.1998",
-                "age": 26
+                "middle_name": "Olim qizi",
+                "dob": "04.04.98",
+                "position": "Xalqaro hamkorlikni tashkil etish bo'limi uslubchisi",
+                "PINFL": 40404985840031
             }
         ],
         "05": [
             {
-                "first_name": "Abdumalik",
                 "last_name": "Axmatov",
-                "middle_name": "Abduvahob",
-                "dob": "04.05.1993",
-                "age": 31
+                "first_name": "Abdumalik",
+                "middle_name": "Abduvahob o`g`li",
+                "dob": "04.05.93",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 30405932390033
             }
         ],
         "07": [
             {
-                "first_name": "Malika",
                 "last_name": "Qahhorova",
+                "first_name": "Malika",
                 "middle_name": "Lutfullayevna",
-                "dob": "04.07.1996",
-                "age": 28
+                "dob": "04.07.96",
+                "position": "O'qituchi",
+                "PINFL": 40407965830015
             }
         ],
         "08": [
             {
-                "first_name": "Rayxon",
                 "last_name": "Narmuradova",
+                "first_name": "Rayxon",
                 "middle_name": "O'ktamovna",
-                "dob": "04.08.1992",
-                "age": 32
+                "dob": "04.08.92",
+                "position": "O'qituchi",
+                "PINFL": 40408922400054
             },
             {
-                "first_name": "Ikromjon",
                 "last_name": "Shodiyev",
-                "middle_name": "Islom",
-                "dob": "04.08.1998",
-                "age": 26
+                "first_name": "Ikromjon",
+                "middle_name": "Islom o‘g‘li",
+                "dob": "04.08.98",
+                "position": "Matbuot va piar xizmati vedio montaj ustasi",
+                "PINFL": 30408985850033
             }
         ],
         "09": [
             {
-                "first_name": "Kamola",
                 "last_name": "Karimova",
+                "first_name": "Kamola",
                 "middle_name": "Shomuratovna",
-                "dob": "04.09.1987",
-                "age": 37
+                "dob": "04.09.87",
+                "position": "yordamchi ishchi",
+                "PINFL": 40409872340072
             }
         ],
         "10": [
             {
-                "first_name": "Azizjon",
                 "last_name": "Boboyev",
+                "first_name": "Azizjon",
                 "middle_name": "Azimjonovich",
-                "dob": "04.10.1988",
-                "age": 36
+                "dob": "04.10.88",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 30410882390060
             }
         ],
         "11": [
             {
-                "first_name": "Islom",
                 "last_name": "Karimov",
-                "middle_name": "G`ulom",
-                "dob": "04.11.1995",
-                "age": 29
-            },
-            {
                 "first_name": "Islom",
-                "last_name": "Karimov",
-                "middle_name": "G'ulom",
-                "dob": "04.11.1995",
-                "age": 29
+                "middle_name": "G`ulom o`g`li",
+                "dob": "04.11.95",
+                "position": "Кабинет мудири",
+                "PINFL": 30411951170019
             }
         ],
         "12": [
             {
-                "first_name": "Mexrigul",
-                "last_name": "Najmiddinova",
-                "middle_name": "Najmiddin",
-                "dob": "04.12.1993",
-                "age": 31
+                "last_name": "Sanoyeva",
+                "first_name": "Muxtabar",
+                "middle_name": "Nabiyevna",
+                "dob": "04.12.80",
+                "position": "soatbay",
+                "PINFL": 40412805840042
             },
             {
-                "first_name": "Muxtabar",
-                "last_name": "Sanoyeva",
-                "middle_name": "Nabiyevna",
-                "dob": "04.12.1980",
-                "age": 44
+                "last_name": "Najmiddinova",
+                "first_name": "Mexrigul",
+                "middle_name": "Najmiddin qizi",
+                "dob": "04.12.93",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 40412932330012
             }
         ]
     },
     "05": {
         "01": [
             {
-                "first_name": "Ravshan",
                 "last_name": "Sharipov",
+                "first_name": "Ravshan",
                 "middle_name": "Olimovich",
-                "dob": "05.01.1974",
-                "age": 50
+                "dob": "05.01.74",
+                "position": "Santexnik",
+                "PINFL": 30501742390037
             }
         ],
         "03": [
             {
-                "first_name": "Oydin",
                 "last_name": "Amanbayeva",
-                "middle_name": "Urazali",
-                "dob": "05.03.1993",
-                "age": 31
+                "first_name": "Oydin",
+                "middle_name": "Urazali qizi",
+                "dob": "05.03.93",
+                "position": "O'qituvchi",
+                "PINFL": 40503932890047
             },
             {
-                "first_name": "Dilfuza",
                 "last_name": "Beknazarova",
+                "first_name": "Dilfuza",
                 "middle_name": "G'ayratovna",
-                "dob": "05.03.1986",
-                "age": 38
+                "dob": "05.03.86",
+                "position": "Menejer",
+                "PINFL": 40503862340016
             }
         ],
         "04": [
             {
-                "first_name": "Dilfuza",
                 "last_name": "Sherbekova",
+                "first_name": "Dilfuza",
                 "middle_name": "Asadovna",
-                "dob": "05.04.1971",
-                "age": 53
+                "dob": "05.04.71",
+                "position": "Yotoqxona tarbiyachisi",
+                "PINFL": 40504715830027
             }
         ],
         "05": [
             {
-                "first_name": "Sanobar",
                 "last_name": "Raximova",
+                "first_name": "Sanobar",
                 "middle_name": "Karimovna",
-                "dob": "05.05.1977",
-                "age": 47
+                "dob": "05.05.77",
+                "position": "Yotoqxona tarbiyachisi",
+                "PINFL": 40505775840012
             }
         ],
         "06": [
             {
-                "first_name": "Zulxumor",
                 "last_name": "Mirzayeva",
-                "middle_name": "Abduqahhor",
-                "dob": "05.06.1990",
-                "age": 34
+                "first_name": "Zulxumor",
+                "middle_name": "Abduqahhor qizi",
+                "dob": "05.06.90",
+                "position": "O'qituvchi",
+                "PINFL": 40506902170121
             }
         ],
         "10": [
             {
-                "first_name": "Akmal",
-                "last_name": "Asatov",
-                "middle_name": "Ismatovich",
-                "dob": "05.10.1981",
-                "age": 43
-            },
-            {
-                "first_name": "Gulnora",
                 "last_name": "Mavlonova",
+                "first_name": "Gulnora",
                 "middle_name": "Abdug'aniyevna",
-                "dob": "05.10.1993",
-                "age": 31
+                "dob": "05.10.93",
+                "position": "O'qituvchi",
+                "PINFL": 40510933930092
             },
             {
-                "first_name": "Ma'mura",
+                "last_name": "Asatov",
+                "first_name": "Akmal",
+                "middle_name": "Ismatovich",
+                "dob": "05.10.81",
+                "position": "O'qituvchi",
+                "PINFL": 30510815830026
+            },
+            {
                 "last_name": "To'rayeva",
+                "first_name": "Ma'mura",
                 "middle_name": null,
-                "dob": "05.10.1991",
-                "age": 33
+                "dob": "05.10.91",
+                "position": "O'qituvchi",
+                "PINFL": 40510912340010
             }
         ],
         "11": [
             {
-                "first_name": "Umida",
                 "last_name": "Umrzoqova",
-                "middle_name": "Nosirjonovna",
-                "dob": "05.11.1980",
-                "age": 44
-            },
-            {
                 "first_name": "Umida",
-                "last_name": "Umurzaqova",
-                "middle_name": "Nosirjanovna",
-                "dob": "05.11.1980",
-                "age": 44
+                "middle_name": "Nosirjonovna",
+                "dob": "05.11.80",
+                "position": "O'qituvchi",
+                "PINFL": 40511805870010
             }
         ]
     },
     "06": {
         "02": [
             {
-                "first_name": "Nargiza",
                 "last_name": "Berdiqulova",
-                "middle_name": "Najmiddin",
-                "dob": "06.02.1994",
-                "age": 30
+                "first_name": "Nargiza",
+                "middle_name": "Najmiddin qizi",
+                "dob": "06.02.94",
+                "position": "O'qituvchi",
+                "PINFL": 40602945800024
             },
             {
-                "first_name": "Rustam",
                 "last_name": "Ikromov",
+                "first_name": "Rustam",
                 "middle_name": "Islomovich",
-                "dob": "06.02.1985",
-                "age": 39
-            },
-            {
-                "first_name": "Dilnora",
-                "last_name": "Axmedova",
-                "middle_name": null,
-                "dob": "06.02.1995",
-                "age": 29
+                "dob": "06.02.85",
+                "position": "Haydovchi",
+                "PINFL": 30602852380140
             }
         ],
         "03": [
             {
-                "first_name": "Zilola",
                 "last_name": "Sharipova",
+                "first_name": "Zilola",
                 "middle_name": "Shokirjonovna",
-                "dob": "06.03.1992",
-                "age": 32
+                "dob": "06.03.92",
+                "position": "operator",
+                "PINFL": 40603922390053
             }
         ],
         "04": [
             {
-                "first_name": "Sobir",
                 "last_name": "Eshboltayev",
+                "first_name": "Sobir",
                 "middle_name": "To'raqulovich",
-                "dob": "06.04.1993",
-                "age": 31
+                "dob": "06.04.93",
+                "position": "Tarmoq administratori",
+                "PINFL": 30604931860071
             }
         ],
         "06": [
             {
-                "first_name": "Laylo",
                 "last_name": "Raxmatullayeva",
-                "middle_name": "Baxtiyor",
-                "dob": "06.06.1996",
-                "age": 28
+                "first_name": "Laylo",
+                "middle_name": "Baxtiyor qizi",
+                "dob": "06.06.96",
+                "position": "O'qituchi",
+                "PINFL": 40606965830014
             }
         ],
         "07": [
             {
-                "first_name": "Zuhriddin",
                 "last_name": "Nuriddinov",
-                "middle_name": "Sherali",
-                "dob": "06.07.1999",
-                "age": 25
+                "first_name": "Zuhriddin",
+                "middle_name": "Sherali o'g'li",
+                "dob": "06.07.99",
+                "position": "G'aznachi",
+                "PINFL": 30607995830028
             },
             {
-                "first_name": "Xosiyat",
                 "last_name": "Allanazarova",
+                "first_name": "Xosiyat",
                 "middle_name": "Abduxaliqovna",
-                "dob": "06.07.1984",
-                "age": 40
+                "dob": "06.07.84",
+                "position": "Surxondaryo kampusi Bino farroshi",
+                "PINFL": 40607841860059
             }
         ],
         "08": [
             {
-                "first_name": "Soxib",
                 "last_name": "Axmedov",
+                "first_name": "Soxib",
                 "middle_name": "Saimovich",
-                "dob": "06.08.1985",
-                "age": 39
+                "dob": "06.08.85",
+                "position": "Dekan muovini mana",
+                "PINFL": 30608852340025
             },
             {
-                "first_name": "Mahfuza",
                 "last_name": "Nazaraliyeva",
+                "first_name": "Mahfuza",
                 "middle_name": "Pardayevna",
-                "dob": "06.08.1995",
-                "age": 29
+                "dob": "06.08.95",
+                "position": "O'qituvchi",
+                "PINFL": 40608951800010
             }
         ],
         "09": [
             {
-                "first_name": "Shavkat",
                 "last_name": "Rashidov",
+                "first_name": "Shavkat",
                 "middle_name": "Sharofovich",
-                "dob": "06.09.1977",
-                "age": 47
+                "dob": "06.09.77",
+                "position": "Yong'in xavfsizligi bo'yicha instruktor",
+                "PINFL": 30609775820014
             }
         ],
         "12": [
             {
-                "first_name": "Dilnoza",
                 "last_name": "Qodirova",
+                "first_name": "Dilnoza",
                 "middle_name": "Mamadiyorovna",
-                "dob": "06.12.1982",
-                "age": 42
+                "dob": "06.12.82",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 40612823960085
             }
         ]
     },
     "07": {
         "02": [
             {
-                "first_name": "Aziza",
                 "last_name": "Olimova",
-                "middle_name": "Tolib",
-                "dob": "07.02.2005",
-                "age": 19
+                "first_name": "Aziza",
+                "middle_name": "Tolib qizi",
+                "dob": "07.02.05",
+                "position": "(cal sentir)operator",
+                "PINFL": 60702055860012
             }
         ],
         "05": [
             {
-                "first_name": "Umida",
                 "last_name": "Sa'dullayeva",
+                "first_name": "Umida",
                 "middle_name": "Fayzullayevna",
-                "dob": "07.05.1974",
-                "age": 50
+                "dob": "07.05.74",
+                "position": "O'qituvchi",
+                "PINFL": 40705742390045
             }
         ],
         "08": [
             {
-                "first_name": "Saida",
                 "last_name": "Obloqulova",
-                "middle_name": "Qosimjon",
-                "dob": "07.08.2001",
-                "age": 23
+                "first_name": "Saida",
+                "middle_name": "Qosimjon qizi",
+                "dob": "07.08.01",
+                "position": "Menejer",
+                "PINFL": 60708015820045
             }
         ],
         "09": [
             {
-                "first_name": "Dilmurod",
                 "last_name": "Umrzoqov",
+                "first_name": "Dilmurod",
                 "middle_name": null,
-                "dob": "07.09.1980",
-                "age": 44
+                "dob": "07.09.80",
+                "position": "O'qituvchi",
+                "PINFL": 30709802390036
             }
         ],
         "11": [
             {
-                "first_name": "Nurali",
                 "last_name": "Qudratov",
-                "middle_name": "Sunnat",
-                "dob": "07.11.1997",
-                "age": 27
+                "first_name": "Nurali",
+                "middle_name": "Sunnat o’g’li",
+                "dob": "07.11.97",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 30711975800016
             }
         ],
         "12": [
             {
-                "first_name": "Umid",
-                "last_name": "Axtamov",
-                "middle_name": "Ilmurod",
-                "dob": "07.12.1995",
-                "age": 29
+                "last_name": "Quvondiqov",
+                "first_name": "Bahrom",
+                "middle_name": "Burxonovich",
+                "dob": "07.12.97",
+                "position": "O'qituchi",
+                "PINFL": 30712976090062
             },
             {
-                "first_name": "Bahrom",
-                "last_name": "Quvondiqov",
-                "middle_name": "Burxonovich",
-                "dob": "07.12.1997",
-                "age": 27
+                "last_name": "Axtamov",
+                "first_name": "Umid",
+                "middle_name": "Ilmurod o’g’li",
+                "dob": "07.12.95",
+                "position": "O'qituchi",
+                "PINFL": 30712952420054
             }
         ]
     },
     "08": {
         "01": [
             {
-                "first_name": "Dilobar",
                 "last_name": "Gafurova",
+                "first_name": "Dilobar",
                 "middle_name": "Karamatovna",
-                "dob": "08.01.1981",
-                "age": 43
+                "dob": "08.01.81",
+                "position": "O'qituvchi",
+                "PINFL": 40801814070067
             }
         ],
         "04": [
             {
-                "first_name": "Aktam",
                 "last_name": "Axmedov",
+                "first_name": "Aktam",
                 "middle_name": "Abdullayevich",
-                "dob": "08.04.1976",
-                "age": 48
+                "dob": "08.04.76",
+                "position": "Ta'lim sifatini nazorat qilish bo'limi bosh mutaxassisi",
+                "PINFL": 30804763960017
             }
         ],
         "05": [
             {
-                "first_name": "Abbos",
                 "last_name": "Shomurodov",
+                "first_name": "Abbos",
                 "middle_name": "To'lqinovich",
-                "dob": "08.05.1991",
-                "age": 33
+                "dob": "08.05.91",
+                "position": "O'qituvchi",
+                "PINFL": 30805912390019
             }
         ],
         "07": [
             {
-                "first_name": "Umurzak",
                 "last_name": "Imamov",
+                "first_name": "Umurzak",
                 "middle_name": "Xamrayevich",
-                "dob": "08.07.2056",
-                "age": -32
+                "dob": "08.07.56",
+                "position": "O'qituvchi",
+                "PINFL": 30807562340011
             },
             {
-                "first_name": "Malika",
                 "last_name": "Iskandarova",
+                "first_name": "Malika",
                 "middle_name": null,
-                "dob": "08.07.1997",
-                "age": 27
-            },
-            {
-                "first_name": "Malika",
-                "last_name": "Iskandarova",
-                "middle_name": "Islomovna",
-                "dob": "08.07.1997",
-                "age": 27
+                "dob": "08.07.97",
+                "position": "Kafedra dispecheri",
+                "PINFL": 40807975840013
             }
         ],
         "10": [
             {
-                "first_name": "Nizomiddin",
                 "last_name": "Azimov",
-                "middle_name": "Bo'ri",
-                "dob": "08.10.1992",
-                "age": 32
+                "first_name": "Nizomiddin",
+                "middle_name": "Bo'ri o'g'li",
+                "dob": "08.10.92",
+                "position": "Kadrlar bo‘limi boshlig‘i",
+                "PINFL": 30810922380028
             }
         ],
         "11": [
             {
-                "first_name": "Golib",
                 "last_name": "Shomiyev",
+                "first_name": "Golib",
                 "middle_name": "O'ktamovich",
-                "dob": "08.11.1977",
-                "age": 47
+                "dob": "08.11.77",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 30811772340019
             }
         ],
         "12": [
             {
-                "first_name": "Sherzod",
                 "last_name": "Isroilov",
+                "first_name": "Sherzod",
                 "middle_name": "Narkazakovich",
-                "dob": "08.12.1988",
-                "age": 36
+                "dob": "08.12.88",
+                "position": "O'qituchi",
+                "PINFL": 30812883940095
             }
         ]
     },
     "09": {
         "01": [
             {
-                "first_name": "Laylo",
                 "last_name": "Qudratova",
+                "first_name": "Laylo",
                 "middle_name": "Narzullayevna",
-                "dob": "09.01.1976",
-                "age": 48
+                "dob": "09.01.76",
+                "position": "Tyutor",
+                "PINFL": 40901762340013
             }
         ],
         "02": [
             {
-                "first_name": "Shahodat",
                 "last_name": "Farmonova",
+                "first_name": "Shahodat",
                 "middle_name": "Primovna",
-                "dob": "09.02.1971",
-                "age": 53
+                "dob": "09.02.71",
+                "position": "Talabalar turar joyi tarbiyachisi",
+                "PINFL": 40902712340011
             },
             {
-                "first_name": "Jahongir",
                 "last_name": "Ruzibayev",
+                "first_name": "Jahongir",
                 "middle_name": "Dilmuratovich",
-                "dob": "09.02.2001",
-                "age": 23
+                "dob": "09.02.01",
+                "position": "Web dasturchi",
+                "PINFL": 50902015840015
             }
         ],
         "03": [
             {
-                "first_name": "Rayhon",
                 "last_name": "Shodiyeva",
+                "first_name": "Rayhon",
                 "middle_name": "Samatovna",
-                "dob": "09.03.1971",
-                "age": 53
+                "dob": "09.03.71",
+                "position": "O'qituvchi",
+                "PINFL": 40903712420011
             }
         ],
         "04": [
             {
-                "first_name": "Gulchehra",
                 "last_name": "Sharifjanova",
+                "first_name": "Gulchehra",
                 "middle_name": "Sharifjanovna",
-                "dob": "09.04.2055",
-                "age": -31
+                "dob": "09.04.55",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 40904550020010
             }
         ],
         "07": [
             {
-                "first_name": "Abdujamil",
                 "last_name": "Nurmanov",
+                "first_name": "Abdujamil",
                 "middle_name": "Abduxolikovich",
-                "dob": "09.07.1971",
-                "age": 53
+                "dob": "09.07.71",
+                "position": "Bosh energetik",
+                "PINFL": 30907715760016
             }
         ],
         "08": [
             {
-                "first_name": "'rayeva",
                 "last_name": "Jo",
-                "middle_name": "Ruxsora",
-                "dob": "09.08.1995",
-                "age": 29
+                "first_name": "'rayeva",
+                "middle_name": "Ruxsora Olimovna",
+                "dob": "09.08.95",
+                "position": "O'qituchi",
+                "PINFL": 40908953960012
             },
             {
-                "first_name": "Elnur",
                 "last_name": "Abdualimov",
+                "first_name": "Elnur",
                 "middle_name": "Ixtiyorovich",
-                "dob": "09.08.1986",
-                "age": 38
+                "dob": "09.08.86",
+                "position": "Iqtidorli talabalar bilan ishlash bo'limi boshlig'i",
+                "PINFL": 30908862360029
             }
         ],
         "09": [
             {
-                "first_name": "Sitora",
                 "last_name": "Qodirqulova",
-                "middle_name": "Bahodir",
-                "dob": "09.09.1996",
-                "age": 28
+                "first_name": "Sitora",
+                "middle_name": "Bahodir qizi",
+                "dob": "09.09.96",
+                "position": "O'qituvchi",
+                "PINFL": 40909965760016
             }
         ],
         "10": [
             {
-                "first_name": "Mavluda",
                 "last_name": "Kubayeva",
-                "middle_name": "Baxtiyor",
-                "dob": "09.10.1990",
-                "age": 34
+                "first_name": "Mavluda",
+                "middle_name": "Baxtiyor qizi",
+                "dob": "09.10.90",
+                "position": "O'qituvchi",
+                "PINFL": 40910904040034
             },
             {
-                "first_name": "Mavluda",
-                "last_name": "Kubayeva",
-                "middle_name": "Baxtiyor",
-                "dob": "09.10.1990",
-                "age": 34
-            },
-            {
-                "first_name": "O‘ktam",
                 "last_name": "Murotov",
-                "middle_name": "Abdixalil",
-                "dob": "09.10.1996",
-                "age": 28
+                "first_name": "O‘ktam",
+                "middle_name": "Abdixalil o`g`li",
+                "dob": "09.10.96",
+                "position": "arxiviarus",
+                "PINFL": 30910966250034
             },
             {
-                "first_name": "Fazliddin",
                 "last_name": "O‘rolov",
-                "middle_name": "Abdullo",
-                "dob": "09.10.1998",
-                "age": 26
+                "first_name": "Fazliddin",
+                "middle_name": "Abdullo o'g'li",
+                "dob": "09.10.98",
+                "position": "Tarmoq admin",
+                "PINFL": 30910986320038
             }
         ]
     },
     "10": {
         "01": [
             {
-                "first_name": "Sherzod",
                 "last_name": "Murodov",
+                "first_name": "Sherzod",
                 "middle_name": "Ilxomovich",
-                "dob": "10.01.1979",
-                "age": 45
+                "dob": "10.01.79",
+                "position": "bosh direktor maslahatchisi",
+                "PINFL": 31001790600058
             }
         ],
         "02": [
             {
-                "first_name": "Ra'no",
                 "last_name": "Rizayeva",
+                "first_name": "Ra'no",
                 "middle_name": null,
-                "dob": "10.02.1973",
-                "age": 51
+                "dob": "10.02.73",
+                "position": "O'qituvchi",
+                "PINFL": 41002732340026
             }
         ],
         "03": [
             {
-                "first_name": "Baxtiyor",
                 "last_name": "Ochilov",
+                "first_name": "Baxtiyor",
                 "middle_name": "Shuhratovich",
-                "dob": "10.03.1993",
-                "age": 31
+                "dob": "10.03.93",
+                "position": "O'qituvchi",
+                "PINFL": 31003935840011
             }
         ],
         "04": [
             {
-                "first_name": "Sanobar",
                 "last_name": "Inoyatova",
+                "first_name": "Sanobar",
                 "middle_name": null,
-                "dob": "10.04.1977",
-                "age": 47
+                "dob": "10.04.77",
+                "position": "farrosh",
+                "PINFL": 41004775820013
             }
         ],
         "05": [
             {
-                "first_name": "Shuhrat",
                 "last_name": "Norov",
+                "first_name": "Shuhrat",
                 "middle_name": null,
-                "dob": "10.05.1976",
-                "age": 48
+                "dob": "10.05.76",
+                "position": "O'qituvchi",
+                "PINFL": 31005762340029
             },
             {
-                "first_name": "Qutbiddin",
                 "last_name": "Pirmatov",
+                "first_name": "Qutbiddin",
                 "middle_name": "Tojimurodovich",
-                "dob": "10.05.1984",
-                "age": 40
+                "dob": "10.05.84",
+                "position": "Tyutorlar Kengashi kotibi",
+                "PINFL": 31005842380031
             }
         ],
         "07": [
             {
-                "first_name": "Muxtarama",
                 "last_name": "Xalilova",
+                "first_name": "Muxtarama",
                 "middle_name": "Inoyatullayevna",
-                "dob": "10.07.1992",
-                "age": 32
+                "dob": "10.07.92",
+                "position": "O'qituchi",
+                "PINFL": 41007922390021
             }
         ],
         "09": [
             {
-                "first_name": "Marjona",
                 "last_name": "Boltayeva",
-                "middle_name": "Jasur",
-                "dob": "10.09.2003",
-                "age": 21
+                "first_name": "Marjona",
+                "middle_name": "Jasur qizi",
+                "dob": "10.09.03",
+                "position": "Talabalarga xizmat ko'rsatish markazi operatori",
+                "PINFL": 61009035310053
             },
             {
-                "first_name": "Rustamjon",
                 "last_name": "Choriqulov",
+                "first_name": "Rustamjon",
                 "middle_name": "Ibodullayevich",
-                "dob": "10.09.1994",
-                "age": 30
+                "dob": "10.09.94",
+                "position": "O'qituchi",
+                "PINFL": 31009940230094
             },
             {
-                "first_name": "Umidjon",
                 "last_name": "Turdiyev",
+                "first_name": "Umidjon",
                 "middle_name": "Kamoliddinovich",
-                "dob": "10.09.1982",
-                "age": 42
+                "dob": "10.09.82",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 31009825840011
             }
         ],
         "10": [
             {
-                "first_name": "Gulmira",
                 "last_name": "Tulayeva",
-                "middle_name": "Elmurod",
-                "dob": "10.10.1991",
-                "age": 33
+                "first_name": "Gulmira",
+                "middle_name": "Elmurod qizi",
+                "dob": "10.10.91",
+                "position": "farrosh",
+                "PINFL": 41010915820018
             }
         ],
         "11": [
             {
-                "first_name": "Bobir",
-                "last_name": "Eshpo'latov",
-                "middle_name": "Xudoyberdiyevich",
-                "dob": "10.11.1976",
-                "age": 48
-            },
-            {
-                "first_name": "Bobur",
-                "last_name": "Eshpoʻlatov",
-                "middle_name": "Xudoyberdiyevich",
-                "dob": "10.11.1976",
-                "age": 48
-            },
-            {
-                "first_name": "Ra'no",
-                "last_name": "Fayzullayeva",
-                "middle_name": "Maxmudovna",
-                "dob": "10.11.1985",
-                "age": 39
-            },
-            {
-                "first_name": "Ozoda",
                 "last_name": "Akramova",
-                "middle_name": "Azizbek",
-                "dob": "10.11.2002",
-                "age": 22
+                "first_name": "Ozoda",
+                "middle_name": "Azizbek qizi",
+                "dob": "10.11.02",
+                "position": "Menejer",
+                "PINFL": 61011025790028
+            },
+            {
+                "last_name": "Eshpo'latov",
+                "first_name": "Bobir",
+                "middle_name": "Xudoyberdiyevich",
+                "dob": "10.11.76",
+                "position": "O'qituchi",
+                "PINFL": 31011765840028
+            },
+            {
+                "last_name": "Fayzullayeva",
+                "first_name": "Ra'no",
+                "middle_name": "Maxmudovna",
+                "dob": "10.11.85",
+                "position": "O'qituchi",
+                "PINFL": 41011852390020
+            },
+            {
+                "last_name": "Egamberdiyev",
+                "first_name": "Bahodir",
+                "middle_name": "G'ayratovich",
+                "dob": "10.11.89",
+                "position": "SEO boshlig'i",
+                "PINFL": 31011891901086
             }
         ]
     },
     "11": {
         "01": [
             {
-                "first_name": "Sitora",
                 "last_name": "Axadova",
-                "middle_name": "Qamariddin",
-                "dob": "11.01.1998",
-                "age": 26
+                "first_name": "Sitora",
+                "middle_name": "Qamariddin qizi",
+                "dob": "11.01.98",
+                "position": "Ish yurituvchi",
+                "PINFL": 41101985830073
             }
         ],
         "03": [
             {
-                "first_name": "Shaxlo",
                 "last_name": "Xasanova",
+                "first_name": "Shaxlo",
                 "middle_name": "Shuhratovna",
-                "dob": "11.03.1991",
-                "age": 33
+                "dob": "11.03.91",
+                "position": "O'qituvchi",
+                "PINFL": 41103912390023
             }
         ],
         "06": [
             {
-                "first_name": "Ravshanjon",
-                "last_name": "Ablayev",
-                "middle_name": "Oybek",
-                "dob": "11.06.1995",
-                "age": 29
+                "last_name": "Tosheva",
+                "first_name": "Nilufar",
+                "middle_name": "Shirinbayevna",
+                "dob": "11.06.87",
+                "position": "O'qituvchi",
+                "PINFL": 41106872380019
             },
             {
-                "first_name": "Nilufar",
-                "last_name": "Tosheva",
-                "middle_name": "Shirinbayevna",
-                "dob": "11.06.1987",
-                "age": 37
+                "last_name": "Ablayev",
+                "first_name": "Ravshanjon",
+                "middle_name": "Oybek o'g'li",
+                "dob": "11.06.95",
+                "position": "Sirtqi ta'lim talabalari bilan ishlash bo'limiga uslubchi",
+                "PINFL": 31106952390030
             }
         ],
         "07": [
             {
-                "first_name": "Doniyor",
                 "last_name": "Azamov",
+                "first_name": "Doniyor",
                 "middle_name": "Shuhratovich",
-                "dob": "11.07.1985",
-                "age": 39
+                "dob": "11.07.85",
+                "position": "ректор маслахатчи",
+                "PINFL": 31107853900014
             }
         ],
         "08": [
             {
-                "first_name": "Zafarjon",
                 "last_name": "Istamov",
-                "middle_name": "Vohid",
-                "dob": "11.08.1998",
-                "age": 26
+                "first_name": "Zafarjon",
+                "middle_name": "Vohid o`g`li",
+                "dob": "11.08.98",
+                "position": "Тъютор",
+                "PINFL": 31108985310030
             },
             {
-                "first_name": "Dilshod",
                 "last_name": "Mirzayev",
+                "first_name": "Dilshod",
                 "middle_name": "Xamidovich",
-                "dob": "11.08.1984",
-                "age": 40
+                "dob": "11.08.84",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 31108842380055
             }
         ],
         "09": [
             {
-                "first_name": "Baxriddin",
                 "last_name": "Berdiyev",
+                "first_name": "Baxriddin",
                 "middle_name": "Hikmatovich",
-                "dob": "11.09.2064",
-                "age": -40
+                "dob": "11.09.64",
+                "position": "O'qituchi",
+                "PINFL": 31109642380018
             },
             {
-                "first_name": "Bozor",
                 "last_name": "Qarshiyev",
-                "middle_name": "Jo'ra",
-                "dob": "11.09.1994",
-                "age": 30
+                "first_name": "Bozor",
+                "middle_name": "Jo'ra o'g'li",
+                "dob": "11.09.94",
+                "position": "ҳайдовчи",
+                "PINFL": 31109941860064
             }
         ],
         "10": [
             {
-                "first_name": "Maftuna",
                 "last_name": "Axtamova",
+                "first_name": "Maftuna",
                 "middle_name": null,
-                "dob": "11.10.1996",
-                "age": 28
+                "dob": "11.10.96",
+                "position": "dispetcher",
+                "PINFL": 41110965830011
             }
         ],
         "11": [
             {
-                "first_name": "Dilnoza",
                 "last_name": "Yo'ldosheva",
-                "middle_name": "Xasan",
-                "dob": "11.11.1994",
-                "age": 30
+                "first_name": "Dilnoza",
+                "middle_name": " Xasan qizi",
+                "dob": "11.11.94",
+                "position": "O'qituchi",
+                "PINFL": 41111941170026
             }
         ],
         "12": [
             {
-                "first_name": "Husan",
                 "last_name": "Baqoyev",
+                "first_name": "Husan",
                 "middle_name": "Nuriddinovich",
-                "dob": "11.12.1977",
-                "age": 47
+                "dob": "11.12.77",
+                "position": "Iqtisodiyot va axborot texnalogiyalari kafedrasi kafedra mudiri",
+                "PINFL": 31112771120033
             },
             {
-                "first_name": "Asliddin",
                 "last_name": "Muhammadiyev",
-                "middle_name": "Qabriddin",
-                "dob": "11.12.1996",
-                "age": 28
+                "first_name": "Asliddin",
+                "middle_name": "Qabriddin o'g'li",
+                "dob": "11.12.96",
+                "position": "Texnik foydalanish va xo'jalik bo'limi yordamchi ishchi",
+                "PINFL": 31112965830041
             }
         ]
     },
     "12": {
         "01": [
             {
-                "first_name": "Nilufar",
                 "last_name": "Abdullayeva",
+                "first_name": "Nilufar",
                 "middle_name": "Umarovna",
-                "dob": "12.01.1981",
-                "age": 43
+                "dob": "12.01.81",
+                "position": "Elektron axborot resurslari bo‘yicha kutubxonachi",
+                "PINFL": 41201815820015
             },
             {
-                "first_name": "Farxod",
                 "last_name": "Raxmonov",
+                "first_name": "Farxod",
                 "middle_name": "Normuradovich",
-                "dob": "12.01.1985",
-                "age": 39
-            }
-        ],
-        "04": [
-            {
-                "first_name": "Fotima",
-                "last_name": "Murtozayeva",
-                "middle_name": "Ahror",
-                "dob": "12.04.1999",
-                "age": 25
+                "dob": "12.01.85",
+                "position": "O'qituchi",
+                "PINFL": 31201855760013
             }
         ],
         "05": [
             {
-                "first_name": "Gulbahor",
-                "last_name": "Bobobekova",
-                "middle_name": "Sobirovna",
-                "dob": "12.05.1976",
-                "age": 48
+                "last_name": "Oqboyev",
+                "first_name": "Iliyos",
+                "middle_name": null,
+                "dob": "12.05.98",
+                "position": "bo'lim xodimi",
+                "PINFL": 31205986320032
             },
             {
-                "first_name": "Iliyos",
-                "last_name": "Oqboyev",
-                "middle_name": null,
-                "dob": "12.05.1998",
-                "age": 26
+                "last_name": "Bobobekova",
+                "first_name": "Gulbahor",
+                "middle_name": "Sobirovna",
+                "dob": "12.05.76",
+                "position": "Bino farrosh",
+                "PINFL": 41205762340035
             }
         ],
         "06": [
             {
-                "first_name": "Marjona",
                 "last_name": "Bozorova",
-                "middle_name": "Anvar",
-                "dob": "12.06.1998",
-                "age": 26
+                "first_name": "Marjona",
+                "middle_name": "Anvar qizi",
+                "dob": "12.06.98",
+                "position": "Menejer",
+                "PINFL": 41206985820010
             }
         ],
         "07": [
             {
-                "first_name": "Umida",
                 "last_name": "Kamolova",
-                "middle_name": "To'ymurod",
-                "dob": "12.07.1985",
-                "age": 39
+                "first_name": "Umida",
+                "middle_name": "To'ymurod qizi",
+                "dob": "12.07.85",
+                "position": "Тъютор",
+                "PINFL": 41207852390085
             }
         ],
         "09": [
             {
-                "first_name": "Maftuna",
-                "last_name": "Ochilova",
-                "middle_name": "Shuhratovna",
-                "dob": "12.09.1990",
-                "age": 34
-            },
-            {
-                "first_name": "Zarnigor",
                 "last_name": "Nasriddinova",
-                "middle_name": "Akmaljon",
-                "dob": "12.09.2002",
-                "age": 22
+                "first_name": "Zarnigor",
+                "middle_name": "Akmaljon qizi",
+                "dob": "12.09.02",
+                "position": "(cal sentir)operator",
+                "PINFL": 61209025840016
             },
             {
-                "first_name": "Dilnoza",
+                "last_name": "Ochilova",
+                "first_name": "Maftuna",
+                "middle_name": "Shuhratovna",
+                "dob": "12.09.90",
+                "position": "O'qituvchi",
+                "PINFL": 41209902380011
+            },
+            {
                 "last_name": "Toshpo‘latova",
+                "first_name": "Dilnoza",
                 "middle_name": "Abduqodirovna",
-                "dob": "12.09.1991",
-                "age": 33
+                "dob": "12.09.91",
+                "position": "Surxondaryo kampusi Bino farroshi",
+                "PINFL": 41209911860030
             }
         ],
         "11": [
             {
-                "first_name": "Malika",
                 "last_name": "Najmiddinova",
-                "middle_name": "Akmal",
-                "dob": "12.11.2002",
-                "age": 22
+                "first_name": "Malika",
+                "middle_name": "Akmal qizi",
+                "dob": "12.11.02",
+                "position": "(cal sentir)operator",
+                "PINFL": 61211025840019
             }
         ]
     },
     "13": {
         "01": [
             {
-                "first_name": "Jaloliddin",
                 "last_name": "Namozov",
+                "first_name": "Jaloliddin",
                 "middle_name": null,
-                "dob": "13.01.1994",
-                "age": 30
+                "dob": "13.01.94",
+                "position": "Xo'jalik hodimi",
+                "PINFL": 31301941860062
             }
         ],
         "02": [
             {
-                "first_name": "Eshmamat",
                 "last_name": "Xamrayev",
+                "first_name": "Eshmamat",
                 "middle_name": "XXX",
-                "dob": "13.02.2058",
-                "age": -34
+                "dob": "13.02.58",
+                "position": "Yuridik xizmat boshlig'i",
+                "PINFL": 31302582320014
             }
         ],
         "03": [
             {
-                "first_name": "Rauan",
                 "last_name": "Ziyatov",
+                "first_name": "Rauan",
                 "middle_name": "Kaldibayevich",
-                "dob": "13.03.1995",
-                "age": 29
+                "dob": "13.03.95",
+                "position": "Talabalar amaliyoti va ta'lim texnologiyalarini rivojlantirish bo'limi mutaxassisi",
+                "PINFL": 31303952320010
             }
         ],
         "05": [
             {
-                "first_name": "Lola",
                 "last_name": "Sadullayeva",
+                "first_name": "Lola",
                 "middle_name": "Sirojovna",
-                "dob": "13.05.1984",
-                "age": 40
+                "dob": "13.05.84",
+                "position": "O'qituchi",
+                "PINFL": 41305845840013
             }
         ],
         "06": [
             {
-                "first_name": "Ilyos",
                 "last_name": "Qalandarov",
+                "first_name": "Ilyos",
                 "middle_name": "Ibodullayevich",
-                "dob": "13.06.1987",
-                "age": 37
+                "dob": "13.06.87",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 31306872330057
             }
         ],
         "08": [
             {
-                "first_name": "Malika",
-                "last_name": "Ismoilova",
-                "middle_name": null,
-                "dob": "13.08.1996",
-                "age": 28
+                "last_name": "Orziqulova",
+                "first_name": "Malikaxon",
+                "middle_name": "Iskandar qizi",
+                "dob": "13.08.99",
+                "position": "dispetcher",
+                "PINFL": 41308995820014
             },
             {
-                "first_name": "Malikaxon",
-                "last_name": "Orziqulova",
-                "middle_name": "Iskandar",
-                "dob": "13.08.1999",
-                "age": 25
+                "last_name": "Ismoilova",
+                "first_name": "Malika",
+                "middle_name": null,
+                "dob": "13.08.96",
+                "position": "O'qituvchi",
+                "PINFL": 41308966100039
             }
         ],
         "09": [
             {
-                "first_name": "Aziz",
                 "last_name": "Ilyasov",
+                "first_name": "Aziz",
                 "middle_name": "Saidmuratich",
-                "dob": "13.09.2063",
-                "age": -39
+                "dob": "13.09.63",
+                "position": "O'qituchi",
+                "PINFL": 31309633870014
             },
             {
-                "first_name": "Azizijon",
                 "last_name": "Qahhorov",
-                "middle_name": "Bozorboy",
-                "dob": "13.09.1999",
-                "age": 25
+                "first_name": "Azizijon",
+                "middle_name": "Bozorboy o'g'li",
+                "dob": "13.09.99",
+                "position": "Texnik foydalanish va xo'jalik bo'limi yordamchi ishchi",
+                "PINFL": 31309995830024
             }
         ],
         "11": [
             {
-                "first_name": "Utkir",
                 "last_name": "Boltayev",
+                "first_name": "Utkir",
                 "middle_name": "Jaloliddinovich",
-                "dob": "13.11.1984",
-                "age": 40
+                "dob": "13.11.84",
+                "position": "Yordamchi ishchi",
+                "PINFL": 31311842380022
             },
             {
-                "first_name": "Madina",
                 "last_name": "Savriyeva",
+                "first_name": "Madina",
                 "middle_name": "Xakimovna",
-                "dob": "13.11.1981",
-                "age": 43
+                "dob": "13.11.81",
+                "position": "marketolog",
+                "PINFL": 41311812390049
             }
         ],
         "12": [
             {
-                "first_name": "Ra'no",
                 "last_name": "Yusubova",
+                "first_name": "Ra'no",
                 "middle_name": "Norboyevna",
-                "dob": "13.12.1974",
-                "age": 49
+                "dob": "13.12.74",
+                "position": "O'qituchi",
+                "PINFL": 41312742350037
             }
         ]
     },
     "14": {
         "01": [
             {
-                "first_name": "Zokirjon",
                 "last_name": "Pardayev",
+                "first_name": "Zokirjon",
                 "middle_name": "Erkinovich",
-                "dob": "14.01.1972",
-                "age": 52
+                "dob": "14.01.72",
+                "position": "Complaints Controlbo'limi mutaxassisi",
+                "PINFL": 31401725840010
             }
         ],
         "03": [
             {
-                "first_name": "Kamola",
                 "last_name": "Bo’riyeva",
-                "middle_name": "Hikmatillo",
-                "dob": "14.03.1994",
-                "age": 30
+                "first_name": "Kamola",
+                "middle_name": "Hikmatillo qizi",
+                "dob": "14.03.94",
+                "position": "O'qituchi",
+                "PINFL": 41403942420036
             }
         ],
         "04": [
             {
-                "first_name": "Shavkatjon",
                 "last_name": "Sultonov",
+                "first_name": "Shavkatjon",
                 "middle_name": "Abdullayevich",
-                "dob": "14.04.1985",
-                "age": 39
+                "dob": "14.04.85",
+                "position": "Rektorning ilmiy konsultanti",
+                "PINFL": 31404852380022
             }
         ],
         "05": [
             {
-                "first_name": "Zebo",
                 "last_name": "Mallayeva",
+                "first_name": "Zebo",
                 "middle_name": "Soibnazarovna",
-                "dob": "14.05.1989",
-                "age": 35
+                "dob": "14.05.89",
+                "position": "O'qituchi",
+                "PINFL": 41405891671110
             }
         ],
         "06": [
             {
-                "first_name": "Bahodir",
                 "last_name": "Hamroyev",
+                "first_name": "Bahodir",
                 "middle_name": "Baxtiyorovich",
-                "dob": "14.06.1978",
-                "age": 46
+                "dob": "14.06.78",
+                "position": "O'qituchi",
+                "PINFL": 31406782390025
             }
         ],
         "10": [
             {
-                "first_name": "Dilshod",
                 "last_name": "Norov",
+                "first_name": "Dilshod",
                 "middle_name": "Shuxratillayevich",
-                "dob": "14.10.1988",
-                "age": 36
+                "dob": "14.10.88",
+                "position": "O'qituvchi",
+                "PINFL": 31410882340013
             },
             {
-                "first_name": "Zilola",
                 "last_name": "Saparova",
+                "first_name": "Zilola",
                 "middle_name": "Anvarovna",
-                "dob": "14.10.1982",
-                "age": 42
+                "dob": "14.10.82",
+                "position": "Bino farrosh",
+                "PINFL": 41410825820025
             }
         ],
         "11": [
             {
-                "first_name": "Bobomurod",
                 "last_name": "Rustamov",
-                "middle_name": "Dilmurodovich",
-                "dob": "14.11.1987",
-                "age": 37
-            },
-            {
                 "first_name": "Bobomurod",
-                "last_name": "Rustamov",
                 "middle_name": "Dilmurodovich",
-                "dob": "14.11.1987",
-                "age": 37
+                "dob": "14.11.87",
+                "position": "Xalqaro hamkorlikni tashkil etish bo'lim boshlig'i",
+                "PINFL": 31411874070013
             }
         ],
         "12": [
             {
-                "first_name": "Gulnoz",
                 "last_name": "Sapayeva",
+                "first_name": "Gulnoz",
                 "middle_name": "Azimboyevna",
-                "dob": "14.12.1987",
-                "age": 36
+                "dob": "14.12.87",
+                "position": "O'qituchi",
+                "PINFL": 41412872390014
             }
         ]
     },
     "15": {
         "01": [
             {
-                "first_name": "Rahmatillo",
-                "last_name": "Abdanov",
-                "middle_name": "Abdug'afforovich",
-                "dob": "15.01.1988",
-                "age": 36
-            },
-            {
-                "first_name": "Elbek",
                 "last_name": "Isaqulov",
-                "middle_name": "O'ktam",
-                "dob": "15.01.1995",
-                "age": 29
+                "first_name": "Elbek",
+                "middle_name": "O'ktam o'g'li",
+                "dob": "15.01.95",
+                "position": "Elektrik",
+                "PINFL": 31501952380049
             }
         ],
         "02": [
             {
-                "first_name": "Asadbek",
                 "last_name": "Ochilov",
-                "middle_name": "Tolib",
-                "dob": "15.02.2006",
-                "age": 18
+                "first_name": "Asadbek",
+                "middle_name": "Tolib o'g'li",
+                "dob": "15.02.06",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 51502065820039
             },
             {
-                "first_name": "Ruslan",
                 "last_name": "Kuramshin",
+                "first_name": "Ruslan",
                 "middle_name": "Minearovich",
-                "dob": "15.02.1992",
-                "age": 32
+                "dob": "15.02.92",
+                "position": "Raqamli va axborot texnalogiyalari boshqarmasi boshlig'i",
+                "PINFL": 31502920192154
             }
         ],
         "03": [
             {
-                "first_name": "Shavkat",
                 "last_name": "Aqboyev",
+                "first_name": "Shavkat",
                 "middle_name": "Isoqovich",
-                "dob": "15.03.1984",
-                "age": 40
+                "dob": "15.03.84",
+                "position": "Surxondaryo kampusi  Ma‘naviy marifiy ishlar bo‘yicha bo‘lim boshlig‘i",
+                "PINFL": 31503841860038
             }
         ],
         "04": [
             {
-                "first_name": "Shaxnoza",
                 "last_name": "Barnoyeva",
+                "first_name": "Shaxnoza",
                 "middle_name": "Rahmonqulovna",
-                "dob": "15.04.1993",
-                "age": 31
+                "dob": "15.04.93",
+                "position": "O'qituvchi",
+                "PINFL": 41504932350040
             },
             {
-                "first_name": "Abbos",
                 "last_name": "Dilmurodov",
-                "middle_name": "Anvar",
-                "dob": "15.04.1994",
-                "age": 30
-            },
-            {
                 "first_name": "Abbos",
-                "last_name": "Dilmurodov",
-                "middle_name": "Anvar",
-                "dob": "15.04.1994",
-                "age": 30
+                "middle_name": "Anvar o'g'li",
+                "dob": "15.04.94",
+                "position": "O'qituchi",
+                "PINFL": 31504942390024
             },
             {
-                "first_name": "Nargiza",
                 "last_name": "Raxmatullayeva",
-                "middle_name": "Baxtiyor",
-                "dob": "15.04.1999",
-                "age": 25
+                "first_name": "Nargiza",
+                "middle_name": "Baxtiyor qizi",
+                "dob": "15.04.99",
+                "position": "O'qituchi",
+                "PINFL": 41504995830011
             }
         ],
         "05": [
             {
-                "first_name": "Shaxnoza",
                 "last_name": "Raxmatova",
+                "first_name": "Shaxnoza",
                 "middle_name": "Rustamovna",
-                "dob": "15.05.1984",
-                "age": 40
+                "dob": "15.05.84",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 41505845840015
             }
         ],
         "06": [
             {
-                "first_name": "Elbek",
                 "last_name": "Do'sanov",
+                "first_name": "Elbek",
                 "middle_name": null,
-                "dob": "15.06.1989",
-                "age": 35
+                "dob": "15.06.89",
+                "position": "O'qituchi",
+                "PINFL": 31506892360061
             }
         ],
         "07": [
             {
-                "first_name": "Madina",
                 "last_name": "Ismatullayeva",
-                "middle_name": "Ismatillo",
-                "dob": "15.07.1995",
-                "age": 29
+                "first_name": "Madina",
+                "middle_name": "Ismatillo qizi",
+                "dob": "15.07.95",
+                "position": "Ilmi tadqiqot ishlari bo'yicha mutaxasisis",
+                "PINFL": 41507955780023
             }
         ],
         "08": [
             {
-                "first_name": "Mohichexra",
                 "last_name": "Rabbimova",
-                "middle_name": "Soyibjon",
-                "dob": "15.08.1992",
-                "age": 32
+                "first_name": "Mohichexra",
+                "middle_name": "Soyibjon qizi",
+                "dob": "15.08.92",
+                "position": "O'qituvchi",
+                "PINFL": 41508920271146
             }
         ],
         "10": [
             {
-                "first_name": "Sunnatillo",
                 "last_name": "Baqoyev",
-                "middle_name": "Burxon",
-                "dob": "15.10.1997",
-                "age": 27
+                "first_name": "Sunnatillo",
+                "middle_name": "Burxon oʻgʻli",
+                "dob": "15.10.97",
+                "position": "Oʻqituvchi",
+                "PINFL": 31510975840012
             }
         ],
         "12": [
             {
-                "first_name": "Otabek",
                 "last_name": "Musayev",
+                "first_name": "Otabek",
                 "middle_name": null,
-                "dob": "15.12.1975",
-                "age": 48
+                "dob": "15.12.75",
+                "position": "O'qituvchi",
+                "PINFL": 31512752390020
             }
         ]
     },
     "16": {
         "01": [
             {
-                "first_name": "Aziza",
                 "last_name": "Davlatova",
+                "first_name": "Aziza",
                 "middle_name": "Akmalovna",
-                "dob": "16.01.1995",
-                "age": 29
+                "dob": "16.01.95",
+                "position": "O'qituchi",
+                "PINFL": 41601955310023
             }
         ],
         "02": [
             {
-                "first_name": "Umida",
                 "last_name": "Xidirova",
-                "middle_name": "Erkin",
-                "dob": "16.02.1999",
-                "age": 25
+                "first_name": "Umida",
+                "middle_name": "Erkin qizi",
+                "dob": "16.02.99",
+                "position": "O'qituchi",
+                "PINFL": 41602995820057
             }
         ],
         "03": [
             {
-                "first_name": "Nafisa",
                 "last_name": "Maxmudova",
-                "middle_name": "Fazliddin",
-                "dob": "16.03.1995",
-                "age": 29
+                "first_name": "Nafisa",
+                "middle_name": "Fazliddin qizi",
+                "dob": "16.03.95",
+                "position": "Menejer",
+                "PINFL": 41603952420011
             }
         ],
         "05": [
             {
-                "first_name": "Nafosat",
                 "last_name": "Ro'ziyeva",
-                "middle_name": "Abdumumin",
-                "dob": "16.05.1994",
-                "age": 30
+                "first_name": "Nafosat",
+                "middle_name": "Abdumumin qizi",
+                "dob": "16.05.94",
+                "position": "O'qituvchi",
+                "PINFL": 41605942380080
             },
             {
-                "first_name": "Shaxlo",
                 "last_name": "Usmonova",
-                "middle_name": "Almal",
-                "dob": "16.05.1999",
-                "age": 25
+                "first_name": "Shaxlo",
+                "middle_name": "Almal qizi",
+                "dob": "16.05.99",
+                "position": "Tyutor",
+                "PINFL": 41605995680049
+            }
+        ],
+        "06": [
+            {
+                "last_name": "Mamatov",
+                "first_name": "Shokirboy",
+                "middle_name": "Norqulovich",
+                "dob": "16.06.69",
+                "position": "Jismoniy madaniyat va sport",
+                "PINFL": 31606692350032
             }
         ],
         "07": [
             {
-                "first_name": "Zilola",
                 "last_name": "Jumaqulova",
-                "middle_name": "Shuhrat",
-                "dob": "16.07.1997",
-                "age": 27
+                "first_name": "Zilola",
+                "middle_name": "Shuhrat qizi",
+                "dob": "16.07.97",
+                "position": "O'qituvchi",
+                "PINFL": 41607975840038
             },
             {
-                "first_name": "Dilmurod",
                 "last_name": "Safarov",
+                "first_name": "Dilmurod",
                 "middle_name": null,
-                "dob": "16.07.1988",
-                "age": 36
+                "dob": "16.07.88",
+                "position": "Dotsent",
+                "PINFL": 31607882330029
             }
         ],
         "09": [
             {
-                "first_name": "Azizbek",
                 "last_name": "Ismatov",
+                "first_name": "Azizbek",
                 "middle_name": "Akramovich",
-                "dob": "16.09.1999",
-                "age": 25
+                "dob": "16.09.99",
+                "position": "Raqamli axborot texnologiyalari markazi 1 toifali muhandis dasturchi",
+                "PINFL": 31609995270029
             }
         ],
         "10": [
             {
-                "first_name": "Aziz",
                 "last_name": "Shomurodov",
-                "middle_name": "Akbar",
-                "dob": "16.10.1991",
-                "age": 33
+                "first_name": "Aziz",
+                "middle_name": "Akbar o'g'li",
+                "dob": "16.10.91",
+                "position": "Yoshlar Bo‘lim boshlig‘i",
+                "PINFL": 31610912340031
             }
         ],
         "12": [
             {
-                "first_name": "Nargiza",
                 "last_name": "Jurayeva",
+                "first_name": "Nargiza",
                 "middle_name": null,
-                "dob": "16.12.1998",
-                "age": 25
+                "dob": "16.12.98",
+                "position": "O'qituchi",
+                "PINFL": 41612985840037
             }
         ]
     },
     "17": {
         "01": [
             {
-                "first_name": "Muhammad",
                 "last_name": "Xasanov",
+                "first_name": "Muhammad",
                 "middle_name": "Abdumurodovich",
-                "dob": "17.01.1999",
-                "age": 25
+                "dob": "17.01.99",
+                "position": "ёрдамчи",
+                "PINFL": 31701995830048
             }
         ],
         "02": [
             {
-                "first_name": "Kobiljon",
                 "last_name": "Gʻofurov",
+                "first_name": "Kobiljon",
                 "middle_name": "Bo'rikulovich",
-                "dob": "17.02.1985",
-                "age": 39
+                "dob": "17.02.85",
+                "position": "Xo'jalik hodimi",
+                "PINFL": 31702851770016
             }
         ],
         "05": [
             {
-                "first_name": "Muʼtabar",
                 "last_name": "Xasanova",
+                "first_name": "Muʼtabar",
                 "middle_name": "Sultonovna",
-                "dob": "17.05.1980",
-                "age": 44
+                "dob": "17.05.80",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 41705802390096
             }
         ],
         "07": [
             {
-                "first_name": "Shohsanam",
                 "last_name": "Yavkacheva",
-                "middle_name": "Ulug'bek",
-                "dob": "17.07.1993",
-                "age": 31
+                "first_name": "Shohsanam",
+                "middle_name": "Ulug'bek qizi",
+                "dob": "17.07.93",
+                "position": "Kredit bo'limini boshqarish bo'limi mutaxassis",
+                "PINFL": 41707932390025
             }
         ],
         "09": [
             {
-                "first_name": "Farrux",
                 "last_name": "Eshmurodov",
-                "middle_name": "G'ayrat",
-                "dob": "17.09.1998",
-                "age": 26
+                "first_name": "Farrux",
+                "middle_name": "G'ayrat o'g'li",
+                "dob": "17.09.98",
+                "position": "Devonxona Mutaxassis",
+                "PINFL": 31709985790039
             },
             {
-                "first_name": "Marg'uba",
                 "last_name": "Turdiyeva",
+                "first_name": "Marg'uba",
                 "middle_name": "Norpo'latovna",
-                "dob": "17.09.1981",
-                "age": 43
+                "dob": "17.09.81",
+                "position": "Yotoqxona tarbiyachisi",
+                "PINFL": 41709812380050
             }
         ],
         "11": [
             {
-                "first_name": "Maftuna",
                 "last_name": "Mansurova",
+                "first_name": "Maftuna",
                 "middle_name": "Komilovna",
-                "dob": "17.11.1992",
-                "age": 32
+                "dob": "17.11.92",
+                "position": "O'qituvchi",
+                "PINFL": 41711922420012
             },
             {
-                "first_name": "Abdullo",
                 "last_name": "Xosilboyev",
-                "middle_name": "Fozil",
-                "dob": "17.11.1995",
-                "age": 29
+                "first_name": "Abdullo",
+                "middle_name": "Fozil o`g`li",
+                "dob": "17.11.95",
+                "position": "ёшлар билан иш",
+                "PINFL": 31711952420016
             }
         ],
         "12": [
             {
-                "first_name": "Laziz",
                 "last_name": "Ne`matov",
-                "middle_name": "Hikmatillo",
-                "dob": "17.12.1998",
-                "age": 25
+                "first_name": "Laziz",
+                "middle_name": "Hikmatillo o`g`li",
+                "dob": "17.12.98",
+                "position": "Tyutor",
+                "PINFL": 31712985310011
             },
             {
-                "first_name": "Zilola",
                 "last_name": "Ruziyeva",
+                "first_name": "Zilola",
                 "middle_name": "Mustafoyevna",
-                "dob": "17.12.1974",
-                "age": 49
+                "dob": "17.12.74",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 41712742390046
             },
             {
-                "first_name": "Farangiz",
                 "last_name": "Najmiddinova",
+                "first_name": "Farangiz",
                 "middle_name": "Najmiddinovna",
-                "dob": "17.12.2002",
-                "age": 21
+                "dob": "17.12.02",
+                "position": "(cal sentir)operator",
+                "PINFL": 61712025850038
             }
         ]
     },
     "18": {
         "02": [
             {
-                "first_name": "Yorqinoy",
-                "last_name": "Allayorova",
-                "middle_name": "Farxod",
-                "dob": "18.02.1996",
-                "age": 28
+                "last_name": "Shukurov",
+                "first_name": "Nusratillo",
+                "middle_name": "Mavlonivich",
+                "dob": "18.02.72",
+                "position": "O'qituchi",
+                "PINFL": 31802725840017
             },
             {
-                "first_name": "Nusratillo",
-                "last_name": "Shukurov",
-                "middle_name": "Mavlonivich",
-                "dob": "18.02.1972",
-                "age": 52
+                "last_name": "Allayorova",
+                "first_name": "Yorqinoy",
+                "middle_name": "Farxod qizi",
+                "dob": "18.02.96",
+                "position": "Raqamli axborot texnologiyalari markazi Kompyuter texnikalariga xizmat ko'rsatuvchi",
+                "PINFL": 41802965840014
+            },
+            {
+                "last_name": "Jo‘rayev",
+                "first_name": "Sanjarbek",
+                "middle_name": "Farxodovich",
+                "dob": "18.02.94",
+                "position": "Surxondaryo kampusi Texnik foydalanish va xo‘jalik bo‘limi xodimi",
+                "PINFL": 31802941860060
             }
         ],
         "03": [
             {
-                "first_name": "Faxriddin",
                 "last_name": "Rajabov",
+                "first_name": "Faxriddin",
                 "middle_name": "Toshpo'latovich",
-                "dob": "18.03.1989",
-                "age": 35
+                "dob": "18.03.89",
+                "position": "O'qituchi",
+                "PINFL": 31803892360010
             }
         ],
         "04": [
             {
-                "first_name": "Ma’mura",
                 "last_name": "Avezova",
+                "first_name": "Ma’mura",
                 "middle_name": null,
-                "dob": "18.04.1984",
-                "age": 40
+                "dob": "18.04.84",
+                "position": "farrosh",
+                "PINFL": 41804845820028
             }
         ],
         "05": [
             {
-                "first_name": "Sardor",
                 "last_name": "Farmonov",
-                "middle_name": "O'tkir",
-                "dob": "18.05.1995",
-                "age": 29
+                "first_name": "Sardor",
+                "middle_name": "O'tkir o'g'li",
+                "dob": "18.05.95",
+                "position": "o'qituvchi",
+                "PINFL": 31805952390027
             }
         ],
         "06": [
             {
-                "first_name": "Firuza",
-                "last_name": "Sharipova",
-                "middle_name": "Mehriddinovna",
-                "dob": "18.06.1994",
-                "age": 30
+                "last_name": "MUXAMMADIYEVA",
+                "first_name": "MAXLIYO",
+                "middle_name": "MALIKOVNA",
+                "dob": "18.06.92",
+                "position": "Uslubchi",
+                "PINFL": 41806923960093
             },
             {
-                "first_name": "Nargiza",
+                "last_name": "Sharipova",
+                "first_name": "Firuza",
+                "middle_name": "Mehriddinovna",
+                "dob": "18.06.94",
+                "position": "O'qituchi",
+                "PINFL": 41806942390037
+            },
+            {
                 "last_name": "Ziyodullayeva",
+                "first_name": "Nargiza",
                 "middle_name": "Ixtiyorovna",
-                "dob": "18.06.2001",
-                "age": 23
+                "dob": "18.06.01",
+                "position": "Kotiba - ish yurituvchi",
+                "PINFL": 61806015840030
             }
         ],
         "12": [
             {
-                "first_name": "Azizbek",
                 "last_name": "Xurramov",
-                "middle_name": "Muzaffar",
-                "dob": "18.12.2004",
-                "age": 19
+                "first_name": "Azizbek",
+                "middle_name": "Muzaffar o'g'li",
+                "dob": "18.12.04",
+                "position": "Jismoniy va yuridek shaxslarning murojatlari bilan ishlash, nazorat va manitoring bo'limi mutaxasisi",
+                "PINFL": 51812046250033
             }
         ]
     },
     "19": {
         "03": [
             {
-                "first_name": "Roxila",
                 "last_name": "Rabbimova",
+                "first_name": "Roxila",
                 "middle_name": "Raxmonqulovna",
-                "dob": "19.03.1983",
-                "age": 41
+                "dob": "19.03.83",
+                "position": "Yoshlar bilan ishlash, ma'naviy-ma'rifiy va sport, sog'lomlashtirish bo'limi mutaxassisi",
+                "PINFL": 41903835820012
             }
         ],
         "04": [
             {
-                "first_name": "Shohsanam",
                 "last_name": "Iskandarova",
+                "first_name": "Shohsanam",
                 "middle_name": "Isoyevna",
-                "dob": "19.04.1996",
-                "age": 28
+                "dob": "19.04.96",
+                "position": "O'qituchi",
+                "PINFL": 41904965840028
             }
         ],
         "05": [
             {
-                "first_name": "Ilgʻor",
                 "last_name": "Raxmonov",
+                "first_name": "Ilgʻor",
                 "middle_name": "Gʻaybullayevich",
-                "dob": "19.05.2067",
-                "age": -43
+                "dob": "19.05.67",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 31905672350038
             }
         ],
         "06": [
             {
-                "first_name": "Erkin",
-                "last_name": "Choʻlliyev",
-                "middle_name": "Amonovich",
-                "dob": "19.06.2062",
-                "age": -38
-            },
-            {
-                "first_name": "Nafisa",
                 "last_name": "Raxmatova",
+                "first_name": "Nafisa",
                 "middle_name": "Ibodovna",
-                "dob": "19.06.1981",
-                "age": 43
+                "dob": "19.06.81",
+                "position": "farrosh",
+                "PINFL": 41906812340024
             },
             {
-                "first_name": "Eldo‘st",
                 "last_name": "Raxmonov",
+                "first_name": "Eldo‘st",
                 "middle_name": "Isaqulovich",
-                "dob": "19.06.1985",
-                "age": 39
+                "dob": "19.06.85",
+                "position": "директор",
+                "PINFL": 31906852380016
+            },
+            {
+                "last_name": "Choʻlliyev",
+                "first_name": "Erkin",
+                "middle_name": "Amonovich",
+                "dob": "19.06.62",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 31906622390010
             }
         ],
         "07": [
             {
-                "first_name": "Ilhom",
                 "last_name": "Tojiyev",
+                "first_name": "Ilhom",
                 "middle_name": "Ibraimovich",
-                "dob": "19.07.1982",
-                "age": 42
+                "dob": "19.07.82",
+                "position": "O'qituvchi",
+                "PINFL": 31907821880010
             },
             {
-                "first_name": "Bexzod",
                 "last_name": "Yorkulov",
+                "first_name": "Bexzod",
                 "middle_name": "Abdugabbarovich",
-                "dob": "19.07.1981",
-                "age": 43
+                "dob": "19.07.81",
+                "position": "O'qituchi",
+                "PINFL": 31907812380042
             }
         ],
         "08": [
             {
-                "first_name": "Asaloy",
-                "last_name": "Ergasheva",
-                "middle_name": "Faxriddinovna",
-                "dob": "19.08.1991",
-                "age": 33
+                "last_name": "Biksaliyeva",
+                "first_name": "Rimma",
+                "middle_name": "Rafikovna",
+                "dob": "19.08.85",
+                "position": "O'qituchi",
+                "PINFL": 41908852410011
             },
             {
-                "first_name": "Rimma",
-                "last_name": "Biksaliyeva",
-                "middle_name": "Rafikovna",
-                "dob": "19.08.1985",
-                "age": 39
+                "last_name": "Ergasheva",
+                "first_name": "Asaloy",
+                "middle_name": "Faxriddinovna",
+                "dob": "19.08.91",
+                "position": "farrosh",
+                "PINFL": 41908915800010
             }
         ],
         "09": [
             {
-                "first_name": "Shaxnoza",
                 "last_name": "Yo`ldosheva",
+                "first_name": "Shaxnoza",
                 "middle_name": "Farmonovna",
-                "dob": "19.09.1986",
-                "age": 38
+                "dob": "19.09.86",
+                "position": "Aniq, texnika va tabiiy fanlar kafedrasi lobaranti",
+                "PINFL": 41909862330014
             }
         ],
         "10": [
             {
-                "first_name": "Ikrom",
                 "last_name": "Amirov",
-                "middle_name": "Nurali",
-                "dob": "19.10.1993",
-                "age": 31
+                "first_name": "Ikrom",
+                "middle_name": "Nurali o'g'li",
+                "dob": "19.10.93",
+                "position": "O'qituchi",
+                "PINFL": 31910933910074
             }
         ],
         "11": [
             {
-                "first_name": "Zahira",
                 "last_name": "Abdullayeva",
+                "first_name": "Zahira",
                 "middle_name": "Bahodirovna",
-                "dob": "19.11.1988",
-                "age": 36
+                "dob": "19.11.88",
+                "position": "O'qituvchi",
+                "PINFL": 41911885840029
             },
             {
-                "first_name": "Saboxat",
-                "last_name": "Barakayeva",
-                "middle_name": "Raxmatulloyevna",
-                "dob": "19.11.1981",
-                "age": 43
-            },
-            {
-                "first_name": "Dilshoda",
-                "last_name": "Sharipova",
-                "middle_name": "Kamolovna",
-                "dob": "19.11.1998",
-                "age": 26
-            },
-            {
-                "first_name": "Sevara",
                 "last_name": "Boltayeva",
-                "middle_name": "Farhod",
-                "dob": "19.11.1999",
-                "age": 25
+                "first_name": "Sevara",
+                "middle_name": "Farhod Qizi",
+                "dob": "19.11.99",
+                "position": "(cal sentir)operator",
+                "PINFL": 41911995840041
+            },
+            {
+                "last_name": "Sharipova",
+                "first_name": "Dilshoda",
+                "middle_name": "Kamolovna",
+                "dob": "19.11.98",
+                "position": "O'qituvchi",
+                "PINFL": 41911986180031
+            },
+            {
+                "last_name": "Barakayeva",
+                "first_name": "Saboxat",
+                "middle_name": "Raxmatulloyevna",
+                "dob": "19.11.81",
+                "position": "Kontent menejeri",
+                "PINFL": 41911810222216
             }
         ]
     },
     "20": {
         "01": [
             {
-                "first_name": "Ilxom",
                 "last_name": "Tagayev",
+                "first_name": "Ilxom",
                 "middle_name": "Axrorovich",
-                "dob": "20.01.2058",
-                "age": -34
+                "dob": "20.01.58",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 32001585760012
             }
         ],
         "02": [
             {
-                "first_name": "Nilufar",
                 "last_name": "Raxmonova",
+                "first_name": "Nilufar",
                 "middle_name": "Sattorovna",
-                "dob": "20.02.1984",
-                "age": 40
+                "dob": "20.02.84",
+                "position": "Ta’lim dasturlarini shakllantirish va muvofiqlashrtirish bo‘limiga uslubchi",
+                "PINFL": 42002842360076
             }
         ],
         "03": [
             {
-                "first_name": "Nodira",
                 "last_name": "Kobulova",
+                "first_name": "Nodira",
                 "middle_name": "Baxodirovna",
-                "dob": "20.03.1988",
-                "age": 36
+                "dob": "20.03.88",
+                "position": "O'qituchi",
+                "PINFL": 42003882340059
             },
             {
-                "first_name": "Jasur",
                 "last_name": "Savriyev",
+                "first_name": "Jasur",
                 "middle_name": "Faxriddinovich",
-                "dob": "20.03.1981",
-                "age": 43
+                "dob": "20.03.81",
+                "position": "O'qituchi",
+                "PINFL": 32003815840026
+            }
+        ],
+        "04": [
+            {
+                "last_name": "Xurramov",
+                "first_name": "Bahodir",
+                "middle_name": "Raxmatulla o‘g‘li",
+                "dob": "20.04.97",
+                "position": "Surxondaryo kampusi Elektrik",
+                "PINFL": 32004976290055
             }
         ],
         "05": [
             {
-                "first_name": "Elbek",
                 "last_name": "Shoniyozov",
+                "first_name": "Elbek",
                 "middle_name": "Begboyevich",
-                "dob": "20.05.1997",
-                "age": 27
+                "dob": "20.05.97",
+                "position": "Talabalarga xizmat ko'rsatish markazi operatori",
+                "PINFL": 32005976100016
             }
         ],
         "08": [
             {
-                "first_name": "Alisher",
                 "last_name": "Djumaev",
-                "middle_name": "Kaxramon",
-                "dob": "20.08.1999",
-                "age": 25
+                "first_name": "Alisher",
+                "middle_name": "Kaxramon o'g'li",
+                "dob": "20.08.99",
+                "position": "Axborot tizimlarida xizmat ko‘rsatish mutaxassisi",
+                "PINFL": 32008995840011
+            },
+            {
+                "last_name": "Ismoilov",
+                "first_name": "Adhambek",
+                "middle_name": "Xoliyorovich",
+                "dob": "20.08.94",
+                "position": "Surxondaryo kampusi Qurilish ta’mirlash ishlari xizmati xodimi",
+                "PINFL": 32008941860049
             }
         ],
         "10": [
             {
-                "first_name": "Suxrob",
                 "last_name": "Choʻlliyev",
+                "first_name": "Suxrob",
                 "middle_name": "Rabbonaqulovich",
-                "dob": "20.10.1988",
-                "age": 36
+                "dob": "20.10.88",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 32010882340012
             },
             {
-                "first_name": "Nilufar",
                 "last_name": "Oripova",
+                "first_name": "Nilufar",
                 "middle_name": "Raxmonqulovna",
-                "dob": "20.10.1994",
-                "age": 30
+                "dob": "20.10.94",
+                "position": "Zaxira xodimlar bilan ishlash mutaxassisi",
+                "PINFL": 42010942350019
             },
             {
-                "first_name": "Alisher",
                 "last_name": "Shonazarov",
+                "first_name": "Alisher",
                 "middle_name": "Chinpo'latovich",
-                "dob": "20.10.1991",
-                "age": 33
+                "dob": "20.10.91",
+                "position": "Texnik foydalanish va xo'jalik bo'limi yordamchi ishchi",
+                "PINFL": 32010915830011
             },
             {
-                "first_name": "Nasiba",
                 "last_name": "Shopulatova",
+                "first_name": "Nasiba",
                 "middle_name": null,
-                "dob": "20.10.1989",
-                "age": 35
+                "dob": "20.10.89",
+                "position": "O'qituvchi",
+                "PINFL": 42010892350013
             },
             {
-                "first_name": "Sayyora",
                 "last_name": "Xujamqulova",
+                "first_name": "Sayyora",
                 "middle_name": "Nazarovna",
-                "dob": "20.10.1977",
-                "age": 47
+                "dob": "20.10.77",
+                "position": "Surxondaryo kampusi  Bino farroshi",
+                "PINFL": 42010771860048
             }
         ],
         "12": [
             {
-                "first_name": "Sanobar",
                 "last_name": "Negmatova",
+                "first_name": "Sanobar",
                 "middle_name": "Qarshiboyevna",
-                "dob": "20.12.1987",
-                "age": 36
+                "dob": "20.12.87",
+                "position": "O'qituvchi",
+                "PINFL": 42012872360012
             }
         ]
     },
     "21": {
         "02": [
             {
-                "first_name": "Nazima",
                 "last_name": "Mamadaliyeva",
+                "first_name": "Nazima",
                 "middle_name": "Ashurovna",
-                "dob": "21.02.2065",
-                "age": -41
+                "dob": "21.02.65",
+                "position": "O'qituvchi",
+                "PINFL": 42102652390035
             }
         ],
         "03": [
             {
-                "first_name": "Bobir",
                 "last_name": "Narzullayev",
-                "middle_name": "Shirinboy",
-                "dob": "21.03.1991",
-                "age": 33
+                "first_name": "Bobir",
+                "middle_name": "Shirinboy o`g`li",
+                "dob": "21.03.91",
+                "position": "O'qituchi",
+                "PINFL": 32103912380109
             },
             {
-                "first_name": "Javlonbek",
                 "last_name": "Shaymanov",
+                "first_name": "Javlonbek",
                 "middle_name": "Baxtiyorovich",
-                "dob": "21.03.1995",
-                "age": 29
+                "dob": "21.03.95",
+                "position": "O'qituchi",
+                "PINFL": 32103952520051
             }
         ],
         "04": [
             {
-                "first_name": "Nilufar",
                 "last_name": "Saidova",
+                "first_name": "Nilufar",
                 "middle_name": "Roʻzimurodovna",
-                "dob": "21.04.1975",
-                "age": 49
+                "dob": "21.04.75",
+                "position": "O'qituchi",
+                "PINFL": 42104752330023
             },
             {
-                "first_name": "Sitora",
                 "last_name": "Samandarova",
+                "first_name": "Sitora",
                 "middle_name": "A'zamovna",
-                "dob": "21.04.1993",
-                "age": 31
+                "dob": "21.04.93",
+                "position": "O'qituvchi",
+                "PINFL": 42104932360022
             }
         ],
         "05": [
             {
-                "first_name": "Go‘zal",
                 "last_name": "Eshonova",
+                "first_name": "Go‘zal",
                 "middle_name": "Baratovna",
-                "dob": "21.05.1987",
-                "age": 37
+                "dob": "21.05.87",
+                "position": "Uslubchi",
+                "PINFL": 42105872390047
             }
         ],
         "06": [
             {
-                "first_name": "Raxmiddin",
                 "last_name": "Shodiyev",
+                "first_name": "Raxmiddin",
                 "middle_name": "Ro'ziboyevich",
-                "dob": "21.06.1969",
-                "age": 55
+                "dob": "21.06.69",
+                "position": "O'quv jarayonlarini rejalashtirish va tashkil etish boshqarmasi boshlig'i",
+                "PINFL": 32106692360013
             }
         ],
         "07": [
             {
-                "first_name": "Munira",
                 "last_name": "Astanova",
+                "first_name": "Munira",
                 "middle_name": null,
-                "dob": "21.07.2067",
-                "age": -43
+                "dob": "21.07.67",
+                "position": "ҳамшира",
+                "PINFL": 42107672340022
             },
             {
-                "first_name": "Muxabbat",
                 "last_name": "Tosheva",
+                "first_name": "Muxabbat",
                 "middle_name": "Rustamovna",
-                "dob": "21.07.2064",
-                "age": -40
+                "dob": "21.07.64",
+                "position": "Axborot-resurs markaziga xizmat ko'rsatish bo'yicha kutibxonachi",
+                "PINFL": 42107642390019
             }
         ],
         "08": [
             {
-                "first_name": "Farog`at",
-                "last_name": "Kamolova",
-                "middle_name": "Islomovna",
-                "dob": "21.08.1983",
-                "age": 41
+                "last_name": "Toshmamatov",
+                "first_name": "Raximberdi",
+                "middle_name": "Ulug'bek o'g'li",
+                "dob": "21.08.94",
+                "position": "Marketing va shartnomalar bo‘limi boshlig‘i",
+                "PINFL": 32108942380035
             },
             {
-                "first_name": "Raximberdi",
-                "last_name": "Toshmamatov",
-                "middle_name": "Ulug'bek",
-                "dob": "21.08.1994",
-                "age": 30
+                "last_name": "Kamolova",
+                "first_name": "Farog`at",
+                "middle_name": "Islomovna",
+                "dob": "21.08.83",
+                "position": "O'qituchi",
+                "PINFL": 42108831120082
             }
         ],
         "10": [
             {
-                "first_name": "Yoqub",
                 "last_name": "Raxmatov",
+                "first_name": "Yoqub",
                 "middle_name": "Ismatillayevich",
-                "dob": "21.10.1970",
-                "age": 54
+                "dob": "21.10.70",
+                "position": "O'qituvchi",
+                "PINFL": 32110702390028
             }
         ],
         "11": [
             {
-                "first_name": "Diana",
                 "last_name": "Sharapova",
+                "first_name": "Diana",
                 "middle_name": "Rinnatovna",
-                "dob": "21.11.1985",
-                "age": 39
+                "dob": "21.11.85",
+                "position": "O'qituchi",
+                "PINFL": 42111852330015
             },
             {
-                "first_name": "Shahrizoda",
                 "last_name": "Shavkatova",
+                "first_name": "Shahrizoda",
                 "middle_name": null,
-                "dob": "21.11.1998",
-                "age": 26
+                "dob": "21.11.98",
+                "position": "O'qituvchi",
+                "PINFL": 42111986100016
             }
         ]
     },
     "22": {
         "01": [
             {
-                "first_name": "Maftuna",
                 "last_name": "Rustamova",
-                "middle_name": "Adhamjon",
-                "dob": "22.01.1997",
-                "age": 27
+                "first_name": "Maftuna",
+                "middle_name": "Adhamjon qizi",
+                "dob": "22.01.97",
+                "position": "O'qituvchi",
+                "PINFL": 42201976910025
             }
         ],
         "02": [
             {
-                "first_name": "Bobur",
                 "last_name": "Eshboltayev",
+                "first_name": "Bobur",
                 "middle_name": "Jo'rayevich",
-                "dob": "22.02.1994",
-                "age": 30
+                "dob": "22.02.94",
+                "position": "Kompyuter texnikalariga xizmat ko`rsatuvchi",
+                "PINFL": 32202941860106
             }
         ],
         "04": [
             {
-                "first_name": "Maftuna",
                 "last_name": "Boymurodova",
+                "first_name": "Maftuna",
                 "middle_name": "Qlichevna",
-                "dob": "22.04.1993",
-                "age": 31
+                "dob": "22.04.93",
+                "position": "O'qituvchi",
+                "PINFL": 42204932400084
             }
         ],
         "05": [
             {
-                "first_name": "Tuxtamurod",
                 "last_name": "Urakov",
+                "first_name": "Tuxtamurod",
                 "middle_name": "Muhiddinovich",
-                "dob": "22.05.2059",
-                "age": -35
+                "dob": "22.05.59",
+                "position": "O'qituchi",
+                "PINFL": 32205595840010
             }
         ],
         "06": [
             {
-                "first_name": "Latifa",
                 "last_name": "Karayeva",
+                "first_name": "Latifa",
                 "middle_name": "Zarifovna",
-                "dob": "22.06.1982",
-                "age": 42
+                "dob": "22.06.82",
+                "position": "O'qituvchi",
+                "PINFL": 42206825820010
             }
         ],
         "07": [
             {
-                "first_name": "Raxima",
                 "last_name": "Usmanova",
+                "first_name": "Raxima",
                 "middle_name": "Mamayusupovna",
-                "dob": "22.07.1973",
-                "age": 51
+                "dob": "22.07.73",
+                "position": "соатбай",
+                "PINFL": 42207732390052
             }
         ],
         "09": [
             {
-                "first_name": "Azizbek",
                 "last_name": "Ro'zimurodov",
+                "first_name": "Azizbek",
                 "middle_name": null,
-                "dob": "22.09.1992",
-                "age": 32
+                "dob": "22.09.92",
+                "position": "O'qituvchi",
+                "PINFL": 32209922390025
             }
         ],
         "11": [
             {
-                "first_name": "Eldor",
                 "last_name": "Fayziyev",
-                "middle_name": "Erkin",
-                "dob": "22.11.1992",
-                "age": 32
+                "first_name": "Eldor",
+                "middle_name": "Erkin o'g'li",
+                "dob": "22.11.92",
+                "position": "Matbuot va piar bo'limi content menejeri",
+                "PINFL": 32211922400026
+            },
+            {
+                "last_name": "XUSENOVA",
+                "first_name": "ZARINA",
+                "middle_name": "UCHQUN QIZI",
+                "dob": "22.11.01",
+                "position": "farrosh",
+                "PINFL": 62211015820011
             }
         ],
         "12": [
             {
-                "first_name": "Mohigul",
                 "last_name": "Muhammatova",
+                "first_name": "Mohigul",
                 "middle_name": "Mansurovna",
-                "dob": "22.12.1991",
-                "age": 32
+                "dob": "22.12.91",
+                "position": "dispetcher",
+                "PINFL": 42212912360020
             }
         ]
     },
     "23": {
         "03": [
             {
-                "first_name": "Zarina",
                 "last_name": "Maxamatova",
-                "middle_name": "Murodulla",
-                "dob": "23.03.1998",
-                "age": 26
+                "first_name": "Zarina",
+                "middle_name": "Murodulla qizi",
+                "dob": "23.03.98",
+                "position": "NTM ga kotiba - ish yurituvchi",
+                "PINFL": 42303985820015
             }
         ],
         "06": [
             {
-                "first_name": "Anvar",
                 "last_name": "Ruziyev",
+                "first_name": "Anvar",
                 "middle_name": "Saparboyevich",
-                "dob": "23.06.1981",
-                "age": 43
+                "dob": "23.06.81",
+                "position": "Talabalar amaliyoti va ta'lim texnologiyalarini rivojlantirish bo'limi uslubchisi",
+                "PINFL": 32306812390012
             }
         ],
         "07": [
             {
-                "first_name": "Go'zal",
                 "last_name": "Zaripova",
+                "first_name": "Go'zal",
                 "middle_name": "Tohirovna",
-                "dob": "23.07.1991",
-                "age": 33
+                "dob": "23.07.91",
+                "position": "O'qituvchi",
+                "PINFL": 42307912380061
             }
         ],
         "08": [
             {
-                "first_name": "Ulug'bek",
                 "last_name": "Kamolov",
+                "first_name": "Ulug'bek",
                 "middle_name": null,
-                "dob": "23.08.1992",
-                "age": 32
+                "dob": "23.08.92",
+                "position": "Iqtidorli talabalarning ilmiy tadqiqot faoliyatini tashkil etish bo'limi mutaxassisi",
+                "PINFL": 32308922340011
             },
             {
-                "first_name": "Jurabek",
                 "last_name": "Mavlonov",
-                "middle_name": "Yorqul",
-                "dob": "23.08.1975",
-                "age": 49
-            },
-            {
                 "first_name": "Jurabek",
-                "last_name": "Mavlonov",
-                "middle_name": "Yorqulovich",
-                "dob": "23.08.1975",
-                "age": 49
+                "middle_name": "Yorqul o'g'li",
+                "dob": "23.08.75",
+                "position": "Rektor",
+                "PINFL": 32308752390039
             }
         ],
         "09": [
             {
-                "first_name": "Ibrohim",
                 "last_name": "Bo'riyev",
+                "first_name": "Ibrohim",
                 "middle_name": null,
-                "dob": "23.09.1994",
-                "age": 30
+                "dob": "23.09.94",
+                "position": "O'qituchi",
+                "PINFL": 32309942380030
             },
             {
-                "first_name": "Muzaffar",
                 "last_name": "Sag'dinov",
+                "first_name": "Muzaffar",
                 "middle_name": "Faxriddinovich",
-                "dob": "23.09.1985",
-                "age": 39
+                "dob": "23.09.85",
+                "position": "Mehnat muhofazasi mutaxassisi",
+                "PINFL": 32309852380074
             },
             {
-                "first_name": "Iroda",
-                "last_name": "Shodiyeva",
-                "middle_name": "Sadulla",
-                "dob": "23.09.1996",
-                "age": 28
-            },
-            {
-                "first_name": "Alisher",
                 "last_name": "To’xtashev",
+                "first_name": "Alisher",
                 "middle_name": "Baxodirovich",
-                "dob": "23.09.1979",
-                "age": 45
+                "dob": "23.09.79",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 32309793960038
+            },
+            {
+                "last_name": "Shodiyeva",
+                "first_name": "Iroda",
+                "middle_name": "Sadulla qizi",
+                "dob": "23.09.96",
+                "position": "O'qituvchi",
+                "PINFL": 42309965820019
             }
         ],
         "10": [
             {
-                "first_name": "Dilnora",
                 "last_name": "Gafurova",
-                "middle_name": "Dilshod",
-                "dob": "23.10.1998",
-                "age": 26
+                "first_name": "Dilnora",
+                "middle_name": "Dilshod qizi",
+                "dob": "23.10.98",
+                "position": "O'qituvchi",
+                "PINFL": 42310985330015
             }
         ],
         "11": [
             {
-                "first_name": "Firuza",
-                "last_name": "Boboyeva",
-                "middle_name": null,
-                "dob": "23.11.1989",
-                "age": 35
-            },
-            {
-                "first_name": "Qaxramon",
                 "last_name": "Qandaxorov",
+                "first_name": "Qaxramon",
                 "middle_name": null,
-                "dob": "23.11.1977",
-                "age": 47
+                "dob": "23.11.77",
+                "position": "O'qituvchi",
+                "PINFL": 32311775840014
             },
             {
-                "first_name": "O`ktam",
                 "last_name": "Sherqulov",
+                "first_name": "O`ktam",
                 "middle_name": "Dexqonovich",
-                "dob": "23.11.2060",
-                "age": -36
+                "dob": "23.11.60",
+                "position": "soatbay",
+                "PINFL": 32311605780011
+            },
+            {
+                "last_name": "Boboyeva",
+                "first_name": "Firuza",
+                "middle_name": null,
+                "dob": "23.11.89",
+                "position": "O'qituvchi",
+                "PINFL": 42311892390086
             }
         ],
         "12": [
             {
-                "first_name": "Ramazon",
                 "last_name": "Rajabov",
+                "first_name": "Ramazon",
                 "middle_name": "Isomiddinovich",
-                "dob": "23.12.2065",
-                "age": -42
+                "dob": "23.12.65",
+                "position": "Axborot-resurs markazi boshlig'i",
+                "PINFL": 32312652390013
             }
         ]
     },
     "24": {
         "02": [
             {
-                "first_name": "Gulchiroy",
                 "last_name": "Fayziyeva",
-                "middle_name": "Pahlavon",
-                "dob": "24.02.1997",
-                "age": 27
+                "first_name": "Gulchiroy",
+                "middle_name": "Pahlavon qizi",
+                "dob": "24.02.97",
+                "position": "O'qituchi",
+                "PINFL": 42402975820023
             }
         ],
         "03": [
             {
-                "first_name": "Saboxat",
-                "last_name": "Ganiyeva",
-                "middle_name": "O`ktamovna",
-                "dob": "24.03.1988",
-                "age": 36
+                "last_name": "Isayev",
+                "first_name": "Anvar",
+                "middle_name": "Mustafakulovich",
+                "dob": "24.03.83",
+                "position": "O'qituvchi",
+                "PINFL": 32403833960085
             },
             {
-                "first_name": "Anvar",
-                "last_name": "Isayev",
-                "middle_name": "Mustafakulovich",
-                "dob": "24.03.1983",
-                "age": 41
+                "last_name": "Ganiyeva",
+                "first_name": "Saboxat",
+                "middle_name": "O`ktamovna",
+                "dob": "24.03.88",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 42403882390010
             }
         ],
         "04": [
             {
-                "first_name": "Zoir",
                 "last_name": "Raximov",
+                "first_name": "Zoir",
                 "middle_name": "Jumaevich",
-                "dob": "24.04.1989",
-                "age": 35
+                "dob": "24.04.89",
+                "position": "monitoring va sifat nazorati bno`limi boshlig`i",
+                "PINFL": 32404892380030
             },
             {
-                "first_name": "Axmad",
                 "last_name": "Donayev",
+                "first_name": "Axmad",
                 "middle_name": "Xushvaqtovich",
-                "dob": "24.04.1980",
-                "age": 44
+                "dob": "24.04.80",
+                "position": "Ta'lim dasturlarini shakillantirish va muvofiqlashtirish bo'limi boshlig'i",
+                "PINFL": 32404801860011
             }
         ],
         "08": [
             {
-                "first_name": "Lobarxon",
                 "last_name": "Suvonova",
-                "middle_name": "Islom",
-                "dob": "24.08.1991",
-                "age": 33
+                "first_name": "Lobarxon",
+                "middle_name": "Islom qizi",
+                "dob": "24.08.91",
+                "position": "O'qituvchi",
+                "PINFL": 42408912340036
             }
         ],
         "10": [
             {
-                "first_name": "Ibrohim",
                 "last_name": "Isaqulov",
-                "middle_name": "O'ktam",
-                "dob": "24.10.1999",
-                "age": 25
+                "first_name": "Ibrohim",
+                "middle_name": "O'ktam o'g'li",
+                "dob": "24.10.99",
+                "position": "Devonxona va arxiv bo‘limi mutaxassisi",
+                "PINFL": 32410995830066
             },
             {
-                "first_name": "Gavxar",
                 "last_name": "Xatamova",
+                "first_name": "Gavxar",
                 "middle_name": "Qiyomovna",
-                "dob": "24.10.1969",
-                "age": 55
+                "dob": "24.10.69",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 42410692320014
             }
         ]
     },
     "25": {
         "01": [
             {
-                "first_name": "Nodira",
-                "last_name": "Po'latova",
-                "middle_name": null,
-                "dob": "25.01.1995",
-                "age": 29
-            },
-            {
-                "first_name": "Matluba",
-                "last_name": "Rashidova",
-                "middle_name": "Isroil",
-                "dob": "25.01.1991",
-                "age": 33
-            },
-            {
-                "first_name": "Nasiba",
                 "last_name": "Yarasheva",
+                "first_name": "Nasiba",
                 "middle_name": "Jumayevna",
-                "dob": "25.01.1990",
-                "age": 34
+                "dob": "25.01.90",
+                "position": "O'qituchi",
+                "PINFL": 42501901070027
+            },
+            {
+                "last_name": "Po'latova",
+                "first_name": "Nodira",
+                "middle_name": null,
+                "dob": "25.01.95",
+                "position": "O'qituvchi",
+                "PINFL": 42501952380056
+            },
+            {
+                "last_name": "Rashidova",
+                "first_name": "Matluba",
+                "middle_name": "Isroil qizi",
+                "dob": "25.01.91",
+                "position": "Bino farrosh",
+                "PINFL": 42501912380089
             }
         ],
         "02": [
             {
-                "first_name": "Shuhrat",
                 "last_name": "Xudoyorov",
+                "first_name": "Shuhrat",
                 "middle_name": "Jumaqulovich",
-                "dob": "25.02.1970",
-                "age": 54
-            },
+                "dob": "25.02.70",
+                "position": "Dekan",
+                "PINFL": 32502702360044
+            }
+        ],
+        "03": [
             {
-                "first_name": "Shuhrat",
-                "last_name": "Xudoyorov",
-                "middle_name": "Jumaqulovich",
-                "dob": "25.02.1970",
-                "age": 54
+                "last_name": "Amirqulov",
+                "first_name": "Akbar",
+                "middle_name": "Choriyevich",
+                "dob": "25.03.94",
+                "position": "Surxondaryo kampusi O‘qitishning texnik vositalari bo‘limi xodimi",
+                "PINFL": 32503941860056
             }
         ],
         "04": [
             {
-                "first_name": "Nigora",
                 "last_name": "Nasimova",
+                "first_name": "Nigora",
                 "middle_name": null,
-                "dob": "25.04.1979",
-                "age": 45
+                "dob": "25.04.79",
+                "position": "Kabinet mudirasi",
+                "PINFL": 42504792390111
             }
         ],
         "06": [
             {
-                "first_name": "Oybek",
                 "last_name": "Qurbonov",
+                "first_name": "Oybek",
                 "middle_name": "Muxammadqulovich",
-                "dob": "25.06.1992",
-                "age": 32
+                "dob": "25.06.92",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 32506922360011
             }
         ],
         "07": [
             {
-                "first_name": "Zoxid",
                 "last_name": "Xalimov",
-                "middle_name": "Shavkat",
-                "dob": "25.07.1995",
-                "age": 29
+                "first_name": "Zoxid",
+                "middle_name": "Shavkat o'g'li",
+                "dob": "25.07.95",
+                "position": "O'qituvchi",
+                "PINFL": 32507955790019
             }
         ],
         "08": [
             {
-                "first_name": "Nasiba",
                 "last_name": "Raxmatova",
+                "first_name": "Nasiba",
                 "middle_name": "Sobirovna",
-                "dob": "25.08.1990",
-                "age": 34
+                "dob": "25.08.90",
+                "position": "O'qituvchi",
+                "PINFL": 42508901140105
             },
             {
-                "first_name": "Ilhom",
-                "last_name": "Roʻziyev",
-                "middle_name": "Irisovich",
-                "dob": "25.08.1971",
-                "age": 53
-            },
-            {
-                "first_name": "Ilhom",
-                "last_name": "Ruziyev",
-                "middle_name": "Irisovich",
-                "dob": "25.08.1971",
-                "age": 53
-            },
-            {
-                "first_name": "Shermamat",
                 "last_name": "Xasanov",
+                "first_name": "Shermamat",
                 "middle_name": "Raxmatullayevich",
-                "dob": "25.08.2062",
-                "age": -38
+                "dob": "25.08.62",
+                "position": "O'qituchi",
+                "PINFL": 32508622390039
+            },
+            {
+                "last_name": "Roʻziyev",
+                "first_name": "Ilhom",
+                "middle_name": "Irisovich",
+                "dob": "25.08.71",
+                "position": "O'qituvchi (ichki o'rindosh)",
+                "PINFL": 32508714070025
             }
         ],
         "09": [
             {
-                "first_name": "Alisher",
                 "last_name": "Alimov",
+                "first_name": "Alisher",
                 "middle_name": null,
-                "dob": "25.09.2068",
-                "age": -44
+                "dob": "25.09.68",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 32509685820015
             }
         ],
         "10": [
             {
-                "first_name": "Munisa",
                 "last_name": "Shernazarova",
-                "middle_name": "Qaxramon",
-                "dob": "25.10.1999",
-                "age": 25
+                "first_name": "Munisa",
+                "middle_name": "Qaxramon qizi",
+                "dob": "25.10.99",
+                "position": "O'qituvchi",
+                "PINFL": 42510995840016
             }
         ],
         "11": [
             {
-                "first_name": "Ibrohim",
                 "last_name": "Agzamov",
+                "first_name": "Ibrohim",
                 "middle_name": "XXX",
-                "dob": "25.11.2053",
-                "age": -29
+                "dob": "25.11.53",
+                "position": "O'qituchi",
+                "PINFL": 32511532400022
             }
         ]
     },
     "26": {
         "01": [
             {
-                "first_name": "Akramjon",
                 "last_name": "Irisov",
+                "first_name": "Akramjon",
                 "middle_name": "Avazovich",
-                "dob": "26.01.2067",
-                "age": -43
+                "dob": "26.01.67",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 32601674040018
             },
             {
-                "first_name": "Gʻulomjon",
                 "last_name": "Norov",
-                "middle_name": "Mirzagʻolib",
-                "dob": "26.01.1991",
-                "age": 33
+                "first_name": "Gʻulomjon",
+                "middle_name": "Mirzagʻolib oʻgʻli",
+                "dob": "26.01.91",
+                "position": "O'qituvchi",
+                "PINFL": 32601912330019
             },
             {
-                "first_name": "Ma'mura",
                 "last_name": "Rahmatova",
+                "first_name": "Ma'mura",
                 "middle_name": "Shahriddinovna",
-                "dob": "26.01.1976",
-                "age": 48
+                "dob": "26.01.76",
+                "position": "O'qituchi",
+                "PINFL": 42601762390042
             }
         ],
         "02": [
             {
-                "first_name": "Sobit",
-                "last_name": "Bobomurodov",
-                "middle_name": "Erkinovich",
-                "dob": "26.02.1973",
-                "age": 51
+                "last_name": "Ro'ziboyeva",
+                "first_name": "Marjona",
+                "middle_name": "Baxtiyor qizi",
+                "dob": "26.02.03",
+                "position": "Menejer",
+                "PINFL": 62602035800011
             },
             {
-                "first_name": "Marjona",
-                "last_name": "Ro'ziboyeva",
-                "middle_name": "Baxtiyor",
-                "dob": "26.02.2003",
-                "age": 21
+                "last_name": "Bobomurodov",
+                "first_name": "Sobit",
+                "middle_name": "Erkinovich",
+                "dob": "26.02.73",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 32602733960038
             }
         ],
         "03": [
             {
-                "first_name": "To'lqin",
                 "last_name": "Botirov",
+                "first_name": "To'lqin",
                 "middle_name": "Vafoqulovich",
-                "dob": "26.03.1979",
-                "age": 45
+                "dob": "26.03.79",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 32603795840034
             },
             {
-                "first_name": "Dilnoza",
                 "last_name": "Nusratilloyeva",
+                "first_name": "Dilnoza",
                 "middle_name": null,
-                "dob": "26.03.1991",
-                "age": 33
+                "dob": "26.03.91",
+                "position": "O'qituvchi",
+                "PINFL": 42603912360020
             }
         ],
         "04": [
             {
-                "first_name": "Aziz",
                 "last_name": "Toshtemirov",
-                "middle_name": "Ilmiamin",
-                "dob": "26.04.1991",
-                "age": 33
+                "first_name": "Aziz",
+                "middle_name": "Ilmiamin o`g`li",
+                "dob": "26.04.91",
+                "position": "Kompyuter texnikalariga xizmat ko`rsatuvchi",
+                "PINFL": 32604912380013
             },
             {
-                "first_name": "Dilfuza",
                 "last_name": "Zaynutdinona",
+                "first_name": "Dilfuza",
                 "middle_name": "Shamsitdinovna",
-                "dob": "26.04.1991",
-                "age": 33
+                "dob": "26.04.91",
+                "position": "O'qituchi",
+                "PINFL": 42604912400046
             }
         ],
         "07": [
             {
-                "first_name": "Doston",
                 "last_name": "Amonov",
-                "middle_name": "O'tkir",
-                "dob": "26.07.1992",
-                "age": 32
+                "first_name": "Doston",
+                "middle_name": "O'tkir o'g'li",
+                "dob": "26.07.92",
+                "position": "O'qituvchi (ichki o'rindosh)",
+                "PINFL": 32607925310040
             },
             {
-                "first_name": "Doston",
-                "last_name": "Amonov",
-                "middle_name": "Oʻtkir",
-                "dob": "26.07.1992",
-                "age": 32
-            },
-            {
-                "first_name": "Gulobod",
                 "last_name": "Raxmatova",
+                "first_name": "Gulobod",
                 "middle_name": null,
-                "dob": "26.07.1994",
-                "age": 30
+                "dob": "26.07.94",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 42607942420057
             },
             {
-                "first_name": "Marjona",
                 "last_name": "Hayitova",
-                "middle_name": "Husniddin",
-                "dob": "26.07.2002",
-                "age": 22
+                "first_name": "Marjona",
+                "middle_name": "Husniddin qizi",
+                "dob": "26.07.02",
+                "position": "Hamshira",
+                "PINFL": 62607025790042
             }
         ],
         "11": [
             {
-                "first_name": "Moxinur",
                 "last_name": "Normuxammedova",
-                "middle_name": "Xayrullo",
-                "dob": "26.11.1998",
-                "age": 26
+                "first_name": "Moxinur",
+                "middle_name": "Xayrullo qizi",
+                "dob": "26.11.98",
+                "position": "O'qituvchi",
+                "PINFL": 42611985840020
             }
         ]
     },
     "27": {
         "01": [
             {
-                "first_name": "Alisher",
                 "last_name": "Pardayev",
+                "first_name": "Alisher",
                 "middle_name": "Hamzayevich",
-                "dob": "27.01.1990",
-                "age": 34
+                "dob": "27.01.90",
+                "position": "Bo‘lim mudiri",
+                "PINFL": 32701901921252
             }
         ],
         "02": [
             {
-                "first_name": "Javlon",
                 "last_name": "Eshboyev",
+                "first_name": "Javlon",
                 "middle_name": "Izzatullayevich",
-                "dob": "27.02.1985",
-                "age": 39
+                "dob": "27.02.85",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 32702853960072
             }
         ],
         "04": [
             {
-                "first_name": "Alijon",
                 "last_name": "Ergashev",
+                "first_name": "Alijon",
                 "middle_name": null,
-                "dob": "27.04.1985",
-                "age": 39
-            },
-            {
-                "first_name": "Alijon",
-                "last_name": "Ergashev",
-                "middle_name": "Baxodirovich",
-                "dob": "27.04.1985",
-                "age": 39
+                "dob": "27.04.85",
+                "position": "Iqtidorli talabalar bilan ishlash bo'limi boshlig'i",
+                "PINFL": 32704855830010
             }
         ],
         "05": [
             {
-                "first_name": "Davron",
                 "last_name": "Fayziyev",
+                "first_name": "Davron",
                 "middle_name": "Haydarovich",
-                "dob": "27.05.1983",
-                "age": 41
+                "dob": "27.05.83",
+                "position": "bosh direktor yordamchisi",
+                "PINFL": 32705830970013
             },
             {
-                "first_name": "Madina",
                 "last_name": "Xamidova",
+                "first_name": "Madina",
                 "middle_name": "Nizombekovna",
-                "dob": "27.05.1999",
-                "age": 25
+                "dob": "27.05.99",
+                "position": "O'qituchi",
+                "PINFL": 42705995760019
             }
         ],
         "09": [
             {
-                "first_name": "Sherzod",
                 "last_name": "Toshbo'riyev",
+                "first_name": "Sherzod",
                 "middle_name": "Oybekovich",
-                "dob": "27.09.1996",
-                "age": 28
+                "dob": "27.09.96",
+                "position": "O'qituvchi",
+                "PINFL": 32709965760020
             }
         ]
     },
     "28": {
         "02": [
             {
-                "first_name": "Davlat",
                 "last_name": "Raxmonov",
+                "first_name": "Davlat",
                 "middle_name": null,
-                "dob": "28.02.2054",
-                "age": -30
+                "dob": "28.02.54",
+                "position": "Dotsent",
+                "PINFL": 32802543680036
             }
         ],
         "04": [
             {
-                "first_name": "Amridin",
                 "last_name": "Turdiyev",
-                "middle_name": "Abdihakim",
-                "dob": "28.04.1994",
-                "age": 30
+                "first_name": "Amridin",
+                "middle_name": "Abdihakim o'g'li",
+                "dob": "28.04.94",
+                "position": "Sport murabbiyi",
+                "PINFL": 32804942380016
             }
         ],
         "06": [
             {
-                "first_name": "Odil",
                 "last_name": "Zohidov",
+                "first_name": "Odil",
                 "middle_name": "Umirzoqovich",
-                "dob": "28.06.1985",
-                "age": 39
+                "dob": "28.06.85",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 32806853930050
             }
         ],
         "07": [
             {
-                "first_name": "Vasila",
                 "last_name": "Cho'liyeva",
-                "middle_name": "Erkinovna",
-                "dob": "28.07.1986",
-                "age": 38
-            },
-            {
                 "first_name": "Vasila",
-                "last_name": "Cho'liyeva",
                 "middle_name": "Erkinovna",
-                "dob": "28.07.1986",
-                "age": 38
+                "dob": "28.07.86",
+                "position": "O'qituchi",
+                "PINFL": 42807865840028
             }
         ],
         "08": [
             {
-                "first_name": "Nargiza",
                 "last_name": "G'ulomova",
+                "first_name": "Nargiza",
                 "middle_name": "Sa'dullayevna",
-                "dob": "28.08.1976",
-                "age": 48
+                "dob": "28.08.76",
+                "position": "O'qituchi",
+                "PINFL": 42808765840020
             },
             {
-                "first_name": "Muxlisa",
                 "last_name": "Hojiyeva",
-                "middle_name": "Ergash",
-                "dob": "28.08.1998",
-                "age": 26
+                "first_name": "Muxlisa",
+                "middle_name": "Ergash qizi",
+                "dob": "28.08.98",
+                "position": "Xona mudirasi",
+                "PINFL": 42808985790013
             }
         ],
         "09": [
             {
-                "first_name": "Gulmira",
                 "last_name": "Norkuvatova",
+                "first_name": "Gulmira",
                 "middle_name": "Izatullayevna",
-                "dob": "28.09.1986",
-                "age": 38
+                "dob": "28.09.86",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 42809863960054
             }
         ],
         "10": [
             {
-                "first_name": "Asatullo",
                 "last_name": "Aslonov",
+                "first_name": "Asatullo",
                 "middle_name": "Ekramovich",
-                "dob": "28.10.2064",
-                "age": -40
+                "dob": "28.10.64",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 32810642340027
             },
             {
-                "first_name": "Akmal",
                 "last_name": "Kurbanov",
-                "middle_name": "Azamatovich",
-                "dob": "28.10.1988",
-                "age": 36
-            },
-            {
                 "first_name": "Akmal",
-                "last_name": "Kurbonov",
                 "middle_name": "Azamatovich",
-                "dob": "28.10.1988",
-                "age": 36
+                "dob": "28.10.88",
+                "position": "IT Markaz boshlig‘i",
+                "PINFL": 32810882330037
             },
             {
-                "first_name": "Zarnigor",
                 "last_name": "Musayeva",
-                "middle_name": "Dilmurod",
-                "dob": "28.10.1999",
-                "age": 25
+                "first_name": "Zarnigor",
+                "middle_name": "Dilmurod qizi",
+                "dob": "28.10.99",
+                "position": "Iqtidorli talabalar bilan ishlash bo'limi uslubchisi",
+                "PINFL": 42810995840040
             }
         ],
         "12": [
             {
-                "first_name": "Doniyor",
-                "last_name": "Baxtiyorov",
-                "middle_name": "Baxtiyorovich",
-                "dob": "28.12.1998",
-                "age": 25
+                "last_name": "Gadayeva",
+                "first_name": "Nasiba",
+                "middle_name": "Kadirovna",
+                "dob": "28.12.86",
+                "position": "farrosh",
+                "PINFL": 42812865820026
             },
             {
-                "first_name": "Nasiba",
-                "last_name": "Gadayeva",
-                "middle_name": "Kadirovna",
-                "dob": "28.12.1986",
-                "age": 37
+                "last_name": "Baxtiyorov",
+                "first_name": "Doniyor",
+                "middle_name": "Baxtiyorovich",
+                "dob": "28.12.98",
+                "position": "Axborot-resurs markaziga xizmat ko'rsatish bo'yicha kutibxonachi",
+                "PINFL": 32812985840028
             }
         ]
     },
     "29": {
         "02": [
             {
-                "first_name": "Mohichehra",
                 "last_name": "Islamova",
+                "first_name": "Mohichehra",
                 "middle_name": null,
-                "dob": "29.02.1988",
-                "age": 36
+                "dob": "29.02.88",
+                "position": "O'qituvchi (tashqi o'rindosh)",
+                "PINFL": 42902883930088
             }
         ],
         "03": [
             {
-                "first_name": "Vapoqul",
                 "last_name": "Xudoyberdiyev",
+                "first_name": "Vapoqul",
                 "middle_name": "Oblayevich",
-                "dob": "29.03.2065",
-                "age": -41
+                "dob": "29.03.65",
+                "position": "ishchi",
+                "PINFL": 32903652310026
             }
         ],
         "04": [
             {
-                "first_name": "Aziza",
                 "last_name": "Eshpulatova",
+                "first_name": "Aziza",
                 "middle_name": null,
-                "dob": "29.04.1998",
-                "age": 26
+                "dob": "29.04.98",
+                "position": "O'qituvchi",
+                "PINFL": 42904985830011
             }
         ],
         "05": [
             {
-                "first_name": "Nigora",
                 "last_name": "Sharipova",
+                "first_name": "Nigora",
                 "middle_name": "Nuriddinovna",
-                "dob": "29.05.1986",
-                "age": 38
+                "dob": "29.05.86",
+                "position": "O'qituchi",
+                "PINFL": 42905862360023
             }
         ],
         "07": [
             {
-                "first_name": "Fozil",
                 "last_name": "Hasanov",
+                "first_name": "Fozil",
                 "middle_name": null,
-                "dob": "29.07.1990",
-                "age": 34
+                "dob": "29.07.90",
+                "position": "Yoshlar bilan ishlash, ma'naviy-ma'rifiy va sport, sog'lomlashtirish bo'limi mutaxassisi",
+                "PINFL": 32907902340065
             }
         ],
         "09": [
             {
-                "first_name": "Serikbay",
                 "last_name": "Aldamuratov",
+                "first_name": "Serikbay",
                 "middle_name": "Bazarbayevich",
-                "dob": "29.09.2059",
-                "age": -35
+                "dob": "29.09.59",
+                "position": "амалиёт буйича",
+                "PINFL": 32909592320011
             }
         ]
     },
     "30": {
         "04": [
             {
-                "first_name": "Feruza",
-                "last_name": "Mardonova",
-                "middle_name": "Baxodir",
-                "dob": "30.04.2067",
-                "age": -43
-            },
-            {
-                "first_name": "Isroil",
                 "last_name": "Mirzayev",
+                "first_name": "Isroil",
                 "middle_name": "Mustafayevich",
-                "dob": "30.04.1974",
-                "age": 50
+                "dob": "30.04.74",
+                "position": "O'qituchi",
+                "PINFL": 33004743960045
             },
             {
-                "first_name": "Nafisa",
+                "last_name": "Mardonova",
+                "first_name": "Feruza",
+                "middle_name": "Baxodir qizi",
+                "dob": "30.04.67",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 43004672420015
+            },
+            {
                 "last_name": "Sadinova",
+                "first_name": "Nafisa",
                 "middle_name": null,
-                "dob": "30.04.1976",
-                "age": 48
+                "dob": "30.04.76",
+                "position": "O'qituvchi",
+                "PINFL": 43004760270078
             }
         ],
         "05": [
             {
-                "first_name": "Maqsuda",
                 "last_name": "Mahamova",
-                "middle_name": "Nasriddin",
-                "dob": "30.05.1994",
-                "age": 30
+                "first_name": "Maqsuda",
+                "middle_name": "Nasriddin qizi",
+                "dob": "30.05.94",
+                "position": "Talabalar bilan ishlash inspektori",
+                "PINFL": 43005945830027
             }
         ],
         "08": [
             {
-                "first_name": "Madina",
                 "last_name": "Qobilova",
-                "middle_name": "Qodir",
-                "dob": "30.08.1996",
-                "age": 28
+                "first_name": "Madina",
+                "middle_name": "Qodir qizi",
+                "dob": "30.08.96",
+                "position": "O'qituvchi",
+                "PINFL": 43008965820016
             }
         ],
         "09": [
             {
-                "first_name": "Umid",
                 "last_name": "Urakov",
-                "middle_name": "Alisher",
-                "dob": "30.09.2002",
-                "age": 22
+                "first_name": "Umid",
+                "middle_name": "Alisher o'g'li",
+                "dob": "30.09.02",
+                "position": "Matbuot-kotibi xizmati rahbari",
+                "PINFL": 53009025840013
             }
         ],
         "11": [
             {
-                "first_name": "Muhsin",
                 "last_name": "Amonov",
+                "first_name": "Muhsin",
                 "middle_name": "Erkinovich",
-                "dob": "30.11.1993",
-                "age": 31
+                "dob": "30.11.93",
+                "position": "Oʻqituvchi",
+                "PINFL": 33011932390103
             }
         ]
     },
     "31": {
         "03": [
             {
-                "first_name": "Kibriyo",
                 "last_name": "Sultonova",
+                "first_name": "Kibriyo",
                 "middle_name": "Faxriddinovna",
-                "dob": "31.03.1994",
-                "age": 30
+                "dob": "31.03.94",
+                "position": "O'qituchi",
+                "PINFL": 43103942330028
             }
         ],
         "05": [
             {
-                "first_name": "Dilnavoz",
                 "last_name": "Raxmonova",
+                "first_name": "Dilnavoz",
                 "middle_name": "Muhiddinovna",
-                "dob": "31.05.1981",
-                "age": 43
+                "dob": "31.05.81",
+                "position": "O'qituchi",
+                "PINFL": 43105812340029
             }
         ],
         "12": [
             {
-                "first_name": "lola",
                 "last_name": "Zoyirova",
+                "first_name": "lola",
                 "middle_name": "Hamidovna",
-                "dob": "31.12.1983",
-                "age": 40
+                "dob": "31.12.83",
+                "position": "O'qituvchi (Tashqi o'rindosh)",
+                "PINFL": 43112832390019
             }
         ]
     }
