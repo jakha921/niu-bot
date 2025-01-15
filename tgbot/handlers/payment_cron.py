@@ -15,6 +15,7 @@ async def payment_sender(msg: Message):
     logger.info(f'User {msg.from_user.id} requested payment')
 
     print('-' * 20)
+    await msg.answer('Sending payments to users...')
 
     # Get all users
     users = await TGUser.get_all_users(msg.bot['db'])
@@ -103,6 +104,8 @@ async def payment_sender(msg: Message):
     print('-' * 20)
     response = send_passport_data(sent_passports)
     print('response:', response)
+
+    await msg.answer('Payments sent to users!')
 
     # remove csv files
     if response and response.status_code == 200:
