@@ -31,15 +31,31 @@ async def send_congratulation_to_group(msg: Message):
         bdays = data[day_now][month_now] if data.get(day_now) and data[day_now].get(month_now) else None
 
         if bdays:
-            text_admin = f"Bugungi kun tavallud ayyomi bilan:\n\n"
-            for bday in bdays:
-                text_admin += f"<i>{bday['first_name']} {bday['middle_name']} {bday['last_name']}</i> 🎂\n"
+            if len(bdays) == 1:
+                bday = bdays[0]
+                text_admin = (
+                    f"🎊 Hurmatli <i>{bday['first_name']} {bday['middle_name']} {bday['last_name']}</i>! 🎂\n\n"
+                    "Bugungi tug‘ilgan kuningiz munosabati bilan sizni chin dildan muborakbod etamiz! 🎉\n"
+                    "Yangi yoshingiz yanada ko‘proq imkoniyatlar, muvaffaqiyat va baraka olib kelsin. ✨\n"
+                    "Jamoamizdagi faolligingiz va fidoyiligingiz biz uchun katta ahamiyatga ega. 🤝\n\n"
+                    "Hurmat bilan, NIU jamoasi. 🎈"
+                )
+            else:
+                text_admin = "🎊 Bugun bizning jamoadoshlarimiz tavallud ayyomini nishonlamoqda! 🎂🎈\n\n"
 
-            text_admin += f"\n\nJamoadosh(lar)imizni chin qalbdan jamoa nomidan qutlaymiz ! Ishlaringgizga rivoj tilaymiz ! 🎉🎉🎉 Hurmat bilan NIU jamoasi."
+                for bday in bdays:
+                    text_admin += f"🎉 <i>{bday['first_name']} {bday['middle_name']} {bday['last_name']}</i>\n"
+
+                text_admin += (
+                    "\nBugungi tug‘ilgan kun munosabati bilan sizlarni chin dildan qutlaymiz! 🌟\n"
+                    "Sizlarga mustahkam sog‘liq, yangi yutuqlar va barqaror muvaffaqiyatlar tilaymiz. ✨\n"
+                    "Sizning mehnatingiz va fidoyiligingiz jamoamiz uchun juda muhim! 🤝\n\n"
+                    "Hurmat bilan, NIU jamoasi. 🎈"
+                )
 
             await msg.answer(text_admin)
         else:
-            await msg.answer("Bugun tug'ilganlar yo'q!")
+            await msg.answer("Bugun tug‘ilgan kun nishonlaydigan hamkasblar yo‘q. 😊")
 
 
 async def start(msg: Message):
